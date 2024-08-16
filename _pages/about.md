@@ -123,6 +123,10 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2017.01 - 2021.12*，National Key R&D Program of China, Key Participant (国家重点研发计划, 参与)
 
 # 👄 Professional Activities
+**Academic Service:**
+- National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
+- Member of CSIG Technical Committee on Multimedia
+
 **Journal Reviewer:**
 - International Journal of Computer Vision
 - IEEE Transactions on Multimedia
@@ -140,12 +144,8 @@ I am currently looking for highly motivated graduate students who are passionate
 - IEEE Sensors Letters
 - Journal of Computer Science and Technology
 
-**Area Chair or Senior Program Committee:**
+**Conference Area Chair or Senior Program Committee:**
 - Chinese Control Conference
 
 **Conference Reviewer or Program Committee:**
 - NeurIPS, CVPR, ICCV, ECCV, ACM Multimedia, IJCAI, AAAI, ICME, PRVC, ACCV
-
-**Academic Service:**
-- National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
-- Member of CSIG Technical Committee on Multimedia
