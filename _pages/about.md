@@ -103,13 +103,13 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2016.09* Individual Scholarship, USTC
 
 # 📖 Experiences
-**Work Experiences：**
+**Work Experiences:**
 - *2021.12 - Present*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
 - *2019.10 - 2021.11*, Postdocral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and Prof. Yongdong Zhang
 - *2019.08 - 2019.10*, Researcher, <span style="color:red">JD AILab</span>, working with Prof. Tao Mei and Prof. Wu Liu
 - *2016.10 - 2017.01*, Research Intern, <span style="color:red">MSRA</span>, under the supervision of Prof. Tao Mei
 
-**Educations：**
+**Educations:**
 - *2014.09 - 2019.06*, <span style="color:red">Ph.D</span> in the Department of Automation, University of Science and Technology of China
 - *2009.08 - 2013.06*, <span style="color:red">B.S.</span> in the Department of Automation, Hefei University of Technology
 
@@ -123,7 +123,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2017.01 - 2021.12*，National Key R&D Program of China, Key Participant (国家重点研发计划, 参与)
 
 # 👄 Professional Activities
-**Journal Reviewer: **
+**Journal Reviewer:**
 - International Journal of Computer Vision
 - IEEE Transactions on Multimedia
 - IEEE Transactions on Cybernetics
@@ -140,12 +140,12 @@ I am currently looking for highly motivated graduate students who are passionate
 - IEEE Sensors Letters
 - Journal of Computer Science and Technology
 
-**Area Chair or Senior Program Committee: **
+**Area Chair or Senior Program Committee:**
 - Chinese Control Conference
 
 **Conference Reviewer or Program Committee: **
 - NeurIPS, CVPR, ICCV, ECCV, ACM Multimedia, IJCAI, AAAI, ICME, PRVC, ACCV
 
-**Academic Service: **
+**Academic Service:**
 - National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
 - Member of CSIG Technical Committee on Multimedia
