@@ -113,5 +113,11 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2014.09 - 2019.06*, <span style="color:red">Ph.D</span> in the Department of Automation, University of Science and Technology of China
 - *2009.08 - 2013.06*, <span style="color:red">B.S.</span> in the Department of Automation, Hefei University of Technology
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💻 Fundings
+- *2022.01 - 2024.12*, National Natural Science Foundation of China, Youth Program, PI (国家自然科学基金-青年项目, 主持)
+- *2023.06 - 2024.12*，China Merchants Bank-USTC Laboratory Collaborative Project，PI (招商银行-中国科大实验室合作项目, 主持)
+- *2021.01 - 2022.12*, USTC Research Funds of the Double First-Class Initiative, PI (校青年创新重点基金项目, 主持)
+- *2021.01 - 2022.12*, China Postdoctoral Science Foundation, PI (中国博士后面上基金项目, 主持)
+- *2020.11 - 2023.10*, National Key Research and Development Program of China, Key Participant (科技创新2030-"新一代人工智能"重大项目, 参与)
+- *2020.01 - 2023.12*, Joint Funds of the National Natural Science Foundation of China, Key Participant (国家自然科学基金-联合重点项目, 参与)
+- *2017.01 - 2021.12*，National Key Research and Development Program of China, Key Participant (科技部-国家重点研发计划, 参与)
