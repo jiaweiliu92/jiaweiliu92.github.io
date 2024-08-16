@@ -143,7 +143,7 @@ I am currently looking for highly motivated graduate students who are passionate
 **Area Chair or Senior Program Committee:**
 - Chinese Control Conference
 
-**Conference Reviewer or Program Committee: **
+**Conference Reviewer or Program Committee:**
 - NeurIPS, CVPR, ICCV, ECCV, ACM Multimedia, IJCAI, AAAI, ICME, PRVC, ACCV
 
 **Academic Service:**
