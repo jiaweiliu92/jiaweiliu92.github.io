@@ -80,26 +80,35 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``ACM TOMM 2019`` [Spatiotemporal-Textual Co-Attention Network for Video Question Answering](https://dl.acm.org/doi/abs/10.1145/3320061), Zheng-Jun Zha, **Jiawei Liu**, Tianhao Yang, Yongdong Zhang
 
 # 💬 Chinese Patents
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2024.10* 查正军; **刘嘉威**; 张凡瑞; 张强. 一种基于实体增强和立场检查的多模态事实核查方法. 发明专利. (专利号：CN202410403673.5)
+- *2024.10* **刘嘉威**; 赵国治; 吴勇; 贺强; 胡冰玉. 基于特征多样化和域自适应特征选择的鲁棒行人重识别方法. 发明专利. (专利号：CN202410070798.0)
+- *2024.10* **刘嘉威**; 赵国治; 吴勇; 贺强; 甘文君. 一种基于跨模态语义对齐的文本行人重识别方法. 发明专利. (专利号：CN202410072896.8)
+- *2023.11* 查正军; **刘嘉威**; 张强; 张凡瑞. 一种基于多层次语义增强的多模态假新闻检测方法. 发明专利. (专利号：CN202311298800.1)
+- *2023.10* 查正军; 傅雪阳; 李东; 朱佳莹; **刘嘉威**. 基于边缘感知的区域消息传递控制的图像伪造定位方法. 发明专利. (专利号：CN202310346607.4)
+- *2022.10* 查正军; **刘嘉威**; 王堃宇. 一种基于特征对齐的退化环境下的行人重识别方法. 发明专利. (专利号：CN202210792619.5)
+- *2022.10* 查正军; **刘嘉威**; 吴蔚. 基于时序补偿引导的强化学习图像-视频行人重识别方法. 发明专利. (专利号：CN202210362412.4)
+- *2022.10* 查正军; **刘嘉威**; 黄志鹏. 基于高斯过程的去偏批量归一化的鲁棒行人重识别方法. 发明专利. (专利号：CN202210193826.9)
+- *2022.10* 查正军; **刘嘉威**; 黄志鹏. 基于模态自适应混合和不变性卷积分解的行人重识别方法. 发明专利. (专利号：CN202210155715.9)
+- *2020.10* 刘武; **刘嘉威**; 梅涛; 郑可成. 检索目标的方法和装置. 发明专利. (专利号：CN202010215923.4)
+- *2019.10* 查正军; **刘嘉威**. 行人再识别数据生成方法. 发明专利. (专利号：CN201910466234.8)
 
 # 🎖 Honors and Awards
-- *2024.7* ACM MM2024 Workshop: Micro-Action Analysis Grand Challenge ([1st Place Award](https://sites.google.com/view/micro-action/challenge/winners))
-- *2023.3* AAAI2023 Workshop: Defactify 2: Multimodal Fake News Detection ([4th Place Award](https://aiisc.ai/defactify2/))
-- *2022.1* Mozi Distinguished Youth Special Allowance of USTC
-- *2020.1* Special Research Assistantship of CAS
-- *2019.6* CAS Presidential Scholarship
-- *2019.6* Outstanding Graduates Scholarship, USTC
-- *2018.9* Individual Scholarship, USTC
-- *2016.9* Individual Scholarship, USTC
+- *2024.07* ACM MM2024 Workshop: Micro-Action Analysis Grand Challenge ([1st Place Award](https://sites.google.com/view/micro-action/challenge/winners))
+- *2023.03* AAAI2023 Workshop: Defactify 2: Multimodal Fake News Detection ([4th Place Award](https://aiisc.ai/defactify2/))
+- *2022.01* Mozi Distinguished Youth Special Allowance of USTC
+- *2020.01* Special Research Assistantship of CAS
+- *2019.06* CAS Presidential Scholarship
+- *2019.06* Outstanding Graduates Scholarship, USTC
+- *2018.09* Individual Scholarship, USTC
+- *2016.09* Individual Scholarship, USTC
 
 # 📖 Experiences
 - *2021.12 - Present*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
 - *2019.10 - 2021.11*, Postdocral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and Prof. Yongdong Zhang
-- *2019.8 - 2019.10*, Researcher, <span style="color:red">JD AILab</span>, working with Prof. Tao Mei and Prof. Wu Liu
-- *2016.10 - 2017.1*, Research Intern, <span style="color:red">MSRA</span>, under the supervision of Prof. Tao Mei
-- *2014.9 - 2019.6*, **Ph.D** in the Department of Automation, University of Science and Technology of China
-- *2009.8 - 2013.6*, **B.S.** in the Department of Automation, Hefei University of Technology
+- *2019.08 - 2019.10*, Researcher, <span style="color:red">JD AILab</span>, working with Prof. Tao Mei and Prof. Wu Liu
+- *2016.10 - 2017.01*, Research Intern, <span style="color:red">MSRA</span>, under the supervision of Prof. Tao Mei
+- *2014.09 - 2019.06*, **Ph.D** in the Department of Automation, University of Science and Technology of China
+- *2009.08 - 2013.06*, **B.S.** in the Department of Automation, Hefei University of Technology
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
