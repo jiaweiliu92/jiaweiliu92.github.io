@@ -103,10 +103,12 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2016.09* Individual Scholarship, USTC
 
 # 📖 Experiences
+**Work Experiences：**
 - *2021.12 - Present*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
 - *2019.10 - 2021.11*, Postdocral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and Prof. Yongdong Zhang
 - *2019.08 - 2019.10*, Researcher, <span style="color:red">JD AILab</span>, working with Prof. Tao Mei and Prof. Wu Liu
 - *2016.10 - 2017.01*, Research Intern, <span style="color:red">MSRA</span>, under the supervision of Prof. Tao Mei
+**Educations：**
 - *2014.09 - 2019.06*, **Ph.D** in the Department of Automation, University of Science and Technology of China
 - *2009.08 - 2013.06*, **B.S.** in the Department of Automation, Hefei University of Technology
 
