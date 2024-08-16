@@ -94,7 +94,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2019.10 - 2021.11*, Postdocral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and Prof. Yongdong Zhang
 - *2019.8 - 2019.10*, Researcher, <span style="color:red">JD AILab</span>, working with Prof. Tao Mei and Prof. Wu Liu
 - *2016.10 - 2017.1*, Research Intern, <span style="color:red">MSRA</span>, under the supervision of Prof. Tao Mei
-  
+
 - *2014.9 - 2019.6*, Ph.D in the Department of Automation, University of Science and Technology of China
 - *2009.8 - 2013.6*, B.S. in the Department of Automation, Hefei University of Technology
 
