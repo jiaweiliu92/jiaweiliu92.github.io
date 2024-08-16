@@ -75,7 +75,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - `ARXIV 2024` [TagAlign: Improving Vision-Language Alignment with Multi-Tag Classification](https://arxiv.org/abs/2312.14149), Qinying Liu, Wei Wu, Kecheng Zheng, Zhan Tong, **Jiawei Liu**, Yu Liu, Wei Chen, Zilei Wang, Yujun Shen \| [**Project**](https://qinying-liu.github.io/Tag-Align/) [![](https://img.shields.io/github/stars/Qinying-Liu/TagAlign?style=social&label=Code+Stars)](https://github.com/Qinying-Liu/TagAlign)
 - ``ICCV 2023`` [Regularized Mask Tuning: Uncovering Hidden Knowledge in Pre-trained Vision-Language Models](https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023_paper.pdf), Kecheng Zheng, Wei Wu, Ruili Feng, Kai Zhu, **Jiawei Liu**, Deli Zhao, Zheng-Jun Zha, Wei Chen, Yujun Shen
 
-## 🎙 Others
+## 🎼 Others
 - ``PAIN 2023`` [Deep Learning–guided Postoperative Pain Assessment in Children](https://journals.lww.com/pain/fulltext/2023/09000/deep_learning_guided_postoperative_pain_assessment.16.aspx), Jihong Fang, Wei Wu, **Jiawei Liu**, Sicheng Zhang
 - ``ACM TOMM 2019`` [Spatiotemporal-Textual Co-Attention Network for Video Question Answering](https://dl.acm.org/doi/abs/10.1145/3320061), Zheng-Jun Zha, **Jiawei Liu**, Tianhao Yang, Yongdong Zhang
 
@@ -114,6 +114,15 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2009.08 - 2013.06*, <span style="color:red">B.S.</span> in the Department of Automation, Hefei University of Technology
 
 # 💻 Fundings
+- *2022.01 - 2024.12*, National Natural Science Foundation of China, Youth Program, PI (基金委青年基金项目, 主持)
+- *2023.06 - 2024.12*，China Merchants Bank-USTC Laboratory Collaborative Project，PI (招商银行-中国科大实验室合作项目, 主持)
+- *2021.01 - 2022.12*, USTC Research Funds of the Double First-Class Initiative, PI (校青年创新重点基金项目, 主持)
+- *2021.01 - 2022.12*, China Postdoctoral Science Foundation, PI (中国博士后面上基金项目, 主持)
+- *2020.11 - 2023.10*, National Key R&D Program of China, Key Participant (科技创新2030-"新一代人工智能"重大项目, 参与)
+- *2020.01 - 2023.12*, Joint Funds of the National Natural Science Foundation of China, Key Participant (基金委联合重点基金项目, 参与)
+- *2017.01 - 2021.12*，National Key R&D Program of China, Key Participant (国家重点研发计划, 参与)
+
+# 👄 Academic Activities
 - *2022.01 - 2024.12*, National Natural Science Foundation of China, Youth Program, PI (基金委青年基金项目, 主持)
 - *2023.06 - 2024.12*，China Merchants Bank-USTC Laboratory Collaborative Project，PI (招商银行-中国科大实验室合作项目, 主持)
 - *2021.01 - 2022.12*, USTC Research Funds of the Double First-Class Initiative, PI (校青年创新重点基金项目, 主持)
