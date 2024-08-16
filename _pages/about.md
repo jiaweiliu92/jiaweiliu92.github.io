@@ -90,10 +90,10 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2016.9* Individual Scholarship, USTC
 
 # 📖 Experiences
-- *2021.12 - Present*, Associate Research Fellow, University of Science and Technology of China, Collaborating with Prof. Zheng-Jun Zha
-- *2019.10 - 2021.11*, Postdocral Research Fellow, University of Science and Technology of China, Collaborating with Prof. Zheng-Jun Zha and Prof. Yongdong Zhang
+- *2021.12 - Present*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
+- *2019.10 - 2021.11*, Postdocral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and Prof. Yongdong Zhang
 - *2019.8 - 2019.10*, Researcher, JD AILab, working with Prof. Tao Mei and Prof. Wu Liu
-- *2016.10-2017.1*, Research Intern, Microsoft Research Asia, under the supervision of Prof. Tao Mei
+- *2016.10-2017.1*, Research Intern, MSRA, under the supervision of Prof. Tao Mei
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
