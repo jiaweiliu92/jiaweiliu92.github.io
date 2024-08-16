@@ -80,8 +80,14 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``ACM TOMM 2019`` [Spatiotemporal-Textual Co-Attention Network for Video Question Answering](https://dl.acm.org/doi/abs/10.1145/3320061), Zheng-Jun Zha, **Jiawei Liu**, Tianhao Yang, Yongdong Zhang
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.7* ACM MM2024 Workshop: Micro-Action Analysis Grand Challenge [(1st Place Award)](https://sites.google.com/view/micro-action/challenge/winners)          
+- *2023.3* AAAI2023 Workshop: Defactify 2: Multimodal Fake News Detection [(4th Place Award)](https://aiisc.ai/defactify2/)
+- *2022.1* Mozi Distinguished Youth Special Allowance of USTC
+- *2020.1* Special Research Assistantship of CAS
+- *2019.6* CAS Presidential Scholarship
+- *2019.6* Outstanding Graduates Scholarship, USTC
+- *2018.9* Individual Scholarship, USTC
+- *2016.9* Individual Scholarship, USTC
 
 # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
