@@ -42,6 +42,22 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``ICME 2021`` [Adversarial Disentanglement and Correlation Network for Rgb-Infrared Person Re-Identification](https://ieeexplore.ieee.org/abstract/document/9428376), Bingyu Hu, **Jiawei Liu**, Zheng-jun Zha
 - ``IJCAI 2021`` [Multi-Scale Spatial-Temporal Integration Convolutional Tube for Human Action Recognition](https://www.ijcai.org/Proceedings/2020/0105.pdf), Haoze Wu, **Jiawei Liu**, Xierong Zhu, Meng Wang, Zheng-Jun Zha
 - ``CVPR 2021`` [Spatial-Temporal Correlation and Topology Learning for Person Re-Identification in Videos](https://openaccess.thecvf.com/content/CVPR2021/html/Liu_Spatial-Temporal_Correlation_and_Topology_Learning_for_Person_Re-Identification_in_Videos_CVPR_2021_paper.html), **Jiawei Liu**, Zheng-Jun Zha, Wei Wu, Kecheng Zheng, Qibin Sun
+ ``ACM MM 2020`` [Dual Context-Aware Refinement Network for Person Search](https://static.aminer.cn/storage/pdf/acm/20/mm/10.1145/3394171.3413878.pdf), **Jiawei Liu**, Zheng-Jun Zha, Richang Hong, Meng Wang, Yongdong Zhang
+- `ACM MM 2020` [ASTA-Net: Adaptive Spatio-Temporal Attention Network for Person Re-Identification in Videos](https://dl.acm.org/doi/abs/10.1145/3394171.3413843), Xierong Zhu, **Jiawei Liu**, Haoze Wu, Meng Wang, Zheng-Jun Zha
+- ``ACM MM 2020`` [A Structured Graph Attention Network for Vehicle Re-Identification](https://dl.acm.org/doi/abs/10.1145/3394171.3413607), Yangchun Zhu, Zheng-Jun Zha, Tianzhu Zhang, **Jiawei Liu**, Jiebo Luo
+- ``ACM MM 2020`` [Hierarchical Gumbel Attention Network for Text-based Person Search](https://dl.acm.org/doi/10.1145/3394171.3413864), Kecheng Zheng, Wu Liu, **Jiawei Liu**, Zheng-Jun Zha, Tao Mei
+- ``ARXIV 2020`` [Temporal Attribute-Appearance Learning Network for Video-based Person Re-Identification](https://arxiv.org/pdf/2009.04181), **Jiawei Liu**, Xierong Zhu, Zheng-Jun Zha
+- ``IJCAI 2020`` [Co-Saliency Spatio-Temporal Interaction Network for Person Re-Identification in Videos](https://www.ijcai.org/proceedings/2020/0141.pdf), **Jiawei Liu**, Zheng-Jun Zha, Xierong Zhu, Na Jiang
+- ``IEEE TMM 2020`` [Adversarial Attribute-Text Embedding for Person Search With Natural Language Query](https://ieeexplore.ieee.org/abstract/document/8985326), Zheng-Jun Zha, **Jiawei Liu**, Di Chen, Feng Wu
+- ``ACM MM 2019`` [Deep Adversarial Graph Attention Convolution Network for Text-Based Person Search](https://dl.acm.org/doi/abs/10.1145/3343031.3350991), **Jiawei Liu**, Zheng-Jun Zha, Richang Hong, Meng Wang, Yongdong Zhang
+- ``IJCAI 2019`` [Mutually Reinforced Spatio-Temporal Convolutional Tube for Human Action Recognition](https://www.ijcai.org/proceedings/2019/136), Haoze Wu, **Jiawei Liu**, Zheng-Jun Zha, Zhenzhong Chen, Xiaoyan Sun
+- ``ACM TOMM 2019`` [Dense 3D-Convolutional Neural Network for Person Re-Identification in Videos](https://dl.acm.org/doi/abs/10.1145/3231741), **Jiawei Liu**, Zheng-Jun Zha, Xuejin Chen, Zilei Wang, Yongdong Zhang
+- ``MMM 2019`` [Adaptive Alignment Network for Person Re-identification](https://link.springer.com/chapter/10.1007/978-3-030-05716-9_2), Xierong Zhu, **Jiawei Liu**, Hongtao Xie, Zheng-Jun Zha
+- ``CVPR 2019`` [Adaptive Transfer Network for Cross-Domain Person Re-Identification](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Adaptive_Transfer_Network_for_Cross-Domain_Person_Re-Identification_CVPR_2019_paper.html), **Jiawei Liu**, Zheng-Jun Zha, Di Chen, Richang Hong, Meng Wang
+- ``ACM MM 2018`` [CA3Net: Contextual-Attentional Attribute-Appearance Network for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/3240508.3240585), **Jiawei Liu**, Zheng-Jun Zha, Hongtao Xie, Zhiwei Xiong, Yongdong Zhang
+- ``ACM MM Asia 2018`` [Temporal-Contextual Attention Network for Video-Based Person Re-identification](https://link.springer.com/chapter/10.1007/978-3-030-00776-8_14), Di Chen, Zheng-Jun Zha, **Jiawei Liu**, Hongtao Xie, Yongdong Zhang
+- ``ACM MM 2016`` [Multi-Scale Triplet CNN for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/2964284.2967209), **Jiawei Liu**, Zheng-Jun Zha, QI Tian, Dong Liu, Ting Yao, Qiang Ling, Tao Mei
+
 
 ## 🎙 Fake Media Content Analysis
 - `IJCAI 2024` [Natural Language-centered Inference Network for Multi-modal Fake News Detection](https://www.ijcai.org/proceedings/2024/281), Qiang Zhang, **Jiawei Liu**, Fanrui Zhang, Jingyi Xie, Zheng-Jun Zha
@@ -54,27 +70,14 @@ I am currently looking for highly motivated graduate students who are passionate
 - `CVPR 2023` [Edge-Aware Regional Message Passing Controller for Image Forgery Localization](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Edge-Aware_Regional_Message_Passing_Controller_for_Image_Forgery_Localization_CVPR_2023_paper.html), Dong Li, Jiaying Zhu, Menglu Wang, **Jiawei Liu**, Xueyang Fu, Zheng-Jun Zha
 - `ACM MM 2022` [JPEG Compression-aware Image Forgery Localization](https://dl.acm.org/doi/abs/10.1145/3503161.3547749), Menglu Wang, Xueyang Fu, **Jiawei Liu**, Zheng-Jun Zha
 - `ARXIV 2022` [Label Noise-Resistant Mean Teaching for Weakly Supervised Fake News Detection](https://arxiv.org/abs/2206.12260), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
-- `NeurIPS 2022` [GenerSpeech: Towards Style Transfer for Generalizable Out-Of-Domain Text-to-Speech](), Rongjie Huang, **Yi Ren**, et al.
 
 ## 🧑‍🎨 Large Vision-Language Model
 - `ARXIV 2024` [TagAlign: Improving Vision-Language Alignment with Multi-Tag Classification](https://arxiv.org/abs/2312.14149), Qinying Liu, Wei Wu, Kecheng Zheng, Zhan Tong, **Jiawei Liu**, Yu Liu, Wei Chen, Zilei Wang, Yujun Shen \| [**Project**](https://qinying-liu.github.io/Tag-Align/) [![](https://img.shields.io/github/stars/Qinying-Liu/TagAlign?style=social&label=Code+Stars)](https://github.com/Qinying-Liu/TagAlign)
-- ``ICCV 2023`` [Regularized mask tuning: Uncovering hidden knowledge in pre-trained vision-language models](https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023_paper.pdf), Kecheng Zheng, Wei Wu, Ruili Feng, Kai Zhu, **Jiawei Liu**, Deli Zhao, Zheng-Jun Zha, Wei Chen, Yujun Shen
-- ``ACL 2023`` [CLAPSpeech: Learning Prosody from Text Context with Contrastive Language-Audio Pre-Training](), Zhenhui Ye, Rongjie Huang, **Yi Ren**, et al.
-- ``ACL 2023`` [FluentSpeech: Stutter-Oriented Automatic Speech Editing with Context-Aware Diffusion Models](), Ziyue Jiang, Qian Yang, Jialong Zuo, Zhenhui Ye, Rongjie Huang, **Yi Ren** and Zhou Zhao
-- ``ACL 2023`` [Revisiting and Incorporating GAN and Diffusion Models in High-Fidelity Speech Synthesis](), Rongjie Huang, **Yi Ren**, Ziyue Jiang, et al.
-- ``ACL 2023`` [Improving Prosody with Masked Autoencoder and Conditional Diffusion Model For Expressive Text-to-Speech](), Rongjie Huang, Chunlei Zhang, **Yi Ren**, et al.
-- `ICLR 2023` [Bag of Tricks for Unsupervised Text-to-Speech](https://openreview.net/forum?id=SbR9mpTuBn), **Yi Ren**, Chen Zhang, Shuicheng Yan
-- `INTERSPEECH 2023` [StyleS2ST: zero-shot style transfer for direct speech-to-speech translation](https://arxiv.org/abs/2305.17732), Kun Song, **Yi Ren**, Yi Lei, et al.
-
+- ``ICCV 2023`` [Regularized Mask Tuning: Uncovering Hidden Knowledge in Pre-trained Vision-Language Models](https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023_paper.pdf), Kecheng Zheng, Wei Wu, Ruili Feng, Kai Zhu, **Jiawei Liu**, Deli Zhao, Zheng-Jun Zha, Wei Chen, Yujun Shen
 
 ## 🎙 Others
 - ``PAIN 2023`` [Deep Learning–guided Postoperative Pain Assessment in Children](https://journals.lww.com/pain/fulltext/2023/09000/deep_learning_guided_postoperative_pain_assessment.16.aspx), Jihong Fang, Wei Wu, **Jiawei Liu**, Sicheng Zhang
-- ``ACL 2023`` [CLAPSpeech: Learning Prosody from Text Context with Contrastive Language-Audio Pre-Training](), Zhenhui Ye, Rongjie Huang, **Yi Ren**, et al.
-- ``ACL 2023`` [FluentSpeech: Stutter-Oriented Automatic Speech Editing with Context-Aware Diffusion Models](), Ziyue Jiang, Qian Yang, Jialong Zuo, Zhenhui Ye, Rongjie Huang, **Yi Ren** and Zhou Zhao
-- ``ACL 2023`` [Revisiting and Incorporating GAN and Diffusion Models in High-Fidelity Speech Synthesis](), Rongjie Huang, **Yi Ren**, Ziyue Jiang, et al.
-- ``ACL 2023`` [Improving Prosody with Masked Autoencoder and Conditional Diffusion Model For Expressive Text-to-Speech](), Rongjie Huang, Chunlei Zhang, **Yi Ren**, et al.
-- `ICLR 2023` [Bag of Tricks for Unsupervised Text-to-Speech](https://openreview.net/forum?id=SbR9mpTuBn), **Yi Ren**, Chen Zhang, Shuicheng Yan
-
+- ``ACM TOMM 2019`` [Spatiotemporal-Textual Co-Attention Network for Video Question Answering](https://dl.acm.org/doi/abs/10.1145/3320061), Zheng-Jun Zha, **Jiawei Liu**, Tianhao Yang, Yongdong Zhang
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
