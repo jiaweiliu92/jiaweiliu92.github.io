@@ -59,7 +59,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``ACM MM 2016`` [Multi-Scale Triplet CNN for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/2964284.2967209), **Jiawei Liu**, Zheng-Jun Zha, QI Tian, Dong Liu, Ting Yao, Qiang Ling, Tao Mei
 
 
-## 🎙 Fake Media Content Analysis
+## 🌱 Fake Media Content Analysis
 - `IJCAI 2024` [Natural Language-centered Inference Network for Multi-modal Fake News Detection](https://www.ijcai.org/proceedings/2024/281), Qiang Zhang, **Jiawei Liu**, Fanrui Zhang, Jingyi Xie, Zheng-Jun Zha
 - ``WWW 2024`` [ESCNet: Entity-enhanced and Stance Checking Network for Multi-modal Fact-Checking](https://dl.acm.org/doi/abs/10.1145/3589334.3645455), Fanrui Zhang, **Jiawei Liu**, Jingyi Xie, Qiang Zhang, Yongchao Xu, Zheng-Jun Zha
 - ``IEEE TIFS 2023`` [Adaptive Texture and Spectrum Clue Mining for Generalizable Face Forgery Detection](https://ieeexplore.ieee.org/abstract/document/10364845), **Jiawei Liu**, Jingyi Xie, Yang Wang, Zheng-Jun Zha
@@ -122,7 +122,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2020.01 - 2023.12*, Joint Funds of the National Natural Science Foundation of China, Key Participant (基金委联合重点基金项目, 参与)
 - *2017.01 - 2021.12*，National Key R&D Program of China, Key Participant (国家重点研发计划, 参与)
 
-# 👄 Professional Activities
+# 📸 Professional Activities
 **Academic Service:**
 - National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
 - Member of CSIG Technical Committee on Multimedia
