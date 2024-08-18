@@ -73,7 +73,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 ## 🧑‍🎨 Large Vision-Language Model
 - `ARXIV 2024` [TagAlign: Improving Vision-Language Alignment with Multi-Tag Classification](https://arxiv.org/abs/2312.14149), Qinying Liu, Wei Wu, Kecheng Zheng, Zhan Tong, **Jiawei Liu**, Yu Liu, Wei Chen, Zilei Wang, Yujun Shen \| [**Project**](https://qinying-liu.github.io/Tag-Align/) [![](https://img.shields.io/github/stars/Qinying-Liu/TagAlign?style=social&label=Code+Stars)](https://github.com/Qinying-Liu/TagAlign)
-- ``ICCV 2023`` [Regularized Mask Tuning: Uncovering Hidden Knowledge in Pre-trained Vision-Language Models](https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023_paper.pdf), Kecheng Zheng, Wei Wu, Ruili Feng, Kai Zhu, **Jiawei Liu**, Deli Zhao, Zheng-Jun Zha, Wei Chen, Yujun Shen
+- ``ICCV 2023`` [Regularized Mask Tuning: Uncovering Hidden Knowledge in Pre-trained Vision-Language Models](https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023_paper.pdf), Kecheng Zheng, Wei Wu, Ruili Feng, Kai Zhu, **Jiawei Liu**, Deli Zhao, Zheng-Jun Zha, Wei Chen, Yujun Shen \| [**Project**](https://wuw2019.github.io/R-AMT/) [![](https://img.shields.io/github/stars/wuw2019/R-AMT?style=social&label=Code+Stars)](https://github.com/wuw2019/R-AMT)
 
 ## 🎼 Others
 - ``PAIN 2023`` [Deep Learning–guided Postoperative Pain Assessment in Children](https://journals.lww.com/pain/fulltext/2023/09000/deep_learning_guided_postoperative_pain_assessment.16.aspx), Jihong Fang, Wei Wu, **Jiawei Liu**, Sicheng Zhang
