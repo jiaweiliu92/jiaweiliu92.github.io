@@ -29,7 +29,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2024.04*: &nbsp;🎉🎉 One paper is accepted by ICME 2024. 
 
 <span class='anchor' id='publications'></span>
-# 📝 Publications
+<h1 style="display:none"> 📝 Publications </h1>
 
 ## 📚 Human-Centric Visual Understanding 
 - ``IJCV 2024`` [Exert Diversity and Mitigate Bias: Domain Generalizable Person Re-identification with a Comprehensive Benchmark](https://link.springer.com/article/10.1007/s11263-024-02124-5), Bingyu Hu, **Jiawei Liu**, Yufei Zheng, Kecheng Zheng, Zheng-Jun Zha
