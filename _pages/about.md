@@ -22,7 +22,7 @@ redirect_from:
 
 {% include_relative includes/pub.md %}
 
-{% include_relative includes/patent.md %}
+{% include_relative includes/patents.md %}
 
 {% include_relative includes/honers.md %}
 
