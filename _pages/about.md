@@ -24,7 +24,7 @@ I received the B.S. degree from the Hefei University of Technology (HFUT) in 201
 I am currently looking for highly motivated graduate students who are passionate about computer vision, deep learning, and related fields. If you have a strong academic background in mathematics, machine learning, or programming and are eager to engage in innovative research, I warmly invite you to apply to join my research group. Furthermore, if you are interested in exploring opportunities for **academic collaboration**, please do not hesitate to contact me at [jwliu6@ustc.edu.cn](mailto:jwliu6@ustc.edu.cn).
 
 <span class='anchor' id='news'></span>
-<div role="heading" aria-level="1">🔥 News</div>
+# 🔥 News
 - *2024.08*: &nbsp;🎉🎉 One paper is accepted by ECCV 2024. 
 - *2024.04*: &nbsp;🎉🎉 One paper is accepted by ICME 2024. 
 
