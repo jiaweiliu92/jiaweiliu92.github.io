@@ -23,10 +23,12 @@ I received the B.S. degree from the Hefei University of Technology (HFUT) in 201
 
 I am currently looking for highly motivated graduate students who are passionate about computer vision, deep learning, and related fields. If you have a strong academic background in mathematics, machine learning, or programming and are eager to engage in innovative research, I warmly invite you to apply to join my research group. Furthermore, if you are interested in exploring opportunities for **academic collaboration**, please do not hesitate to contact me at [jwliu6@ustc.edu.cn](mailto:jwliu6@ustc.edu.cn).
 
+<span class='anchor' id='news'></span>
 # 🔥 News
 - *2024.08*: &nbsp;🎉🎉 One paper is accepted by ECCV 2024. 
 - *2024.04*: &nbsp;🎉🎉 One paper is accepted by ICME 2024. 
 
+<span class='anchor' id='publications'></span>
 # 📝 Publications 
 
 ## 📚 Human-Centric Visual Understanding 
@@ -92,6 +94,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2020.10* 刘武; **刘嘉威**; 梅涛; 郑可成. 检索目标的方法和装置. 发明专利. (专利号：CN202010215923.4)
 - *2019.10* 查正军; **刘嘉威**. 行人再识别数据生成方法. 发明专利. (专利号：CN201910466234.8)
 
+<span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
 - *2024.07* ACM MM2024 Workshop: Micro-Action Analysis Grand Challenge ([1st Place Award](https://sites.google.com/view/micro-action/challenge/winners))
 - *2023.03* AAAI2023 Workshop: Defactify 2: Multimodal Fake News Detection ([4th Place Award](https://aiisc.ai/defactify2/))
@@ -102,6 +105,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2018.09* Individual Scholarship, USTC
 - *2016.09* Individual Scholarship, USTC
 
+<span class='anchor' id='experiences'></span>
 # 📖 Experiences
 **Work Experiences:**
 - *2021.12 - Present*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
@@ -113,6 +117,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2014.09 - 2019.06*, <span style="color:red">Ph.D</span> in the Department of Automation, University of Science and Technology of China
 - *2009.08 - 2013.06*, <span style="color:red">B.S.</span> in the Department of Automation, Hefei University of Technology
 
+<span class='anchor' id='fundings'></span>
 # 💻 Fundings
 - *2022.01 - 2024.12*, National Natural Science Foundation of China, Youth Program, PI (基金委青年基金项目, 主持)
 - *2023.06 - 2024.12*，China Merchants Bank-USTC Laboratory Collaborative Project，PI (招商银行-中国科大实验室合作项目, 主持)
@@ -122,6 +127,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2020.01 - 2023.12*, Joint Funds of the National Natural Science Foundation of China, Key Participant (基金委联合重点基金项目, 参与)
 - *2017.01 - 2021.12*，National Key R&D Program of China, Key Participant (国家重点研发计划, 参与)
 
+<span class='anchor' id='professional-activities'></span>
 # 📸 Professional Activities
 **Academic Service:**
 - National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
