@@ -81,6 +81,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``PAIN 2023`` [Deep Learning–guided Postoperative Pain Assessment in Children](https://journals.lww.com/pain/fulltext/2023/09000/deep_learning_guided_postoperative_pain_assessment.16.aspx), Jihong Fang, Wei Wu, **Jiawei Liu**, Sicheng Zhang
 - ``ACM TOMM 2019`` [Spatiotemporal-Textual Co-Attention Network for Video Question Answering](https://dl.acm.org/doi/abs/10.1145/3320061), Zheng-Jun Zha, **Jiawei Liu**, Tianhao Yang, Yongdong Zhang
 
+<span class='anchor' id='chinese-patents'></span>
 # 💬 Chinese Patents
 - *2024.10* 查正军; **刘嘉威**; 张凡瑞; 张强. 一种基于实体增强和立场检查的多模态事实核查方法. 发明专利. (专利号：CN202410403673.5)
 - *2024.10* **刘嘉威**; 赵国治; 吴勇; 贺强; 胡冰玉. 基于特征多样化和域自适应特征选择的鲁棒行人重识别方法. 发明专利. (专利号：CN202410070798.0)
