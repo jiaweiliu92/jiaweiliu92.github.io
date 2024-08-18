@@ -16,7 +16,6 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-<div aria-labelledby="section1"></div>
 
 Jiawei Liu is currently an associate research fellow with the Department of Automation, University of Science and Technology of China (中国科学技术大学), working with [Prof. Zheng-Jun Zha](https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm) at [Multimodal Intelligence Lab (多模态智能实验室)](https://zhas-group.pages.dev/).
 
@@ -25,14 +24,14 @@ I received the B.S. degree from the Hefei University of Technology (HFUT) in 201
 I am currently looking for highly motivated graduate students who are passionate about computer vision, deep learning, and related fields. If you have a strong academic background in mathematics, machine learning, or programming and are eager to engage in innovative research, I warmly invite you to apply to join my research group. Furthermore, if you are interested in exploring opportunities for **academic collaboration**, please do not hesitate to contact me at [jwliu6@ustc.edu.cn](mailto:jwliu6@ustc.edu.cn).
 
 <span class='anchor' id='news'></span>
+<div role="heading" aria-level="1">
 # 🔥 News
-<div aria-labelledby="section2"></div>
+</div>
 - *2024.08*: &nbsp;🎉🎉 One paper is accepted by ECCV 2024. 
 - *2024.04*: &nbsp;🎉🎉 One paper is accepted by ICME 2024. 
 
 <span class='anchor' id='publications'></span>
-# 📝 Publications
-<div aria-labelledby="section3"></div>
+<h1 style="display:none"> 📝 Publications </h1>
 
 ## 📚 Human-Centric Visual Understanding 
 - ``IJCV 2024`` [Exert Diversity and Mitigate Bias: Domain Generalizable Person Re-identification with a Comprehensive Benchmark](https://link.springer.com/article/10.1007/s11263-024-02124-5), Bingyu Hu, **Jiawei Liu**, Yufei Zheng, Kecheng Zheng, Zheng-Jun Zha
