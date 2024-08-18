@@ -28,6 +28,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2024.08*: &nbsp;🎉🎉 One paper is accepted by ECCV 2024. 
 - *2024.04*: &nbsp;🎉🎉 One paper is accepted by ICME 2024. 
 
+<span class='anchor' id='publications'></span>
 ## 📝 Publications 
 
 ### 📚 Human-Centric Visual Understanding 
