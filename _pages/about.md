@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Jiawei Liu is currently an associate research fellow with the Department of Automation, University of Science and Technology of China (中国科学技术大学), working with [Prof. Zheng-Jun Zha](https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm) at [Multimodal Intelligence Lab (多模态智能实验室)](https://zhas-group.pages.dev/).
+Jiawei Liu (刘嘉威) is currently an associate research fellow with the Department of Automation, University of Science and Technology of China (中国科学技术大学), working with [Prof. Zheng-Jun Zha](https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm) at [Multimodal Intelligence Lab (多模态智能实验室)](https://zhas-group.pages.dev/).
 
 I received the B.S. degree from the Hefei University of Technology (HFUT) in 2013, and the Ph.D. degree from the University of Science and Technology of China (USTC) in 2019, respectively. During my PhD, I worked in [MSRA](https://www.msra.cn/) <img src="./images/microsoft.png" style="width: 4.5em;"> as a research intern, under the supervision of [Prof. Tao Mei](https://taomei.me/) from Oct. 2016 to Jan. 2017. My research interests span Computer Vision, Multimeida Analysis and Deep Learning, including Human-Centric Visual Understanding, Fake Media Content Analysis, Large Vision-Language Model, <em>etc</em>. I have published 40+ papers <a href='https://scholar.google.com/citations?user=sR7Sf2YAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fjiaweiliu92%2Fjiaweiliu92.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international AI journals and conferences.
 
