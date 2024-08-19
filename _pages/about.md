@@ -129,6 +129,12 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='professional-activities'></span>
 # 📸 Professional Activities
+**Teaching:**
+- *2022 Fall*, Graduate Course - Computer Vision
+- *2023 Fall*, Graduate Course - Computer Vision
+- *2024 Fall*, Graduate Course - Computer Vision (coming soon)
+- *2025 Spring*, Undergraduate Course - Deep Learning Practice (coming soon)
+
 **Academic Service:**
 - National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
 - Member of CSIG Technical Committee on Multimedia
@@ -155,8 +161,3 @@ I am currently looking for highly motivated graduate students who are passionate
 
 **Conference Reviewer or Program Committee:**
 - NeurIPS, CVPR, ICCV, ECCV, ACM Multimedia, IJCAI, AAAI, ICME, PRVC, ACCV
-
-- *2022 Fall*, Graduate Course - Computer Vision
-- *2023 Fall*, Graduate Course - Computer Vision
-- *2024 Fall*, Graduate Course - Computer Vision (coming soon)
-- *2025 Spring*, Undergraduate Course - Deep Learning Practice (coming soon)
