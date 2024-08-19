@@ -132,8 +132,8 @@ I am currently looking for highly motivated graduate students who are passionate
 **Teaching:**
 - *2022 Fall*, Graduate Course - Computer Vision
 - *2023 Fall*, Graduate Course - Computer Vision
-- *2024 Fall*, Graduate Course - Computer Vision (<span style="color:bule">coming soon</span>)
-- *2025 Spring*, Undergraduate Course - Deep Learning Practice (<span style="color:bule">coming soon</span>)
+- *2024 Fall*, Graduate Course - Computer Vision (<span style="color:red">coming soon</span>)
+- *2025 Spring*, Undergraduate Course - Deep Learning Practice (<span style="color:red">coming soon</span>)
 
 **Academic Service:**
 - National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
