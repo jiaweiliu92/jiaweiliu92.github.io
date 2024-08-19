@@ -137,7 +137,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 **Academic Service:**
 - National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
-- Member of CSIG Technical Committee on Multimedia
+- [Member of CSIG Technical Committee on Multimedia](http://mm.csig.org.cn/?page_id=263 )
 
 **Journal Reviewer:**
 - International Journal of Computer Vision
