@@ -119,6 +119,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='fundings'></span>
 # 💻 Fundings
+- *2025.01 - 2028.12*, National Natural Science Foundation of China, General Program, PI (基金委面上基金项目, 主持)
 - *2022.01 - 2024.12*, National Natural Science Foundation of China, Youth Program, PI (基金委青年基金项目, 主持)
 - *2023.06 - 2024.12*，China Merchants Bank-USTC Laboratory Collaborative Project，PI (招商银行-中国科大实验室合作项目, 主持)
 - *2021.01 - 2022.12*, USTC Research Funds of the Double First-Class Initiative, PI (校青年创新重点基金项目, 主持)
