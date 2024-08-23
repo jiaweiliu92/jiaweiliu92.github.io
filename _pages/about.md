@@ -161,4 +161,4 @@ I am currently looking for highly motivated graduate students who are passionate
 - Chinese Control Conference
 
 **Conference Reviewer or Program Committee:**
-- NeurIPS, CVPR, ICCV, ECCV, ACM Multimedia, IJCAI, AAAI, ICME, PRVC, ACCV
+- NeurIPS, CVPR, ICCV, ECCV, ACM MM, IJCAI, AAAI, ICME, PRVC, ACCV
