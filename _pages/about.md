@@ -25,8 +25,8 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
-- *2024.08*: &nbsp;🎉🎉 One paper on Image Forgery Detection and Localization is accepted by ECCV 2024. 
-- *2024.04*: &nbsp;🎉🎉 One paper on Person Re-Identification is accepted by ICME 2024. 
+- *2024.08*: &nbsp;🎉🎉 One paper on image forgery localization is accepted by ECCV 2024. 
+- *2024.04*: &nbsp;🎉🎉 One paper on person re-identification is accepted by ICME 2024. 
 
 <span class='anchor' id='publications'></span>
 # 📝 Publications
