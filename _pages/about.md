@@ -134,8 +134,8 @@ I am currently looking for highly motivated graduate students who are passionate
 **Teaching:**
 - *2022 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2023 Fall*, Graduate Course - Computer Vision (计算机视觉)
-- <span style="color:#000000;background-color:#DCFFB7"> *2024 Fall*, Graduate Course - Computer Vision (计算机视觉) \[coming soon\] </span>  
-- <span style="color:#000000;background-color:#DCFFB7"> *2025 Spring*, Undergraduate Course - Deep Learning Practice (深度学习实践) \[coming soon\] </span> 
+- *2024 Fall*, Graduate Course - Computer Vision (计算机视觉) \[coming soon\]
+- <span style="color:#000000;background-color:#DCFFB7"> *2025 Spring*, Undergraduate Course - Python and Deep Learning Fundamentals (Python与深度学习基础) \[coming soon\] </span> 
 
 **Academic Service:**
 - National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
