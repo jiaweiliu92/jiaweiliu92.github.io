@@ -154,6 +154,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - ACM Transactions on Data Science
 - ACM Transactions on Multimedia Computing Communications and Applications
 - Neurocomputing
+- Neural Networks
 - Image and Vision Computing
 - IEEE Internet of Things Journal
 - IEEE Signal Processing Letters
