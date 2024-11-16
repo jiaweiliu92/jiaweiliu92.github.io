@@ -117,7 +117,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2016.10 - 2017.01*, Research Intern, <span style="color:red">MSRA</span>, Under the supervision of Prof. Tao Mei
 
 **Educations:**
-- *2014.09 - 2019.06*, <span style="color:red">Ph.D</span> in the Department of Automation, University of Science and Technology of China
+- *2014.09 - 2019.06*, <span style="color:red">Ph.D.</span> in the Department of Automation, University of Science and Technology of China
 - *2009.08 - 2013.06*, <span style="color:red">B.S.</span> in the Department of Automation, Hefei University of Technology
 
 <span class='anchor' id='fundings'></span>
