@@ -59,7 +59,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``MMM 2019`` [Adaptive Alignment Network for Person Re-identification](https://link.springer.com/chapter/10.1007/978-3-030-05716-9_2), Xierong Zhu, **Jiawei Liu**, Hongtao Xie, Zheng-Jun Zha
 - ``CVPR 2019`` [Adaptive Transfer Network for Cross-Domain Person Re-Identification](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Adaptive_Transfer_Network_for_Cross-Domain_Person_Re-Identification_CVPR_2019_paper.html), **Jiawei Liu**, Zheng-Jun Zha, Di Chen, Richang Hong, Meng Wang
 - ``ACM MM 2018`` [CA3Net: Contextual-Attentional Attribute-Appearance Network for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/3240508.3240585), **Jiawei Liu**, Zheng-Jun Zha, Hongtao Xie, Zhiwei Xiong, Yongdong Zhang
-- ``ACM MM Asia 2018`` [Temporal-Contextual Attention Network for Video-Based Person Re-identification](https://link.springer.com/chapter/10.1007/978-3-030-00776-8_14), Di Chen, Zheng-Jun Zha, **Jiawei Liu**, Hongtao Xie, Yongdong Zhang
+- ``PCM 2018`` [Temporal-Contextual Attention Network for Video-Based Person Re-identification](https://link.springer.com/chapter/10.1007/978-3-030-00776-8_14), Di Chen, Zheng-Jun Zha, **Jiawei Liu**, Hongtao Xie, Yongdong Zhang
 - ``ACM MM 2016`` [Multi-Scale Triplet CNN for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/2964284.2967209), **Jiawei Liu**, Zheng-Jun Zha, QI Tian, Dong Liu, Ting Yao, Qiang Ling, Tao Mei
 
 ## 🌱 Fake Media Content Analysis
