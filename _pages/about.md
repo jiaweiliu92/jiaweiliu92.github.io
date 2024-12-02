@@ -146,6 +146,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - [Member of CSIG Technical Committee on Multimedia](http://mm.csig.org.cn/?page_id=263 )
 
 **Journal Reviewer:**
+- IEEE Transactions on Pattern Analysis and Machine Intelligence
 - International Journal of Computer Vision
 - IEEE Transactions on Multimedia
 - IEEE Transactions on Cybernetics
