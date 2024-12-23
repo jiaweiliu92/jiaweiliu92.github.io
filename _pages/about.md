@@ -161,6 +161,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - Neurocomputing
 - Neural Networks
 - Image and Vision Computing
+- Computer Vision and Image Understanding
 - IEEE Internet of Things Journal
 - IEEE Signal Processing Letters
 - Pattern Recognition Letters
