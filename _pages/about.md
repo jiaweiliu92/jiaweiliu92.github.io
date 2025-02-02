@@ -25,6 +25,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- *2025.01*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">TIFS</span> 2025. 
 - *2024.12*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">CVM</span> 2025. 
 - *2024.12*: &nbsp;🎉🎉 One paper on human-object interaction is accepted by <span style="color:skyblue">AAAI</span> 2025. 
 - *2024.10*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ACM TOMM</span> 2024. 
