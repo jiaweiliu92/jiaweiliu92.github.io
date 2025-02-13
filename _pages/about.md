@@ -35,7 +35,8 @@ I am currently looking for highly motivated graduate students who are passionate
 <span class='anchor' id='publications'></span>
 # 📝 Publications
 
-## 📚 Human-Centric Visual Understanding 
+## 📚 Human-Centric Visual Understanding
+- ``IEEE TIFS 2025`` [Advancing Visible-Infrared Person Re-Identification: Synergizing Visual-Textual Reasoning and Cross-Modal Feature Alignment](https://ieeexplore.ieee.org/document/10879282), Yuxuan Qiu, Liyang Wang, Wei Song, **Jiawei Liu**, Zhiping Shi, Na Jiang
 - ``ACM TOMM 2024`` [Noise-Resistance Learning via Multi-Granularity Consistency for Unsupervised Domain Adaptive Person Re-Identification](https://dl.acm.org/doi/10.1145/3702328), Yangchun Zhu, Yufei Zheng, **Jiawei Liu**, Yao Li, Zheng-Jun Zha
 - ``ICME 2024`` [Joint Visual-Textual Reasoning and Visible-Infrared Modality Alignment for Person Re-Identification](https://ieeexplore.ieee.org/document/10688362), Na Jiang, Yuxuan Qiu, Wei Song, **Jiawei Liu**, Zhiping Shi, Liyang Wang
 - ``IJCV 2024`` [Exert Diversity and Mitigate Bias: Domain Generalizable Person Re-identification with a Comprehensive Benchmark](https://link.springer.com/article/10.1007/s11263-024-02124-5), Bingyu Hu, **Jiawei Liu**, Yufei Zheng, Kecheng Zheng, Zheng-Jun Zha
