@@ -38,6 +38,7 @@ I am currently looking for highly motivated graduate students who are passionate
 # 📝 Publications
 
 ## 📚 Human-Centric Visual Understanding
+- ``AAAI 2025`` [HOIMamba: Efficient Mamba-based Disentangled Progressive Learning for HOI Detection](https://ojs.aaai.org/index.php/AAAI/article/view/32972), Yongchao Xu, **Jiawei Liu**, Sen Tao, Qiang Zhang, Zheng-Jun Zha
 - ``IEEE TIFS 2025`` [Advancing Visible-Infrared Person Re-Identification: Synergizing Visual-Textual Reasoning and Cross-Modal Feature Alignment](https://ieeexplore.ieee.org/document/10879282), Yuxuan Qiu, Liyang Wang, Wei Song, **Jiawei Liu**, Zhiping Shi, Na Jiang
 - ``ACM TOMM 2024`` [Noise-Resistance Learning via Multi-Granularity Consistency for Unsupervised Domain Adaptive Person Re-Identification](https://dl.acm.org/doi/10.1145/3702328), Yangchun Zhu, Yufei Zheng, **Jiawei Liu**, Yao Li, Zheng-Jun Zha
 - ``ICME 2024`` [Joint Visual-Textual Reasoning and Visible-Infrared Modality Alignment for Person Re-Identification](https://ieeexplore.ieee.org/document/10688362), Na Jiang, Yuxuan Qiu, Wei Song, **Jiawei Liu**, Zhiping Shi, Liyang Wang
