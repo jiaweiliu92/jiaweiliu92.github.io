@@ -25,6 +25,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- *2025.04*: &nbsp;🎉🎉 One paper on image forgery detection and localizationn is accepted by <span style="color:skyblue">IJCAI</span> 2025. 
 - *2025.02*: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - *2025.02*: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - *2025.01*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">TIFS</span> 2025. 
