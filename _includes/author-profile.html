@@ -225,6 +225,34 @@
     </div>
   </div>
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=TDZJjGmk4lsNaSuV_sVPqfB8Oi0I-zqJrLgnxqlguxQ"></script>
+<div class="globe-wrapper">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=TDZJjGmk4lsNaSuV_sVPqfB8Oi0I-zqJrLgnxqlguxQ"></script>
+</div>
+
+<style>
+  .globe-wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  /* 针对小屏幕进行缩放 */
+  @media (max-width: 768px) {
+    .globe-wrapper canvas {
+      transform: scale(0.8);
+      transform-origin: top center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .globe-wrapper canvas {
+      transform: scale(0.6);
+      transform-origin: top center;
+    }
+  }
+</style>
+
   
 </div>
