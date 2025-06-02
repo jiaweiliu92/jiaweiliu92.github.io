@@ -207,7 +207,10 @@
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
       {% endif %}
-      {% if author.pubmed %}
+      {% if author.cv %}
+        <a href="{{ author.cv }}"><i class="fa fa-address-card" style="color: #4a4e52;"></i></a>
+      {% endif %}
+        {% if author.pubmed %}
         <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>
       {% endif %}
       {% if author.orcid %}
