@@ -31,10 +31,12 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2025.02*: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - *2025.02*: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - *2025.01*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">TIFS</span> 2025. 
-- *2024.12*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">CVM</span> 2025. 
+- *2024.12*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">CVM</span> 2025.
+- *2024.12*: &nbsp;🎓🎓 Congratulations to Bingyu Hu (胡冰玉) on earning her Ph.D. degree!  
 - *2024.12*: &nbsp;🎉🎉 One paper on human-object interaction is accepted by <span style="color:skyblue">AAAI</span> 2025. 
 - *2024.10*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ACM TOMM</span> 2024. 
-- *2024.08*: &nbsp;🎉🎉 One paper on image forgery localization is accepted by <span style="color:skyblue">ECCV</span> 2024. 
+- *2024.08*: &nbsp;🎉🎉 One paper on image forgery localization is accepted by <span style="color:skyblue">ECCV</span> 2024.
+- *2024.06*: &nbsp;🎓🎓 Congratulations to Wenjun Gan (甘文君) on earning her Master’s degree!  
 - *2024.04*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ICME</span> 2024. 
 
 <span class='anchor' id='publications'></span>
