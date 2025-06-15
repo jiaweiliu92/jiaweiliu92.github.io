@@ -25,6 +25,8 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- *2025.06*: &nbsp;🎓🎓 Congratulations to Wei Wu (吴蔚) on earning her Ph.D. degree!  
+- *2025.06*: &nbsp;🎓🎓 Congratulations to Hao Tong (童浩) on earning his Master’s degree!  
 - *2025.04*: &nbsp;🎉🎉 One paper on image forgery detection and localizationn is accepted by <span style="color:skyblue">IJCAI</span> 2025. 
 - *2025.02*: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - *2025.02*: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
