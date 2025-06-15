@@ -26,7 +26,7 @@ I am currently looking for highly motivated graduate students who are passionate
 <span class='anchor' id='news'></span>
 # 🔥 News
 - *2025.06*: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Wei Wu (吴蔚)</span> on earning her Ph.D. degree!  
-- *2025.06*: &nbsp;🎓🎓 Congratulations to <span style="color:mediumseagreen">Hao Tong (童浩)</span> on earning his Master’s degree!  
+- *2025.06*: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Hao Tong (童浩)</span> on earning his Master’s degree!  
 - *2025.04*: &nbsp;🎉🎉 One paper on image forgery detection and localizationn is accepted by <span style="color:skyblue">IJCAI</span> 2025. 
 - *2025.02*: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - *2025.02*: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
@@ -36,7 +36,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2024.12*: &nbsp;🎉🎉 One paper on human-object interaction is accepted by <span style="color:skyblue">AAAI</span> 2025. 
 - *2024.10*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ACM TOMM</span> 2024. 
 - *2024.08*: &nbsp;🎉🎉 One paper on image forgery localization is accepted by <span style="color:skyblue">ECCV</span> 2024.
-- *2024.06*: &nbsp;🎓🎓 Congratulations to <span style="color:mediumseagreen">Wenjun Gan (甘文君)</span> on earning her Master’s degree!  
+- *2024.06*: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Wenjun Gan (甘文君)</span> on earning her Master’s degree!  
 - *2024.04*: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ICME</span> 2024. 
 
 <span class='anchor' id='publications'></span>
