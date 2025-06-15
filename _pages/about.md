@@ -129,7 +129,7 @@ I am currently looking for highly motivated graduate students who are passionate
 # 📖 Experiences
 **Work Experiences:**
 - *2021.12 - Present*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
-- *2025.09 - 2026.08*, Visiting Scholar, <span style="color:red">National University of Singapore (NUS)</span>, Hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/)
+- *2025.09 - 2026.08*, Visiting Scholar, <span style="color:red">NUS</span>, Hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/)
 - *2019.10 - 2021.11*, Postdocral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and [Prof. Yongdong Zhang](https://imcc.ustc.edu.cn/main.htm)
 - *2019.08 - 2019.10*, Researcher, <span style="color:red">JD AILab</span>, Working with Prof. Tao Mei and [Prof. Wu Liu](https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm)
 - *2016.10 - 2017.01*, Research Intern, <span style="color:red">MSRA</span>, Under the supervision of Prof. Tao Mei
