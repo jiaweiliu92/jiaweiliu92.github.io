@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I’m Jiawei Liu (刘嘉威), currently an Associate Research Fellow with the Department of Automation, University of Science and Technology of China (中国科学技术大学), working with [Prof. Zheng-Jun Zha](https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm) at [Multimodal Intelligence Lab (多模态智能实验室)](https://zhas-group.pages.dev/). From September 2025 to August 2026, I will be a visiting scholar at the National University of Singapore (NUS) <img src="./images/nus.png" style="width: 2.7em;">.
+Hi! I’m Jiawei Liu (刘嘉威), currently an Associate Research Fellow with the Department of Automation, University of Science and Technology of China (中国科学技术大学), working with [Prof. Zheng-Jun Zha](https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm) at [Multimodal Intelligence Lab (多模态智能实验室)](https://zhas-group.pages.dev/). 
+
+<!-- From September 2025 to August 2026, I will be a visiting scholar at the National University of Singapore (NUS) <img src="./images/nus.png" style="width: 2.7em;">, hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/). -->
 
 I received the B.S. degree from Hefei University of Technology (HFUT) in 2013, and the Ph.D. degree from the University of Science and Technology of China (USTC) in 2019. During my Ph.D., I worked at [Microsoft Research Asia (MSRA)](https://www.msra.cn/) <img src="./images/microsoft.png" style="width: 4.5em;"> as a research intern under the supervision of [Prof. Tao Mei](https://taomei.me/) from  October 2016 to January 2017. My research interests span Computer Vision, Multimedia Analysis, and Deep Learning,  with a particular focus on Human-Centric Visual Understanding, Fake Media Content Analysis, and Large Vision-Language Models, <em>etc</em>. I have published over 40 papers <a href='https://scholar.google.com/citations?user=sR7Sf2YAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fjiaweiliu92%2Fjiaweiliu92.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international AI journals and conferences.
 
@@ -129,7 +131,7 @@ I am currently looking for highly motivated graduate students who are passionate
 # 📖 Experiences
 **Work Experiences:**
 - *2021.12 - Present*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
-- *2025.09 - 2026.08*, Visiting Scholar, <span style="color:red">NUS</span>, Hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/)
+<!-- - *2025.09 - 2026.08*, Visiting Scholar, <span style="color:red">NUS</span>, Hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/) -->
 - *2019.10 - 2021.11*, Postdocral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and [Prof. Yongdong Zhang](https://imcc.ustc.edu.cn/main.htm)
 - *2019.08 - 2019.10*, Researcher, <span style="color:red">JD AILab</span>, Working with Prof. Tao Mei and [Prof. Wu Liu](https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm)
 - *2016.10 - 2017.01*, Research Intern, <span style="color:red">MSRA</span>, Under the supervision of Prof. Tao Mei
