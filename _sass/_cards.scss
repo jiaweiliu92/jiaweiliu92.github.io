@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Card Styles
+   ========================================================================== */
+
+.card {
+  background-color: #fff; /* 背景色为白色 */
+  border-radius: 8px; /* 轻微的圆角 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 柔和的阴影 */
+  margin-bottom: 1.5em; /* 卡片之间的间距 */
+  overflow: hidden; /* 确保内容遵守圆角 */
+  padding: 1.5em; /* 内部填充 */
+  transition: all 0.3s ease-in-out; /* 悬停效果的平滑过渡 */
+
+  &:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* 悬停时阴影稍大 */
+    transform: translateY(-3px); /* 悬停时卡片略微上浮 */
+  }
+
+  .card-header {
+    font-size: $type-size-4; /* 调整卡片内标题的字体大小 */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: $primary-color; /* 使用您的主色调作为卡片标题颜色 */
+  }
+
+  .card-content {
+    font-size: $type-size-6; /* 调整卡片内内容的字体大小 */
+    line-height: 1.6;
+
+    p, ul, ol {
+      margin-bottom: 0.8em;
+    }
+
+    li {
+      margin-bottom: 0.4em;
+    }
+  }
+
+  /* 可选：用于后续将内容组织成网格布局 */
+  &.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em; /* 网格项之间的间距 */
+  }
+
+  .card-grid-item {
+    flex: 1 1 calc(50% - 1.5em); /* 在较大屏幕上每行两个项目 */
+    @include breakpoint($medium) {
+      flex: 1 1 calc(33.333% - 1.5em); /* 在较大屏幕上每行三个项目 */
+    }
+    @include breakpoint($large) {
+      flex: 1 1 calc(25% - 1.5em); /* 在超大屏幕上每行四个项目 */
+    }
+  }
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr; /* 默认单列 */
+    gap: 1.5em; /* 网格项之间的间距 */
+    margin-top: 1.5em;
+
+    @include breakpoint($small) {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 响应式网格布局 */
+    }
+}
