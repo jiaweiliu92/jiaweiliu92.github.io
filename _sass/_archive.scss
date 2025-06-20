@@ -90,6 +90,7 @@
    ========================================================================== */
 
 .list__item {
+  /* Existing styles (现有样式) */
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
@@ -105,7 +106,27 @@
   .page__meta {
     margin: 0 0 4px;
   }
+
+  /* New card-style additions (新增的卡片样式) */
+  margin-bottom: 1em; /* 在每张卡片之间添加垂直间距 */
+  padding: 1em; /* 添加内部填充，使内容不紧贴卡片边缘 */
+  background-color: #ffffff; /* 卡片背景色设为白色 */
+  border: 1px solid $border-color; /* 为每张卡片添加细微边框 */
+  border-radius: $border-radius; /* 卡片圆角，视觉效果更柔和 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 柔和的阴影，增加深度感 */
+  transition: all 0.3s ease-in-out; /* 鼠标悬停效果的平滑过渡 */
+
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* 鼠标悬停时阴影更明显 */
+    transform: translateY(-3px); /* 鼠标悬停时卡片轻微上浮效果 */
+  }
+
+  /* Adjustments for nested lists within list items (e.g., publication details) (列表项内嵌套列表（如出版物详情）的调整) */
+  ul {
+    padding-inline-start: 1em; /* 减少嵌套列表的内边距 */
+  }
 }
+
 
 
 /*
