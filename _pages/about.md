@@ -27,7 +27,7 @@ I am currently looking for highly motivated graduate students who are passionate
 # 🔥 News
 - \[*2025.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Wei Wu (吴蔚)</span> on earning her Ph.D. degree! 
 - \[*2025.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Hao Tong (童浩)</span> on earning his Master’s degree!  
-- \[*2025.04*\]: &nbsp;🎉🎉 One paper on image forgery detection and localizationn is accepted by <span style="color:skyblue">IJCAI</span> 2025. 
+- \[*2025.04*\]: &nbsp;🎉🎉 One paper on image forgery detection and localization is accepted by <span style="color:skyblue">IJCAI</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">TIFS</span> 2025.
@@ -82,7 +82,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``WWW 2024`` [ESCNet: Entity-enhanced and Stance Checking Network for Multi-modal Fact-Checking](https://dl.acm.org/doi/abs/10.1145/3589334.3645455), Fanrui Zhang, **Jiawei Liu**, Jingyi Xie, Qiang Zhang, Yongchao Xu, Zheng-Jun Zha [![](https://img.shields.io/github/stars/zfr00/ESCNet?style=social&label=Code+Stars)](https://github.com//zfr00/ESCNet)
 - ``IEEE TIFS 2023`` [Adaptive Texture and Spectrum Clue Mining for Generalizable Face Forgery Detection](https://ieeexplore.ieee.org/abstract/document/10364845), **Jiawei Liu**, Jingyi Xie, Yang Wang, Zheng-Jun Zha
 - ``ACM MM 2023`` [Hierarchical Semantic Enhancement Network for Multimodal Fake News Detection](https://dl.acm.org/doi/abs/10.1145/3581783.3612423), Qiang Zhang, **Jiawei Liu**, Fanrui Zhang, Jingyi Xie, Zheng-Jun Zha
-- ``ACM MM 2023`` [ECENet: Explainable and Context-Enhanced Network for Muti-modal Fact verification](https://dl.acm.org/doi/abs/10.1145/3581783.3612183), Fanrui Zhang, **Jiawei Liu**, Qiang Zhang, Esther Sun, Jingyi Xie, Zheng-Jun Zha
+- ``ACM MM 2023`` [ECENet: Explainable and Context-Enhanced Network for Multi-modal Fact verification](https://dl.acm.org/doi/abs/10.1145/3581783.3612183), Fanrui Zhang, **Jiawei Liu**, Qiang Zhang, Esther Sun, Jingyi Xie, Zheng-Jun Zha
 - ``ARXIV 2023`` [Knowledge-enhanced Hierarchical Information Correlation Learning for Multi-modal Rumor Detection](https://arxiv.org/abs/2306.15946), **Jiawei Liu**, Jingyi Xie, Fanrui Zhang, Qiang Zhang, Zheng-Jun Zha
 - `De-Factify2 2023` [Unimodal Feature-Enhanced and Cross-Modal Correlation Learning for Multi-Modal Fact Verification](https://ceur-ws.org/Vol-3555/paper16.pdf), Fanrui Zhang, Qiang Zhang, **Jiawei Liu Liu**, Sun Esther
 - `CVPR 2023` [Edge-Aware Regional Message Passing Controller for Image Forgery Localization](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Edge-Aware_Regional_Message_Passing_Controller_for_Image_Forgery_Localization_CVPR_2023_paper.html), Dong Li, Jiaying Zhu, Menglu Wang, **Jiawei Liu**, Xueyang Fu, Zheng-Jun Zha
@@ -130,7 +130,7 @@ I am currently looking for highly motivated graduate students who are passionate
 **Work Experiences:**
 - *2021.12 - Present*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
 - *2025.09 - 2026.08*, Visiting Scholar, <span style="color:red">NUS</span>, Hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/)
-- *2019.10 - 2021.11*, Postdocral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and [Prof. Yongdong Zhang](https://imcc.ustc.edu.cn/main.htm)
+- *2019.10 - 2021.11*, Postdoctoral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and [Prof. Yongdong Zhang](https://imcc.ustc.edu.cn/main.htm)
 - *2019.08 - 2019.10*, Researcher, <span style="color:red">JD AILab</span>, Working with Prof. Tao Mei and [Prof. Wu Liu](https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm)
 - *2016.10 - 2017.01*, Research Intern, <span style="color:red">MSRA</span>, Under the supervision of Prof. Tao Mei
 
