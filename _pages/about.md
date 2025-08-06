@@ -153,7 +153,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2025.01 - 2026.12*, USTC Research Funds of the Double First-Class Initiative, Key Participant (校融合专项基金项目, 参与)
 - *2020.11 - 2023.10*, National Key R&D Program of China, Key Participant (科技创新2030-"新一代人工智能"重大项目, 参与)
 - *2020.01 - 2023.12*, Joint Funds of the National Natural Science Foundation of China, Key Participant (基金委联合重点基金项目, 参与)
-- *2017.01 - 2021.12*，National Key R&D Program of China, Key Participant (国家重点研发计划课题, 参与)
+- *2017.01 - 2021.12*, National Key R&D Program of China, Key Participant (国家重点研发计划课题, 参与)
 
 <span class='anchor' id='professional-activities'></span>
 # 📸 Professional Activities
