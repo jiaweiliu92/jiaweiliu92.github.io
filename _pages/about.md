@@ -169,6 +169,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
 - [Member of CSIG Technical Committee on Multimedia](http://mm.csig.org.cn/?page_id=263 )
 - Member of CSIG Technical Committee on Digital Media Forensics and Security
+- Member of CCF Technical Committee on Multimedia Technology
 
 **Journal Reviewer:**
 - IEEE Transactions on Pattern Analysis and Machine Intelligence
