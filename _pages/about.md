@@ -25,6 +25,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- \[*2025.09*\]: &nbsp;🎉🎉 One paper on fake news detection is accepted by <span style="color:skyblue">TKDE</span> 2025.
 - \[*2025.09*\]: &nbsp;✈️✈️ Started as a visiting scholar at the <span style="color:forestgreen">National University of Singapore</span>.
 - \[*2025.07*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ACM MM</span> 2025. 
 - \[*2025.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Wei Wu (吴蔚)</span> on earning her Ph.D. degree! 
