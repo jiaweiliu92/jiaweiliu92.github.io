@@ -82,6 +82,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``ACM MM 2016`` [Multi-Scale Triplet CNN for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/2964284.2967209), **Jiawei Liu**, Zheng-Jun Zha, QI Tian, Dong Liu, Ting Yao, Qiang Ling, Tao Mei
 
 ## 🌱 Fake Media Content Analysis
+- ``IEEE TKDE 2025`` [Towards Effective and Transferable Detection for Multi-modal Fake News in the Social Media Stream](https://ieeexplore.ieee.org/document/11159538), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
 - `IJCAI 2025` [Learnable Frequency Decomposition for Image Forgery Detection and Localization](https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/588.pdf), Dong Li, Jiaying Zhu, Yidi Liu, Xin Lu, Xueyang Fu, **Jiawei Liu**, Aiping Liu, Zheng-Jun Zha
 - `ECCV 2024` [Noise-assisted Prompt Learning for Image Forgery Detection and Localization](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01688.pdf), Dong Li, Jiaying Zhu, Xueyang Fu, Xun Guo, Yidi Liu, Gang Yang, **Jiawei Liu**, Zheng-Jun Zha
 - `IJCAI 2024` [Natural Language-centered Inference Network for Multi-modal Fake News Detection](https://www.ijcai.org/proceedings/2024/281), Qiang Zhang, **Jiawei Liu**, Fanrui Zhang, Jingyi Xie, Zheng-Jun Zha [![](https://img.shields.io/github/stars/juices6/NLIN?style=social&label=Code+Stars)](https://github.com//juices6/NLIN)
