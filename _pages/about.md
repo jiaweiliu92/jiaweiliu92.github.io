@@ -25,6 +25,8 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- \[*2025.04*\]: &nbsp;🎉🎉 One paper on explainable video misinformation detection is accepted by <span style="color:skyblue">NIPS</span> 2025. 
+- \[*2025.04*\]: &nbsp;🎉🎉 One paper on lifelong multimodal editing is accepted by <span style="color:skyblue">NIPS</span> 2025. 
 - \[*2025.09*\]: &nbsp;🎉🎉 One paper on fake news detection is accepted by <span style="color:skyblue">IEEE TKDE</span> 2025.
 - \[*2025.09*\]: &nbsp;✈️✈️ Started as a visiting scholar at the <span style="color:forestgreen">National University of Singapore</span>.
 - \[*2025.07*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ACM MM</span> 2025. 
