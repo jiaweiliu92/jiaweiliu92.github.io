@@ -25,6 +25,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- \[*2025.10*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:skyblue">IJCV</span> 2025. 
 - \[*2025.09*\]: &nbsp;🎉🎉 One paper on explainable video misinformation detection is accepted by <span style="color:skyblue">NeurIPS</span> 2025. 
 - \[*2025.09*\]: &nbsp;🎉🎉 One paper on multimodal knowledge editing is accepted by <span style="color:skyblue">NeurIPS</span> 2025. 
 - \[*2025.09*\]: &nbsp;🎉🎉 One paper on fake news detection is accepted by <span style="color:skyblue">IEEE TKDE</span> 2025.
