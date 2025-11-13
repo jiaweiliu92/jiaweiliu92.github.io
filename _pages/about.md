@@ -52,7 +52,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 ## 📚 Human-Centric Visual Understanding
 - ``ACM MM 2025`` [Dual Uncertainty-Guided Feature Alignment Learning for Text-Based Person Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3755063),  Yufei Zheng, **Jiawei Liu**, Bingyu Hu, Zikun Wei, Yong Wu, Zheng-Jun Zha
-- ``ARXIV 2025`` [Occlusion-Guided Feature Purification Learning via Reinforced Knowledge Distillation for Occluded Person Re-Identification](https://arxiv.org/pdf/2507.08520?), Yufei Zheng, Wenjun Wang, Wenjun Gan, **Jiawei Liu**
+- ``IJCN 2025`` [Occlusion-Guided Feature Purification Learning via Reinforced Knowledge Distillation for Occluded Person Re-Identification](https://arxiv.org/pdf/2507.08520?), Yufei Zheng, Wenjun Wang, Wenjun Gan, **Jiawei Liu**
 - ``CVM 2025`` [Multi-granularity and Multi-modal Prompt Learning for Person Re-Identification](https://link.springer.com/chapter/10.1007/978-981-96-5815-2_10), Hao Tong, **Jiawei Liu**, Yong Wu, Guozhi Zhao, Fanrui Zhang, Zheng-Jun Zha
 - ``AAAI 2025`` [HOIMamba: Efficient Mamba-based Disentangled Progressive Learning for HOI Detection](https://ojs.aaai.org/index.php/AAAI/article/view/32972), Yongchao Xu, **Jiawei Liu**, Sen Tao, Qiang Zhang, Zheng-Jun Zha
 - ``IEEE TIFS 2025`` [Advancing Visible-Infrared Person Re-Identification: Synergizing Visual-Textual Reasoning and Cross-Modal Feature Alignment](https://ieeexplore.ieee.org/document/10879282), Yuxuan Qiu, Liyang Wang, Wei Song, **Jiawei Liu**, Zhiping Shi, Na Jiang
