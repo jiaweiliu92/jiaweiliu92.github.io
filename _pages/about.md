@@ -193,6 +193,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - IEEE Transactions on Emerging Topics in Computational Intelligence
 - IEEE Transactions on Neural Networks and Learning Systems
 - IEEE Transactions on Circuits and Systems for Video Technology
+- IEEE Transactions on Industrial Informatics
 - ACM Transactions on Data Science
 - ACM Transactions on Multimedia Computing Communications and Applications
 - Neurocomputing
