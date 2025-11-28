@@ -63,6 +63,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``IJCV 2024`` [Exert Diversity and Mitigate Bias: Domain Generalizable Person Re-identification with a Comprehensive Benchmark](https://link.springer.com/article/10.1007/s11263-024-02124-5), Bingyu Hu, **Jiawei Liu**, Yufei Zheng, Kecheng Zheng, Zheng-Jun Zha
 - `MMM 2024` [Cross-Modal Semantic Alignment Learning for Text-Based Person Search](https://link.springer.com/chapter/10.1007/978-3-031-53305-1_16), Wenjun Gan, **Jiawei Liu**, Yangchun Zhu, Yong Wu, Guozhi Zhao, Zheng-Jun Zha
 - ``IEEE TMM 2023`` [Unleashing Knowledge Potential of Source Hypothesis for Source-Free Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/10319072), Bingyu Hu, **Jiawei Liu**, Kecheng Zheng, Zheng-Jun Zha
+- - ``PAIN 2023`` [Deep Learning–guided Postoperative Pain Assessment in Children](https://journals.lww.com/pain/fulltext/2023/09000/deep_learning_guided_postoperative_pain_assessment.16.aspx), Jihong Fang, Wei Wu, **Jiawei Liu**, Sicheng Zhang
 - ``AAAI 2022`` [Debiased Batch Normalization via Gaussian Process for Generalizable Person Re-identification](https://ojs.aaai.org/index.php/AAAI/article/view/20065), **Jiawei Liu**, Zhipeng Huang, Liang Li, Kecheng Zheng, Zheng-Jun Zha
 - ``AAAI 2022`` [Modality-Adaptive Mixup and Invariant Decomposition for RGB-Infrared Person Re-identification](https://ojs.aaai.org/index.php/AAAI/article/view/19987), Zhipeng Huang, **Jiawei Liu**, Liang Li, Kecheng Zheng, Zheng-Jun Zha
 - ``CVPR 2022`` [Temporal Complementarity-Guided Reinforcement Learning for Image-to-Video Person Re-Identification](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_Temporal_Complementarity-Guided_Reinforcement_Learning_for_Image-to-Video_Person_Re-Identification_CVPR_2022_paper.pdf), Wei Wu, **Jiawei Liu**, Kecheng Zheng, Qibin Sun, Zheng-Jun Zha
@@ -110,10 +111,8 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``CVPR 2025`` [Benchmarking Large Vision-Language Models via Directed Scene Graph](https://arxiv.org/pdf/2412.08614), Fan Lu, Wei Wu, Kecheng Zheng, Shuailei Ma, Biao Gong, **Jiawei Liu**, Wei Zhai, Cao Yang, Yujun Shen, Zheng-Jun Zha \| [**Project**](https://github.com/LuFan31/CompreCap/) [![](https://img.shields.io/github/stars/LuFan31/CompreCap?style=social&label=Code+Stars)](https://github.com/LuFan31/CompreCap)
 - `ARXIV 2024` [TagAlign: Improving Vision-Language Alignment with Multi-Tag Classification](https://arxiv.org/abs/2312.14149), Qinying Liu, Wei Wu, Kecheng Zheng, Zhan Tong, **Jiawei Liu**, Yu Liu, Wei Chen, Zilei Wang, Yujun Shen \| [**Project**](https://qinying-liu.github.io/Tag-Align/) [![](https://img.shields.io/github/stars/Qinying-Liu/TagAlign?style=social&label=Code+Stars)](https://github.com/Qinying-Liu/TagAlign)
 - ``ICCV 2023`` [Regularized Mask Tuning: Uncovering Hidden Knowledge in Pre-trained Vision-Language Models](https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023_paper.pdf), Kecheng Zheng, Wei Wu, Ruili Feng, Kai Zhu, **Jiawei Liu**, Deli Zhao, Zheng-Jun Zha, Wei Chen, Yujun Shen \| [**Project**](https://wuw2019.github.io/R-AMT/) [![](https://img.shields.io/github/stars/wuw2019/R-AMT?style=social&label=Code+Stars)](https://github.com/wuw2019/R-AMT)
-
-## 🎼 Others
-- ``PAIN 2023`` [Deep Learning–guided Postoperative Pain Assessment in Children](https://journals.lww.com/pain/fulltext/2023/09000/deep_learning_guided_postoperative_pain_assessment.16.aspx), Jihong Fang, Wei Wu, **Jiawei Liu**, Sicheng Zhang
 - ``ACM TOMM 2019`` [Spatiotemporal-Textual Co-Attention Network for Video Question Answering](https://dl.acm.org/doi/abs/10.1145/3320061), Zheng-Jun Zha, **Jiawei Liu**, Tianhao Yang, Yongdong Zhang
+
 
 <span class='anchor' id='chinese-patents'></span>
 # 💬 Chinese Patents
