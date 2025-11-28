@@ -53,7 +53,7 @@ I am currently looking for highly motivated graduate students who are passionate
 # 📝 Publications
 
 ## 📚 Human-Centric Visual Understanding
-- ``ACM MM 2025`` [Dual Uncertainty-Guided Feature Alignment Learning for Text-Based Person Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3755063),  Yufei Zheng, **Jiawei Liu**, Bingyu Hu, Zikun Wei, Yong Wu, Zheng-Jun Zha
+- ``ACM MM 2025`` [Dual Uncertainty-Guided Feature Alignment Learning for Text-Based Person Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3755063), Yufei Zheng, **Jiawei Liu**, Bingyu Hu, Zikun Wei, Yong Wu, Zheng-Jun Zha
 - ``IJCN 2025`` [Occlusion-Guided Feature Purification Learning via Reinforced Knowledge Distillation for Occluded Person Re-Identification](https://www.ffspub.com/index.php/jicn/article/view/31), Yufei Zheng, Yong Wu, **Jiawei Liu**, Wenjun Wang, Wenjun Gan
 - ``CVM 2025`` [Multi-granularity and Multi-modal Prompt Learning for Person Re-Identification](https://link.springer.com/chapter/10.1007/978-981-96-5815-2_10), Hao Tong, **Jiawei Liu**, Yong Wu, Guozhi Zhao, Fanrui Zhang, Zheng-Jun Zha
 - ``AAAI 2025`` [HOIMamba: Efficient Mamba-based Disentangled Progressive Learning for HOI Detection](https://ojs.aaai.org/index.php/AAAI/article/view/32972), Yongchao Xu, **Jiawei Liu**, Sen Tao, Qiang Zhang, Zheng-Jun Zha
@@ -89,7 +89,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``ACM MM 2016`` [Multi-Scale Triplet CNN for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/2964284.2967209), **Jiawei Liu**, Zheng-Jun Zha, QI Tian, Dong Liu, Ting Yao, Qiang Ling, Tao Mei
 
 ## 🌱 Fake Media Content Analysis
-- ``NeurIPS 2025`` [Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning](https://openreview.net/pdf?id=hdJXzKZjY9), Fanrui Zhang, Dian Li, Qiang Zhang, Chenjun, sinbadliu, Junxiong Lin, Jiahong Yan, **Jiawei Liu**, Zheng-Jun Zha
+- ``NeurIPS 2025`` [Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning](https://arxiv.org/pdf/2505.16836), Fanrui Zhang, Dian Li, Qiang Zhang, Chenjun, sinbadliu, Junxiong Lin, Jiahong Yan, **Jiawei Liu**, Zheng-Jun Zha
 - ``IEEE TKDE 2025`` [Towards Effective and Transferable Detection for Multi-modal Fake News in the Social Media Stream](https://ieeexplore.ieee.org/document/11159538), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
 - ``IJCAI 2025`` [Learnable Frequency Decomposition for Image Forgery Detection and Localization](https://www.ijcai.org/proceedings/2025/0152.pdf), Dong Li, Jiaying Zhu, Yidi Liu, Xin Lu, Xueyang Fu, **Jiawei Liu**, Aiping Liu, Zheng-Jun Zha
 - ``ECCV 2024`` [Noise-assisted Prompt Learning for Image Forgery Detection and Localization](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01688.pdf), Dong Li, Jiaying Zhu, Xueyang Fu, Xun Guo, Yidi Liu, Gang Yang, **Jiawei Liu**, Zheng-Jun Zha
