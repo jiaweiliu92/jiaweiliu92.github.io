@@ -91,7 +91,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 ## 🌱 Fake Media Content Analysis
 - ``NeurIPS 2025`` [Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning](https://arxiv.org/pdf/2505.16836), Fanrui Zhang, Dian Li, Qiang Zhang, Chenjun, sinbadliu, Junxiong Lin, Jiahong Yan, **Jiawei Liu**, Zheng-Jun Zha [![](https://img.shields.io/github/stars/zfr00/fact-r1?style=social&label=Code+Stars)](https://github.com/zfr00/fact-r1)
-- ``IEEE TKDE 2025`` [Towards Effective and Transferable Detection for Multi-modal Fake News in the Social Media Stream](https://ieeexplore.ieee.org/document/11159538), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
+- ``IEEE TKDE 2025`` [Toward Effective and Transferable Detection for Multi-modal Fake News in the Social Media Stream](https://ieeexplore.ieee.org/document/11159538), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
 - ``IJCAI 2025`` [Learnable Frequency Decomposition for Image Forgery Detection and Localization](https://www.ijcai.org/proceedings/2025/0152.pdf), Dong Li, Jiaying Zhu, Yidi Liu, Xin Lu, Xueyang Fu, **Jiawei Liu**, Aiping Liu, Zheng-Jun Zha
 - ``ECCV 2024`` [Noise-assisted Prompt Learning for Image Forgery Detection and Localization](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01688.pdf), Dong Li, Jiaying Zhu, Xueyang Fu, Xun Guo, Yidi Liu, Gang Yang, **Jiawei Liu**, Zheng-Jun Zha
 - ``IJCAI 2024`` [Natural Language-centered Inference Network for Multi-modal Fake News Detection](https://www.ijcai.org/proceedings/2024/281), Qiang Zhang, **Jiawei Liu**, Fanrui Zhang, Jingyi Xie, Zheng-Jun Zha [![](https://img.shields.io/github/stars/juices6/NLIN?style=social&label=Code+Stars)](https://github.com//juices6/NLIN)
