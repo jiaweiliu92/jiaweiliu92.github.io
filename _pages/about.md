@@ -54,6 +54,7 @@ I am currently looking for highly motivated graduate students who are passionate
 # 📝 Publications
 
 ## 📚 Human-Centric Visual Understanding
+- ``IJCV 2026`` [Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection](https://rdcu.be/eV7ys), **Jiawei Liu**, Yongchao Xu, Sen Tao, Yuexuan Qi, Zheng-Jun Zha
 - ``ACM MM 2025`` [Dual Uncertainty-Guided Feature Alignment Learning for Text-Based Person Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3755063), Yufei Zheng, **Jiawei Liu**, Bingyu Hu, Zikun Wei, Yong Wu, Zheng-Jun Zha
 - ``IJCN 2025`` [Occlusion-Guided Feature Purification Learning via Reinforced Knowledge Distillation for Occluded Person Re-Identification](https://www.ffspub.com/index.php/jicn/article/view/31), Yufei Zheng, Yong Wu, **Jiawei Liu**, Wenjun Wang, Wenjun Gan
 - ``CVM 2025`` [Multi-granularity and Multi-modal Prompt Learning for Person Re-Identification](https://link.springer.com/chapter/10.1007/978-981-96-5815-2_10), Hao Tong, **Jiawei Liu**, Yong Wu, Guozhi Zhao, Fanrui Zhang, Zheng-Jun Zha
