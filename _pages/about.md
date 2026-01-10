@@ -54,7 +54,6 @@ I am currently looking for highly motivated graduate students who are passionate
 # 📝 Publications
 
 ## 📚 Human-Centric Visual Understanding
-- ``IJCV 2025`` [Boosting Active Prompt Learning via Discriminative Self-Training Dual-Curriculum Learning](https://link.springer.com/article/10.1007/s11263-025-02641-x), Sen Tao, **Jiawei Liu**, Peng Zeng, Yongchao Xu, Bingyu Hu, Zheng-Jun Zha
 - ``IJCV 2025`` [Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection](https://link.springer.com/article/10.1007/s11263-025-02616-y), **Jiawei Liu**, Yongchao Xu, Sen Tao, Yuexuan Qi, Zheng-Jun Zha
 - ``ACM MM 2025`` [Dual Uncertainty-Guided Feature Alignment Learning for Text-Based Person Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3755063), Yufei Zheng, **Jiawei Liu**, Bingyu Hu, Zikun Wei, Yong Wu, Zheng-Jun Zha
 - ``IJCN 2025`` [Occlusion-Guided Feature Purification Learning via Reinforced Knowledge Distillation for Occluded Person Re-Identification](https://www.ffspub.com/index.php/jicn/article/view/31), Yufei Zheng, Yong Wu, **Jiawei Liu**, Wenjun Wang, Wenjun Gan
@@ -109,6 +108,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - `ARXIV 2022` [Label Noise-Resistant Mean Teaching for Weakly Supervised Fake News Detection](https://arxiv.org/abs/2206.12260), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
 
 ## 🚀 Large Vision-Language Models
+- ``IJCV 2025`` [Boosting Active Prompt Learning via Discriminative Self-Training Dual-Curriculum Learning](https://link.springer.com/article/10.1007/s11263-025-02641-x), Sen Tao, **Jiawei Liu**, Peng Zeng, Yongchao Xu, Bingyu Hu, Zheng-Jun Zha
 - `NeurIPS 2025` [Reliable Lifelong Multimodal Editing: Conflict-Aware Retrieval Meets Multi-Level Guidance](https://openreview.net/attachment?id=hdJXzKZjY9&name=pdf), Qiang Zhang, Fanrui Zhang, **Jiawei Liu**, Ming Hu, Junjun He, Zheng-Jun Zha
 - `CVPR 2025` [Hierarchical Knowledge Prompt Tuning for Multi-task Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Hierarchical_Knowledge_Prompt_Tuning_for_Multi-task_Test-Time_Adaptation_CVPR_2025_paper.html), Qiang Zhang, Mengsheng Zhao, **Jiawei Liu**, Fanrui Zhang, Yongchao Xu, Zheng-Jun Zha
 - ``CVPR 2025`` [Benchmarking Large Vision-Language Models via Directed Scene Graph](https://arxiv.org/pdf/2412.08614), Fan Lu, Wei Wu, Kecheng Zheng, Shuailei Ma, Biao Gong, **Jiawei Liu**, Wei Zhai, Cao Yang, Yujun Shen, Zheng-Jun Zha \| [**Project**](https://github.com/LuFan31/CompreCap/) [![](https://img.shields.io/github/stars/LuFan31/CompreCap?style=social&label=Code+Stars)](https://github.com/LuFan31/CompreCap)
