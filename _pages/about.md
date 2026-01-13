@@ -27,7 +27,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
-- \[*2025.12*\]: &nbsp;🎉🎉 One paper on multimodal fact-checking is accepted by <span style="color:skyblue">WWW</span> 2026. 
+- \[*2026.01*\]: &nbsp;🎉🎉 One paper on multimodal fact-checking is accepted by <span style="color:skyblue">WWW</span> 2026. 
 - \[*2025.12*\]: &nbsp;🎉🎉 One paper on class incremental learning is accepted by <span style="color:skyblue">CVM</span> 2026. 
 - \[*2025.11*\]: &nbsp;🎉🎉 One paper on zero-shot HOI detection is accepted by <span style="color:skyblue">IJCV</span> 2025. 
 - \[*2025.11*\]: &nbsp;🎉🎉 One paper on occluded person re-identification is accepted by <span style="color:skyblue">JICN</span> 2025. 
