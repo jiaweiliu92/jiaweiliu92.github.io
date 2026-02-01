@@ -204,6 +204,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - IEEE Transactions on Neural Networks and Learning Systems
 - IEEE Transactions on Circuits and Systems for Video Technology
 - IEEE Transactions on Industrial Informatics
+- IEEE Transactions on Computational Social Systems
 - IEEE Transactions on Consumer Electronics
 - ACM Transactions on Data Science
 - ACM Transactions on Multimedia Computing Communications and Applications
