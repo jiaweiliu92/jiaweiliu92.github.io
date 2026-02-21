@@ -27,6 +27,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:skyblue">CVPR</span> 2026. 
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:skyblue">ICLR</span> 2026. 
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on multimodal fact-checking is accepted by <span style="color:skyblue">WWW</span> 2026. 
 - \[*2025.12*\]: &nbsp;🎉🎉 One paper on class incremental learning is accepted by <span style="color:skyblue">CVM</span> 2026. 
