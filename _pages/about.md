@@ -23,7 +23,7 @@ I received the B.S. degree from Hefei University of Technology (HFUT) in 2013, a
 
 I am currently looking for highly motivated graduate students who are passionate about computer vision, deep learning, and related fields. If you have a solid academic background in mathematics, machine learning, or programming, and are eager to engage in innovative research, I warmly invite you to apply to join my research group. If you are also interested in exploring opportunities for **academic collaboration**, please feel free to contact me at [jwliu6@ustc.edu.cn](mailto:jwliu6@ustc.edu.cn).
 
-🌟🌟 等的就是你，招收本科远程合作实习生，研究方向涵盖Human-Centric Visual Understanding、Multimodal Large Language Model、AI4Science等。欢迎通过邮箱联系，并请附上个人简历！
+🌟🌟 等的就是你，招收本科远程合作实习生，研究方向涵盖Human-Centric Visual Understanding、Multimodal Large Language Model、Embodied AI等。欢迎通过邮箱联系，并请附上个人简历！
 
 <span class='anchor' id='news'></span>
 # 🔥 News
