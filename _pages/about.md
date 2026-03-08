@@ -46,12 +46,14 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2025.04*\]: &nbsp;🎉🎉 One paper on image forgery detection and localization is accepted by <span style="color:skyblue">IJCAI</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
+- \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
 
 <details style="margin-top: 10px;">
-  <summary style="cursor: pointer; color: #007bff; font-weight: bold; outline: none;">[+] Show More</summary>
-  <div markdown="1">
-
-- \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
+  <summary style="cursor: pointer; color: #555555; font-weight: bold; outline: none; margin-left: 18px; text-decoration: underline; text-decoration-style: dashed; text-underline-offset: 4px;">
+    Show More ...
+  </summary>
+  <div markdown="1" style="margin-top: 10px;">
+    
 - \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
 - \[*2024.12*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">CVM</span> 2025.
 - \[*2024.12*\]: &nbsp;🎉🎉 One paper on human-object interaction is accepted by <span style="color:skyblue">AAAI</span> 2025. 
