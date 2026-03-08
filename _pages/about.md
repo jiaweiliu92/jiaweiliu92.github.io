@@ -50,7 +50,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <details style="margin-top: 10px;">
   <summary style="cursor: pointer; color: #555555; font-weight: bold; outline: none; margin-left: 16px;">
-    Show More
+    <span style="margin-left: 8px;">Show More</span>
   </summary>
   <div markdown="1" style="margin-top: 10px;">
     
