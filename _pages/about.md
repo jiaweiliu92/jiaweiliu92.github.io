@@ -27,10 +27,6 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
-
-<div class="container" style="border: none; margin-top: 10px;">
-  <div class="header" style="background-color: transparent; color: #007bff; padding: 0; width: fit-content;">[+] Show More</div>
-  <div class="content" markdown="1">
     
 - \[*2026.03*\]: &nbsp;🏛️🏛️ Promoted to Associate Professor (tenured) at <span style="color:forestgreen">USTC</span>.
 - \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:skyblue">CVPR</span> 2026. 
@@ -50,6 +46,11 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2025.04*\]: &nbsp;🎉🎉 One paper on image forgery detection and localization is accepted by <span style="color:skyblue">IJCAI</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
+
+<div class="container" style="border: none; margin-top: 10px;">
+  <div class="header" style="background-color: transparent; color: #007bff; padding: 0; width: fit-content;">[+] Show More</div>
+  <div class="content" markdown="1">
+
 - \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
 - \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
 - \[*2024.12*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">CVM</span> 2025.
