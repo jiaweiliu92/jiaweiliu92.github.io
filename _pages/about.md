@@ -46,14 +46,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2025.04*\]: &nbsp;🎉🎉 One paper on image forgery detection and localization is accepted by <span style="color:skyblue">IJCAI</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
-- \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
-
-<details style="margin-top: 10px;">
-  <summary style="cursor: pointer; color: #555555; font-weight: bold; outline: none; margin-left: 16px;">
-    <span style="margin-left: 8px;">Show More</span>
-  </summary>
-  <div markdown="1" style="margin-top: 10px;">
-    
+- \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.    
 - \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
 - \[*2024.12*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">CVM</span> 2025.
 - \[*2024.12*\]: &nbsp;🎉🎉 One paper on human-object interaction is accepted by <span style="color:skyblue">AAAI</span> 2025. 
@@ -61,9 +54,6 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2024.08*\]: &nbsp;🎉🎉 One paper on image forgery localization is accepted by <span style="color:skyblue">ECCV</span> 2024.
 - \[*2024.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Wenjun Gan (甘文君)</span> on earning her Master’s degree!  
 - \[*2024.04*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ICME</span> 2024.
-
-</div>
-</details>
 
 <span class='anchor' id='publications'></span>
 # 📝 Publications
