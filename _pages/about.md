@@ -47,9 +47,9 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 
-<div class="container" style="border: none; margin-top: 10px;">
-  <div class="header" style="background-color: transparent; color: #007bff; padding: 0; width: fit-content;">[+] Show More</div>
-  <div class="content" markdown="1">
+<details style="margin-top: 10px;">
+  <summary style="cursor: pointer; color: #007bff; font-weight: bold; outline: none;">[+] Show More</summary>
+  <div markdown="1">
 
 - \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
 - \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
@@ -59,8 +59,9 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2024.08*\]: &nbsp;🎉🎉 One paper on image forgery localization is accepted by <span style="color:skyblue">ECCV</span> 2024.
 - \[*2024.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Wenjun Gan (甘文君)</span> on earning her Master’s degree!  
 - \[*2024.04*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ICME</span> 2024.
+
 </div>
-</div>
+</details>
 
 <span class='anchor' id='publications'></span>
 # 📝 Publications
