@@ -49,8 +49,8 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
 
 <details style="margin-top: 10px;">
-  <summary style="cursor: pointer; color: #555555; font-weight: bold; outline: none; margin-left: 18px; text-decoration: underline; text-decoration-style: dashed; text-underline-offset: 4px;">
-    Show More ...
+  <summary style="cursor: pointer; color: #555555; font-weight: bold; outline: none; margin-left: 18px;">
+    Show More
   </summary>
   <div markdown="1" style="margin-top: 10px;">
     
