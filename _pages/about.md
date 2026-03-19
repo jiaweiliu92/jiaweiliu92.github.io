@@ -28,7 +28,7 @@ I am currently looking for highly motivated graduate students who are passionate
 <span class='anchor' id='news'></span>
 # 🔥 News
 
-- \[*2026.03*\]: &nbsp;🏆🏆 Win the Champion of the 2nd Multimodal Deception Detection Competition @<span style="color:skyblue">CVPR</span> 2026.
+- \[*2026.03*\]: &nbsp;🏆🏆 Won the Champion of the 2nd Multimodal Deception Detection Competition @<span style="color:skyblue">CVPR</span> 2026.
 - \[*2026.03*\]: &nbsp;🏛️🏛️ Promoted to Associate Professor (tenured) at <span style="color:forestgreen">USTC</span>.
 - \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:skyblue">CVPR</span> 2026. 
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:skyblue">ICLR</span> 2026. 
