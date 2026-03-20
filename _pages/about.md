@@ -25,9 +25,66 @@ I am currently looking for highly motivated graduate students who are passionate
 
 🌟🌟 等的就是你，招收本科远程合作实习生，研究方向涵盖Human-Centric Visual Understanding、Multimodal Large Language Model、Embodied AI等。欢迎通过邮箱联系，并请附上个人简历！
 
+<style>
+  /* 基础卡片样式 */
+  .academic-card {
+    background-color: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 12px;
+    padding: 25px 30px;
+    margin-bottom: 30px; /* 卡片之间的间距 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* 鼠标悬浮时卡片轻轻浮起 */
+  .academic-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+  }
+
+  /* 消除卡片内最后一个元素的底部多余空白 */
+  .academic-card > ul:last-child,
+  .academic-card > p:last-child,
+  .academic-card > div:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  /* 🌟 给不同模块定义专属的主题色边框 */
+  .theme-blue   { border-left: 6px solid #1a73e8; } /* 学术蓝 */
+  .theme-green  { border-left: 6px solid #198754; } /* 翡翠绿 */
+  .theme-orange { border-left: 6px solid #d35400; } /* 橙红色 */
+  .theme-purple { border-left: 6px solid #6f42c1; } /* 紫色 */
+
+  /* 取消 Markdown 列表自带的底部留白 (针对News) */
+  .recent-news ul, .recent-news p, #history-news ul, #history-news p {
+    margin-bottom: 0 !important;
+  }
+
+  /* 历史折叠按钮 */
+  .view-history-bar {
+    margin-top: 15px;        
+    margin-bottom: 0px;      
+    padding: 8px 15px;       
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6; 
+    border-radius: 6px;      
+    text-align: center;
+    color: #495057;
+    font-weight: 500;        
+    font-size: 14px;         
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .view-history-bar:hover {
+    background-color: #e9ecef;
+    color: #212529;          
+  }
+</style>
+
 <span class='anchor' id='news'></span>
 # 🔥 News
-
+<div class="academic-card theme-orange" markdown="1">
 <div class="recent-news" markdown="1">
 - \[*2026.03*\]: &nbsp;🏆🏆 Won the champion of the 2nd multimodal deception detection competition @<span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026.
 - \[*2026.03*\]: &nbsp;🏛️🏛️ Promoted to Associate Professor (tenured) at <span style="color:#198754; font-weight:500;">USTC</span>.
@@ -64,36 +121,7 @@ I am currently looking for highly motivated graduate students who are passionate
 <div id="toggle-news-btn" class="view-history-bar">
   View History News... ▼
 </div>
-
-<style>
-  /* 👇 核心修复：强制取消 Markdown 列表自带的底部留白 */
-  .recent-news ul, .recent-news p {
-    margin-bottom: 0 !important;
-  }
-  #history-news ul, #history-news p {
-    margin-bottom: 0 !important;
-  }
-
-  /* 按钮恢复正常设置 */
-  .view-history-bar {
-    margin-top: 10px;        /* 恢复正数！现在只需要10px就能完美控制间距 */
-    margin-bottom: 30px;     
-    padding: 8px 15px;       
-    background-color: #f8f9fa;
-    border: 1px solid #dee2e6; 
-    border-radius: 6px;      
-    text-align: center;
-    color: #495057;
-    font-weight: 500;        
-    font-size: 14px;         
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-  .view-history-bar:hover {
-    background-color: #e9ecef;
-    color: #212529;          
-  }
-</style>
+</div>
 
 <script>
   document.getElementById('toggle-news-btn').addEventListener('click', function() {
@@ -116,6 +144,7 @@ I am currently looking for highly motivated graduate students who are passionate
 <span class='anchor' id='publications'></span>
 # 📝 Publications
 
+<div class="academic-card theme-blue" markdown="1">
 ## 📚 Human-Centric Visual Understanding
 - ``IJCV 2025`` [Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection](https://link.springer.com/article/10.1007/s11263-025-02616-y), **Jiawei Liu**, Yongchao Xu, Sen Tao, Yuexuan Qi, Zheng-Jun Zha
 - ``ACM MM 2025`` [Dual Uncertainty-Guided Feature Alignment Learning for Text-Based Person Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3755063), Yufei Zheng, **Jiawei Liu**, Bingyu Hu, Zikun Wei, Yong Wu, Zheng-Jun Zha
@@ -153,7 +182,9 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``ACM MM 2018`` [CA3Net: Contextual-Attentional Attribute-Appearance Network for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/3240508.3240585), **Jiawei Liu**, Zheng-Jun Zha, Hongtao Xie, Zhiwei Xiong, Yongdong Zhang
 - ``PCM 2018`` [Temporal-Contextual Attention Network for Video-Based Person Re-identification](https://link.springer.com/chapter/10.1007/978-3-030-00776-8_14), Di Chen, Zheng-Jun Zha, **Jiawei Liu**, Hongtao Xie, Yongdong Zhang
 - ``ACM MM 2016`` [Multi-Scale Triplet CNN for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/2964284.2967209), **Jiawei Liu**, Zheng-Jun Zha, QI Tian, Dong Liu, Ting Yao, Qiang Ling, Tao Mei
+</div>
 
+<div class="academic-card theme-blue" markdown="1">
 ## 🌱 Fake Media Content Analysis
 - ``NeurIPS 2025`` [Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning](https://arxiv.org/pdf/2505.16836), Fanrui Zhang, Dian Li, Qiang Zhang, Jun Chen, Gang Liu, Junxiong Lin, Jiahong Yan, **Jiawei Liu**, Zheng-Jun Zha [![](https://img.shields.io/github/stars/zfr00/fact-r1?style=social&label=Code+Stars)](https://github.com/zfr00/fact-r1)
 - ``IEEE TKDE 2025`` [Toward Effective and Transferable Detection for Multi-modal Fake News in the Social Media Stream](https://ieeexplore.ieee.org/document/11159538), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
@@ -169,7 +200,9 @@ I am currently looking for highly motivated graduate students who are passionate
 - `CVPR 2023` [Edge-Aware Regional Message Passing Controller for Image Forgery Localization](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Edge-Aware_Regional_Message_Passing_Controller_for_Image_Forgery_Localization_CVPR_2023_paper.html), Dong Li, Jiaying Zhu, Menglu Wang, **Jiawei Liu**, Xueyang Fu, Zheng-Jun Zha
 - `ACM MM 2022` [JPEG Compression-aware Image Forgery Localization](https://dl.acm.org/doi/abs/10.1145/3503161.3547749), Menglu Wang, Xueyang Fu, **Jiawei Liu**, Zheng-Jun Zha
 - `ARXIV 2022` [Label Noise-Resistant Mean Teaching for Weakly Supervised Fake News Detection](https://arxiv.org/abs/2206.12260), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
+</div>
 
+<div class="academic-card theme-blue" markdown="1">
 ## 🚀 Large Vision-Language Models
 - ``ICLR 2026`` [PSP: Prompt-Guided Self-Training Sampling Policy for Active Prompt Learning](https://openreview.net/pdf?id=7D7VLU9227), Sen Tao, Kaiduo Feng, **Jiawei Liu**, Peng Zeng, Yongchao Xu, Yufei Zheng, Zheng-Jun Zha
 - ``IJCV 2025`` [Boosting Active Prompt Learning via Discriminative Self-Training Dual-Curriculum Learning](https://link.springer.com/article/10.1007/s11263-025-02641-x), Sen Tao, **Jiawei Liu**, Peng Zeng, Yongchao Xu, Bingyu Hu, Zheng-Jun Zha
@@ -179,6 +212,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - `ARXIV 2024` [TagAlign: Improving Vision-Language Alignment with Multi-Tag Classification](https://arxiv.org/abs/2312.14149), Qinying Liu, Wei Wu, Kecheng Zheng, Zhan Tong, **Jiawei Liu**, Yu Liu, Wei Chen, Zilei Wang, Yujun Shen \| [**Project**](https://qinying-liu.github.io/Tag-Align/) [![](https://img.shields.io/github/stars/Qinying-Liu/TagAlign?style=social&label=Code+Stars)](https://github.com/Qinying-Liu/TagAlign)
 - ``ICCV 2023`` [Regularized Mask Tuning: Uncovering Hidden Knowledge in Pre-trained Vision-Language Models](https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023_paper.pdf), Kecheng Zheng, Wei Wu, Ruili Feng, Kai Zhu, **Jiawei Liu**, Deli Zhao, Zheng-Jun Zha, Wei Chen, Yujun Shen \| [**Project**](https://wuw2019.github.io/R-AMT/) [![](https://img.shields.io/github/stars/wuw2019/R-AMT?style=social&label=Code+Stars)](https://github.com/wuw2019/R-AMT)
 - ``ACM TOMM 2019`` [Spatiotemporal-Textual Co-Attention Network for Video Question Answering](https://dl.acm.org/doi/abs/10.1145/3320061), Zheng-Jun Zha, **Jiawei Liu**, Tianhao Yang, Yongdong Zhang
+</div>
 
 
 <span class='anchor' id='chinese-patents'></span>
