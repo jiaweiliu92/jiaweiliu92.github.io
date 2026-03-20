@@ -27,7 +27,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
-
+<div class="recent-news" markdown="1">
 - \[*2026.03*\]: &nbsp;🏆🏆 Won the champion of the 2nd multimodal deception detection competition @<span style="color:skyblue">CVPR</span> 2026.
 - \[*2026.03*\]: &nbsp;🏛️🏛️ Promoted to Associate Professor (tenured) at <span style="color:forestgreen">USTC</span>.
 - \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:skyblue">CVPR</span> 2026. 
@@ -48,6 +48,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
+</div>
 
 <div id="history-news" style="display: none;" markdown="1">
 - \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
@@ -64,23 +65,32 @@ I am currently looking for highly motivated graduate students who are passionate
 </div>
 
 <style>
+  /* 👇 核心修复：强制取消 Markdown 列表自带的底部留白 */
+  .recent-news ul, .recent-news p {
+    margin-bottom: 0 !important;
+  }
+  #history-news ul, #history-news p {
+    margin-bottom: 0 !important;
+  }
+
+  /* 按钮恢复正常设置 */
   .view-history-bar {
-    margin-top: 10px;        /* 稍微拉近和上方列表的距离 */
-    margin-bottom: 30px;     /* 留出下方呼吸空间 */
-    padding: 8px 15px;       /* 缩小上下高度，让框变得更精致 */
+    margin-top: 10px;        /* 恢复正数！现在只需要10px就能完美控制间距 */
+    margin-bottom: 30px;     
+    padding: 8px 15px;       
     background-color: #f8f9fa;
-    border: 1px solid #dee2e6; /* 边框颜色稍微软一点 */
-    border-radius: 6px;      /* 圆角稍微软一点，更符合现代UI */
+    border: 1px solid #dee2e6; 
+    border-radius: 6px;      
     text-align: center;
     color: #495057;
-    font-weight: 500;        /* 字体不用太粗，保持优雅 */
-    font-size: 14px;         /* 字体稍微小一点点，起到辅助作用 */
+    font-weight: 500;        
+    font-size: 14px;         
     cursor: pointer;
     transition: all 0.2s ease;
   }
   .view-history-bar:hover {
     background-color: #e9ecef;
-    color: #212529;          /* hover时字体变深，增加互动感 */
+    color: #212529;          
   }
 </style>
 
