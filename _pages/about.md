@@ -48,6 +48,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
+
 <div id="history-news" style="display: none;" markdown="1">
 - \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
 - \[*2024.12*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">CVM</span> 2025.
@@ -64,21 +65,22 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <style>
   .view-history-bar {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    padding: 10px;
+    margin-top: 10px;        /* 稍微拉近和上方列表的距离 */
+    margin-bottom: 30px;     /* 留出下方呼吸空间 */
+    padding: 8px 15px;       /* 缩小上下高度，让框变得更精致 */
     background-color: #f8f9fa;
-    border: 1px solid #e9ecef;
-    border-radius: 8px;
+    border: 1px solid #dee2e6; /* 边框颜色稍微软一点 */
+    border-radius: 6px;      /* 圆角稍微软一点，更符合现代UI */
     text-align: center;
     color: #495057;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 500;        /* 字体不用太粗，保持优雅 */
+    font-size: 14px;         /* 字体稍微小一点点，起到辅助作用 */
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: all 0.2s ease;
   }
   .view-history-bar:hover {
-    background-color: #e2e6ea;
+    background-color: #e9ecef;
+    color: #212529;          /* hover时字体变深，增加互动感 */
   }
 </style>
 
