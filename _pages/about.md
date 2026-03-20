@@ -34,15 +34,24 @@ I am currently looking for highly motivated graduate students who are passionate
     font-weight: 600 !important; /* 让标题稍微加粗一点点，更有层次感 */
   }
 
-  /* 基础卡片样式 */
+  /* 2. 🚀 性能加速版卡片样式 */
   .academic-card {
     background-color: #ffffff;
     border: 1px solid #e1e4e8;
     border-radius: 12px;
     padding: 25px 30px;
-    margin-bottom: 30px; /* 卡片之间的间距 */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+    
+    /* 核心加速：延迟渲染屏幕外的卡片 */
+    content-visibility: auto;
+    contain-intrinsic-size: 400px; 
+
+    /* 简化阴影，减轻 GPU 压力 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+    
+    /* 优化动画：只针对位移，开启硬件加速 */
+    transition: transform 0.2s ease;
+    will-change: transform;
   }
   
   /* 鼠标悬浮时卡片轻轻浮起 */
