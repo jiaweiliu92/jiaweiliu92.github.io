@@ -223,6 +223,8 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='chinese-patents'></span>
 # 💬 Chinese Patents
+
+<div class="academic-card theme-purple" markdown="1">
 - *2026.03* 查正军; **刘嘉威**; 展宏民; 张凡瑞. 基于检索与推理增强大语言模型的多模态事实核查方法. 发明专利. (专利号：CN202610248544.2)
 - *2025.11* 查正军; **刘嘉威**; 张强; 张凡瑞. 基于冲突感知检索和多级协同引导的多模态知识编辑方法. 发明专利. (专利号：CN202511709848.6)
 - *2025.10* 查正军; **刘嘉威**; 郑雨霏. 基于双重不确定性引导特征对齐的文本到图像行人检索方法. 发明专利. (专利号：CN202511451428.2)
@@ -239,6 +241,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2022.10* 查正军; **刘嘉威**; 黄志鹏. 基于模态自适应混合和不变性卷积分解的行人重识别方法. 发明专利. (专利号：CN202210155715.9)
 - *2020.10* 刘武; **刘嘉威**; 梅涛; 郑可成. 检索目标的方法和装置. 发明专利. (专利号：CN202010215923.4)
 - *2019.10* 查正军; **刘嘉威**. 行人再识别数据生成方法. 发明专利. (专利号：CN201910466234.8)
+</div>
 
 <span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
@@ -263,14 +266,14 @@ I am currently looking for highly motivated graduate students who are passionate
 **Work Experiences:**
 - *2026.05 - Present*, Associate Professor, USTC, Collaborating with Prof. Zheng-Jun Zha
 - *2021.12 - 2026.04*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
-- *2025.09 - 2026.08*, Visiting Scholar, <span style="color:red">NUS</span>, Hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/)
+- *2025.09 - 2026.08*, Visiting Scholar, <span style="color:#d35400; font-weight:500;">NUS</span>, Hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/)
 - *2019.10 - 2021.11*, Postdoctoral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and [Prof. Yongdong Zhang](https://imcc.ustc.edu.cn/main.htm)
-- *2019.08 - 2019.10*, Researcher, <span style="color:red">JD AILab</span>, Working with Prof. Tao Mei and [Prof. Wu Liu](https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm)
-- *2016.10 - 2017.01*, Research Intern, <span style="color:red">MSRA</span>, Under the supervision of Prof. Tao Mei
+- *2019.08 - 2019.10*, Researcher, <span style="color:#d35400; font-weight:500;">JD AILab</span>, Working with Prof. Tao Mei and [Prof. Wu Liu](https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm)
+- *2016.10 - 2017.01*, Research Intern, <span style="color:#1a73e8; font-weight:500;">MSRA</span>, Under the supervision of Prof. Tao Mei
 
 **Educations:**
-- *2014.09 - 2019.06*, <span style="color:red">Ph.D.</span> in the Department of Automation, University of Science and Technology of China
-- *2009.08 - 2013.07*, <span style="color:red">B.S.</span> in the Department of Automation, Hefei University of Technology
+- *2014.09 - 2019.06*, <span style="color:#1a73e8; font-weight:500;">Ph.D.</span> in the Department of Automation, University of Science and Technology of China
+- *2009.08 - 2013.07*, <span style="color:#1a73e8; font-weight:500;">B.S.</span> in the Department of Automation, Hefei University of Technology
 </div>
 
 <span class='anchor' id='fundings'></span>
@@ -294,6 +297,8 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='professional-activities'></span>
 # 📸 Professional Activities
+
+<div class="academic-card theme-green" markdown="1">
 **Teaching:**
 - *2022 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2023 Fall*, Graduate Course - Computer Vision (计算机视觉)
@@ -306,7 +311,9 @@ I am currently looking for highly motivated graduate students who are passionate
 - [Member of CSIG Technical Committee on Multimedia](http://mm.csig.org.cn/?page_id=263 )
 - Member of CSIG Technical Committee on Digital Media Forensics and Security
 - Member of CCF Technical Committee on Multimedia Technology
+  </div>
 
+<div class="academic-card theme-blue" markdown="1">
 **Journal Reviewer:**
 - IEEE Transactions on Pattern Analysis and Machine Intelligence
 - International Journal of Computer Vision
@@ -337,3 +344,4 @@ I am currently looking for highly motivated graduate students who are passionate
 
 **Conference Reviewer or Program Committee:**
 - NeurIPS, CVPR, ICCV, ECCV, ICML, ICLR, ACM MM, IJCAI, AAAI, ICME, PRVC, ACCV
+</div>
