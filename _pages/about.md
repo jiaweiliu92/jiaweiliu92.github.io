@@ -292,7 +292,7 @@ I am currently looking for highly motivated graduate students who are passionate
 <span class='anchor' id='professional-activities'></span>
 # 📸 Professional Activities
 
-<div class="academic-card theme-green" markdown="1">
+<div class="academic-card theme-purple" markdown="1">
 **Teaching:**
 - *2022 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2023 Fall*, Graduate Course - Computer Vision (计算机视觉)
