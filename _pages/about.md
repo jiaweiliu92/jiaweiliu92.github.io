@@ -218,6 +218,7 @@ I am currently looking for highly motivated graduate students who are passionate
 <span class='anchor' id='chinese-patents'></span>
 # 💬 Chinese Patents
 
+<div class="academic-card theme-purple" markdown="1">
 - *2026.03* 查正军; **刘嘉威**; 展宏民; 张凡瑞. 基于检索与推理增强大语言模型的多模态事实核查方法. 发明专利. (专利号：CN202610248544.2)
 - *2025.11* 查正军; **刘嘉威**; 张强; 张凡瑞. 基于冲突感知检索和多级协同引导的多模态知识编辑方法. 发明专利. (专利号：CN202511709848.6)
 - *2025.10* 查正军; **刘嘉威**; 郑雨霏. 基于双重不确定性引导特征对齐的文本到图像行人检索方法. 发明专利. (专利号：CN202511451428.2)
@@ -234,10 +235,12 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2022.10* 查正军; **刘嘉威**; 黄志鹏. 基于模态自适应混合和不变性卷积分解的行人重识别方法. 发明专利. (专利号：CN202210155715.9)
 - *2020.10* 刘武; **刘嘉威**; 梅涛; 郑可成. 检索目标的方法和装置. 发明专利. (专利号：CN202010215923.4)
 - *2019.10* 查正军; **刘嘉威**. 行人再识别数据生成方法. 发明专利. (专利号：CN201910466234.8)
+</div>
 
 <span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
 
+<div class="academic-card theme-orange" markdown="1">
 - *2025.10*, First-Class Award of Anhui Provincial Natural Science Award [(3/3)](https://kjt.ah.gov.cn/kjzx/tzgg/123091461.html)
 - *2025.10*, PRCV2025 Workshop: Omni Multi-modal Person Re-identification Challenge (Excellence Award)
 - *2024.07*, ACM MM2024 Workshop: Micro-Action Analysis Grand Challenge ([3rd Place Award](https://sites.google.com/view/micro-action/challenge/winners))
@@ -248,10 +251,12 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2019.06*, Outstanding Graduates Scholarship, USTC
 - *2018.09*, Individual Scholarship, USTC
 - *2016.09*, Individual Scholarship, USTC
+</div>
 
 <span class='anchor' id='experiences'></span>
 # 📖 Experiences
 
+<div class="academic-card theme-blue" markdown="1">
 **Work Experiences:**
 - *2026.05 - Present*, Associate Professor, USTC, Collaborating with Prof. Zheng-Jun Zha
 - *2021.12 - 2026.04*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
@@ -263,10 +268,12 @@ I am currently looking for highly motivated graduate students who are passionate
 **Educations:**
 - *2014.09 - 2019.06*, <span style="color:#1a73e8; font-weight:500;">Ph.D.</span> in the Department of Automation, University of Science and Technology of China
 - *2009.08 - 2013.07*, <span style="color:#1a73e8; font-weight:500;">B.S.</span> in the Department of Automation, Hefei University of Technology
+</div>
 
 <span class='anchor' id='fundings'></span>
 # 💻 Fundings
 
+<div class="academic-card theme-green" markdown="1">
 - *2025.01 - 2028.12*, National Natural Science Foundation of China, General Program, PI (基金委面上基金项目, 主持)
 - *2025.09 - 2026.08*, CCF-1688 Yuanbao Cooperation Fund, PI (CCF-1688源宝合作基金项目，主持)
 - *2025.01 - 2026.12*, USTC Research Funds of the Double First-Class Initiative, PI (校青年创新重点基金项目, 主持)
@@ -280,10 +287,12 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2020.11 - 2023.10*, National Key R&D Program of China, Key Participant (科技创新2030-"新一代人工智能"重大项目, 参与)
 - *2020.01 - 2023.12*, Joint Funds of the National Natural Science Foundation of China, Key Participant (基金委联合重点基金项目, 参与)
 - *2017.01 - 2021.12*, National Key R&D Program of China, Key Participant (国家重点研发计划课题, 参与)
+</div>
 
 <span class='anchor' id='professional-activities'></span>
 # 📸 Professional Activities
 
+<div class="academic-card theme-green" markdown="1">
 **Teaching:**
 - *2022 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2023 Fall*, Graduate Course - Computer Vision (计算机视觉)
@@ -296,7 +305,9 @@ I am currently looking for highly motivated graduate students who are passionate
 - [Member of CSIG Technical Committee on Multimedia](http://mm.csig.org.cn/?page_id=263 )
 - Member of CSIG Technical Committee on Digital Media Forensics and Security
 - Member of CCF Technical Committee on Multimedia Technology
+</div>
 
+<div class="academic-card theme-purple" markdown="1">
 **Journal Reviewer:**
 - IEEE Transactions on Pattern Analysis and Machine Intelligence
 - International Journal of Computer Vision
@@ -327,3 +338,4 @@ I am currently looking for highly motivated graduate students who are passionate
 
 **Conference Reviewer or Program Committee:**
 - NeurIPS, CVPR, ICCV, ECCV, ICML, ICLR, ACM MM, IJCAI, AAAI, ICME, PRVC, ACCV
+</div>
