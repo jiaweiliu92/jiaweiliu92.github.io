@@ -64,7 +64,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <style>
   .view-history-bar {
-    margin-top: -10px;        /* 稍微拉近和上方列表的距离 */
+    margin-top: -25px;        /* 稍微拉近和上方列表的距离 */
     margin-bottom: 30px;     /* 留出下方呼吸空间 */
     padding: 8px 15px;       /* 缩小上下高度，让框变得更精致 */
     background-color: #f8f9fa;
