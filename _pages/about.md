@@ -48,6 +48,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
+
 <div id="history-news" style="display: none;" markdown="1">
 - \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
 - \[*2024.12*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">CVM</span> 2025.
@@ -57,6 +58,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2024.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Wenjun Gan (甘文君)</span> on earning her Master’s degree!  
 - \[*2024.04*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ICME</span> 2024.
 </div>
+
 <div id="toggle-news-btn" class="view-history-bar">
   View History News... ▼
 </div>
