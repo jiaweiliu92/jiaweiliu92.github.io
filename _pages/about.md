@@ -298,7 +298,7 @@ I am currently looking for highly motivated graduate students who are passionate
 <span class='anchor' id='professional-activities'></span>
 # 📸 Professional Activities
 
-<div class="academic-card theme-green" markdown="1">
+<div class="academic-card theme-blue" markdown="1">
 **Teaching:**
 - *2022 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2023 Fall*, Graduate Course - Computer Vision (计算机视觉)
@@ -311,7 +311,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - [Member of CSIG Technical Committee on Multimedia](http://mm.csig.org.cn/?page_id=263 )
 - Member of CSIG Technical Committee on Digital Media Forensics and Security
 - Member of CCF Technical Committee on Multimedia Technology
-  </div>
+</div>
 
 <div class="academic-card theme-blue" markdown="1">
 **Journal Reviewer:**
