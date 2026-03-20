@@ -60,7 +60,7 @@ I am currently looking for highly motivated graduate students who are passionate
 </div>
 
 <div id="toggle-news-btn" class="view-history-bar">
-  View History News ▼
+  View History News... ▼
 </div>
 
 <style>
@@ -93,7 +93,7 @@ I am currently looking for highly motivated graduate students who are passionate
       btn.innerHTML = "Collapse History ▲";
     } else {
       historyDiv.style.display = "none";
-      btn.innerHTML = "View History News ▼";
+      btn.innerHTML = "View History News... ▼";
       // 折叠时页面平滑滚动回 News 标题处
       document.getElementById('news').scrollIntoView({behavior: "smooth"});
     }
