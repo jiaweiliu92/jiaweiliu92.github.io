@@ -48,7 +48,6 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
 - \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
-
 <div id="history-news" style="display: none;" markdown="1">
 - \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
 - \[*2024.12*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">CVM</span> 2025.
@@ -64,7 +63,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <style>
   .view-history-bar {
-    margin-top: -25px;        /* 稍微拉近和上方列表的距离 */
+    margin-top: 10px;        /* 稍微拉近和上方列表的距离 */
     margin-bottom: 30px;     /* 留出下方呼吸空间 */
     padding: 8px 15px;       /* 缩小上下高度，让框变得更精致 */
     background-color: #f8f9fa;
