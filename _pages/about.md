@@ -69,6 +69,23 @@ I am currently looking for highly motivated graduate students who are passionate
     margin-bottom: 0 !important;
   }
 
+  /* 会议/期刊小胶囊标签 */
+  .badge {
+    display: inline-block;
+    padding: 0.15em 0.6em;
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    background-color: #e8f0fe; /* 极浅的学术蓝背景 */
+    color: #1a73e8;          /* 学术蓝文字 */
+    margin-right: 5px;
+    border: 1px solid #d2e3fc; /* 淡淡的边框 */
+  }
+
   /* 历史折叠按钮 */
   .view-history-bar {
     margin-top: 15px;        
