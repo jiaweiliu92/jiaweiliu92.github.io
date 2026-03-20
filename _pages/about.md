@@ -26,6 +26,14 @@ I am currently looking for highly motivated graduate students who are passionate
 🌟🌟 等的就是你，招收本科远程合作实习生，研究方向涵盖Human-Centric Visual Understanding、Multimodal Large Language Model、Embodied AI等。欢迎通过邮箱联系，并请附上个人简历！
 
 <style>
+  /* 👇 新增：调整全局文字的行高，让现代字体更有呼吸感 */
+  p, li {
+    line-height: 1.65 !important;
+  }
+  h1, h2, h3 {
+    font-weight: 600 !important; /* 让标题稍微加粗一点点，更有层次感 */
+  }
+
   /* 基础卡片样式 */
   .academic-card {
     background-color: #ffffff;
