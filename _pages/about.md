@@ -27,41 +27,44 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+
+<div class="academic-card theme-orange" markdown="1">
 <div class="recent-news" markdown="1">
-- \[*2026.03*\]: &nbsp;🏆🏆 Won the champion of the 2nd multimodal deception detection competition @<span style="color:skyblue">CVPR</span> 2026.
-- \[*2026.03*\]: &nbsp;🏛️🏛️ Promoted to Associate Professor (tenured) at <span style="color:forestgreen">USTC</span>.
-- \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:skyblue">CVPR</span> 2026. 
-- \[*2026.01*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:skyblue">ICLR</span> 2026. 
-- \[*2026.01*\]: &nbsp;🎉🎉 One paper on multimodal fact-checking is accepted by <span style="color:skyblue">WWW</span> 2026. 
-- \[*2025.12*\]: &nbsp;🎉🎉 One paper on class incremental learning is accepted by <span style="color:skyblue">CVM</span> 2026. 
-- \[*2025.11*\]: &nbsp;🎉🎉 One paper on zero-shot HOI detection is accepted by <span style="color:skyblue">IJCV</span> 2025. 
-- \[*2025.11*\]: &nbsp;🎉🎉 One paper on occluded person re-identification is accepted by <span style="color:skyblue">JICN</span> 2025. 
-- \[*2025.10*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:skyblue">IJCV</span> 2025. 
-- \[*2025.09*\]: &nbsp;🎉🎉 One paper on explainable video misinformation detection is accepted by <span style="color:skyblue">NeurIPS</span> 2025. 
-- \[*2025.09*\]: &nbsp;🎉🎉 One paper on multimodal knowledge editing is accepted by <span style="color:skyblue">NeurIPS</span> 2025. 
-- \[*2025.09*\]: &nbsp;🎉🎉 One paper on fake news detection is accepted by <span style="color:skyblue">IEEE TKDE</span> 2025.
-- \[*2025.09*\]: &nbsp;✈️✈️ Started as a visiting scholar at the <span style="color:forestgreen">National University of Singapore</span>.
-- \[*2025.07*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ACM MM</span> 2025. 
-- \[*2025.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Wei Wu (吴蔚)</span> on earning her Ph.D. degree! 
-- \[*2025.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Hao Tong (童浩)</span> on earning his Master’s degree!  
-- \[*2025.04*\]: &nbsp;🎉🎉 One paper on image forgery detection and localization is accepted by <span style="color:skyblue">IJCAI</span> 2025. 
-- \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:skyblue">CVPR</span> 2025. 
-- \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:skyblue">CVPR</span> 2025. 
-- \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">IEEE TIFS</span> 2025.
+- \[*2026.03*\]: &nbsp;🏆🏆 Won the champion of the 2nd multimodal deception detection competition @<span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026.
+- \[*2026.03*\]: &nbsp;🏛️🏛️ Promoted to Associate Professor (tenured) at <span style="color:#198754; font-weight:500;">USTC</span>.
+- \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026. 
+- \[*2026.01*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:#1a73e8; font-weight:500;">ICLR</span> 2026. 
+- \[*2026.01*\]: &nbsp;🎉🎉 One paper on multimodal fact-checking is accepted by <span style="color:#1a73e8; font-weight:500;">WWW</span> 2026. 
+- \[*2025.12*\]: &nbsp;🎉🎉 One paper on class incremental learning is accepted by <span style="color:#1a73e8; font-weight:500;">CVM</span> 2026. 
+- \[*2025.11*\]: &nbsp;🎉🎉 One paper on zero-shot HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">IJCV</span> 2025. 
+- \[*2025.11*\]: &nbsp;🎉🎉 One paper on occluded person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">JICN</span> 2025. 
+- \[*2025.10*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:#1a73e8; font-weight:500;">IJCV</span> 2025. 
+- \[*2025.09*\]: &nbsp;🎉🎉 One paper on explainable video misinformation detection is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2025. 
+- \[*2025.09*\]: &nbsp;🎉🎉 One paper on multimodal knowledge editing is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2025. 
+- \[*2025.09*\]: &nbsp;🎉🎉 One paper on fake news detection is accepted by <span style="color:#1a73e8; font-weight:500;">IEEE TKDE</span> 2025.
+- \[*2025.09*\]: &nbsp;✈️✈️ Started as a visiting scholar at the <span style="color:#198754; font-weight:500;">National University of Singapore</span>.
+- \[*2025.07*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">ACM MM</span> 2025. 
+- \[*2025.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:#d35400; font-weight:500;">Wei Wu (吴蔚)</span> on earning her Ph.D. degree! 
+- \[*2025.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:#d35400; font-weight:500;">Hao Tong (童浩)</span> on earning his Master’s degree!  
+- \[*2025.04*\]: &nbsp;🎉🎉 One paper on image forgery detection and localization is accepted by <span style="color:#1a73e8; font-weight:500;">IJCAI</span> 2025. 
+- \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2025. 
+- \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2025. 
+- \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">IEEE TIFS</span> 2025.
 </div>
 
 <div id="history-news" style="display: none;" markdown="1">
-- \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
-- \[*2024.12*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">CVM</span> 2025.
-- \[*2024.12*\]: &nbsp;🎉🎉 One paper on human-object interaction is accepted by <span style="color:skyblue">AAAI</span> 2025. 
-- \[*2024.10*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ACM TOMM</span> 2024. 
-- \[*2024.08*\]: &nbsp;🎉🎉 One paper on image forgery localization is accepted by <span style="color:skyblue">ECCV</span> 2024.
-- \[*2024.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:orange">Wenjun Gan (甘文君)</span> on earning her Master’s degree!  
-- \[*2024.04*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:skyblue">ICME</span> 2024.
+- \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:#d35400; font-weight:500;">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
+- \[*2024.12*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">CVM</span> 2025.
+- \[*2024.12*\]: &nbsp;🎉🎉 One paper on human-object interaction is accepted by <span style="color:#1a73e8; font-weight:500;">AAAI</span> 2025. 
+- \[*2024.10*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">ACM TOMM</span> 2024. 
+- \[*2024.08*\]: &nbsp;🎉🎉 One paper on image forgery localization is accepted by <span style="color:#1a73e8; font-weight:500;">ECCV</span> 2024.
+- \[*2024.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:#d35400; font-weight:500;">Wenjun Gan (甘文君)</span> on earning her Master’s degree!  
+- \[*2024.04*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">ICME</span> 2024.
 </div>
 
 <div id="toggle-news-btn" class="view-history-bar">
   View History News... ▼
+</div>
 </div>
 
 <style>
