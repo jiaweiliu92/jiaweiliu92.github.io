@@ -249,6 +249,8 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <span class='anchor' id='experiences'></span>
 # 📖 Experiences
+
+<div class="academic-card theme-blue" markdown="1">
 **Work Experiences:**
 - *2026.05 - Present*, Associate Professor, USTC, Collaborating with Prof. Zheng-Jun Zha
 - *2021.12 - 2026.04*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
@@ -260,6 +262,7 @@ I am currently looking for highly motivated graduate students who are passionate
 **Educations:**
 - *2014.09 - 2019.06*, <span style="color:red">Ph.D.</span> in the Department of Automation, University of Science and Technology of China
 - *2009.08 - 2013.07*, <span style="color:red">B.S.</span> in the Department of Automation, Hefei University of Technology
+</div>
 
 <span class='anchor' id='fundings'></span>
 # 💻 Fundings
