@@ -28,7 +28,6 @@ I am currently looking for highly motivated graduate students who are passionate
 <span class='anchor' id='news'></span>
 # 🔥 News
 
-<div class="academic-card theme-orange" markdown="1">
 <div class="recent-news" markdown="1">
 - \[*2026.03*\]: &nbsp;🏆🏆 Won the champion of the 2nd multimodal deception detection competition @<span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026.
 - \[*2026.03*\]: &nbsp;🏛️🏛️ Promoted to Associate Professor (tenured) at <span style="color:#198754; font-weight:500;">USTC</span>.
@@ -64,7 +63,6 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <div id="toggle-news-btn" class="view-history-bar">
   View History News... ▼
-</div>
 </div>
 
 <style>
@@ -114,43 +112,10 @@ I am currently looking for highly motivated graduate students who are passionate
   });
 </script>
 
-<style>
-  /* 基础卡片样式 */
-  .academic-card {
-    background-color: #ffffff;
-    border: 1px solid #e1e4e8;
-    border-radius: 10px;
-    padding: 25px 30px;
-    margin-bottom: 30px; /* 卡片之间的间距 */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-    transition: all 0.3s ease;
-  }
-  
-  /* 鼠标悬浮时卡片轻轻浮起 */
-  .academic-card:hover {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    transform: translateY(-2px);
-  }
-
-  /* 消除卡片内最后一个元素的底部多余空白 */
-  .academic-card > ul:last-child,
-  .academic-card > p:last-child {
-    margin-bottom: 0 !important;
-  }
-
-  /* 🌟 给不同模块定义专属的主题色边框 */
-  .theme-blue   { border-left: 6px solid #1a73e8; } /* 学术蓝，适合 Publications */
-  .theme-green  { border-left: 6px solid #198754; } /* 翡翠绿，适合 Fundings/Patents */
-  .theme-orange { border-left: 6px solid #d35400; } /* 橙红色，适合 Awards/Experiences */
-  .theme-purple { border-left: 6px solid #6f42c1; } /* 紫色，适合 Professional Activities */
-</style>
-
-
 
 <span class='anchor' id='publications'></span>
 # 📝 Publications
 
-<div class="academic-card theme-blue" markdown="1">
 ## 📚 Human-Centric Visual Understanding
 - ``IJCV 2025`` [Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection](https://link.springer.com/article/10.1007/s11263-025-02616-y), **Jiawei Liu**, Yongchao Xu, Sen Tao, Yuexuan Qi, Zheng-Jun Zha
 - ``ACM MM 2025`` [Dual Uncertainty-Guided Feature Alignment Learning for Text-Based Person Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3755063), Yufei Zheng, **Jiawei Liu**, Bingyu Hu, Zikun Wei, Yong Wu, Zheng-Jun Zha
@@ -188,9 +153,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - ``ACM MM 2018`` [CA3Net: Contextual-Attentional Attribute-Appearance Network for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/3240508.3240585), **Jiawei Liu**, Zheng-Jun Zha, Hongtao Xie, Zhiwei Xiong, Yongdong Zhang
 - ``PCM 2018`` [Temporal-Contextual Attention Network for Video-Based Person Re-identification](https://link.springer.com/chapter/10.1007/978-3-030-00776-8_14), Di Chen, Zheng-Jun Zha, **Jiawei Liu**, Hongtao Xie, Yongdong Zhang
 - ``ACM MM 2016`` [Multi-Scale Triplet CNN for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/2964284.2967209), **Jiawei Liu**, Zheng-Jun Zha, QI Tian, Dong Liu, Ting Yao, Qiang Ling, Tao Mei
-</div>
 
-<div class="academic-card theme-blue" markdown="1">
 ## 🌱 Fake Media Content Analysis
 - ``NeurIPS 2025`` [Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning](https://arxiv.org/pdf/2505.16836), Fanrui Zhang, Dian Li, Qiang Zhang, Jun Chen, Gang Liu, Junxiong Lin, Jiahong Yan, **Jiawei Liu**, Zheng-Jun Zha [![](https://img.shields.io/github/stars/zfr00/fact-r1?style=social&label=Code+Stars)](https://github.com/zfr00/fact-r1)
 - ``IEEE TKDE 2025`` [Toward Effective and Transferable Detection for Multi-modal Fake News in the Social Media Stream](https://ieeexplore.ieee.org/document/11159538), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
@@ -206,9 +169,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - `CVPR 2023` [Edge-Aware Regional Message Passing Controller for Image Forgery Localization](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Edge-Aware_Regional_Message_Passing_Controller_for_Image_Forgery_Localization_CVPR_2023_paper.html), Dong Li, Jiaying Zhu, Menglu Wang, **Jiawei Liu**, Xueyang Fu, Zheng-Jun Zha
 - `ACM MM 2022` [JPEG Compression-aware Image Forgery Localization](https://dl.acm.org/doi/abs/10.1145/3503161.3547749), Menglu Wang, Xueyang Fu, **Jiawei Liu**, Zheng-Jun Zha
 - `ARXIV 2022` [Label Noise-Resistant Mean Teaching for Weakly Supervised Fake News Detection](https://arxiv.org/abs/2206.12260), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
-</div>
 
-<div class="academic-card theme-blue" markdown="1">
 ## 🚀 Large Vision-Language Models
 - ``ICLR 2026`` [PSP: Prompt-Guided Self-Training Sampling Policy for Active Prompt Learning](https://openreview.net/pdf?id=7D7VLU9227), Sen Tao, Kaiduo Feng, **Jiawei Liu**, Peng Zeng, Yongchao Xu, Yufei Zheng, Zheng-Jun Zha
 - ``IJCV 2025`` [Boosting Active Prompt Learning via Discriminative Self-Training Dual-Curriculum Learning](https://link.springer.com/article/10.1007/s11263-025-02641-x), Sen Tao, **Jiawei Liu**, Peng Zeng, Yongchao Xu, Bingyu Hu, Zheng-Jun Zha
@@ -218,13 +179,11 @@ I am currently looking for highly motivated graduate students who are passionate
 - `ARXIV 2024` [TagAlign: Improving Vision-Language Alignment with Multi-Tag Classification](https://arxiv.org/abs/2312.14149), Qinying Liu, Wei Wu, Kecheng Zheng, Zhan Tong, **Jiawei Liu**, Yu Liu, Wei Chen, Zilei Wang, Yujun Shen \| [**Project**](https://qinying-liu.github.io/Tag-Align/) [![](https://img.shields.io/github/stars/Qinying-Liu/TagAlign?style=social&label=Code+Stars)](https://github.com/Qinying-Liu/TagAlign)
 - ``ICCV 2023`` [Regularized Mask Tuning: Uncovering Hidden Knowledge in Pre-trained Vision-Language Models](https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023_paper.pdf), Kecheng Zheng, Wei Wu, Ruili Feng, Kai Zhu, **Jiawei Liu**, Deli Zhao, Zheng-Jun Zha, Wei Chen, Yujun Shen \| [**Project**](https://wuw2019.github.io/R-AMT/) [![](https://img.shields.io/github/stars/wuw2019/R-AMT?style=social&label=Code+Stars)](https://github.com/wuw2019/R-AMT)
 - ``ACM TOMM 2019`` [Spatiotemporal-Textual Co-Attention Network for Video Question Answering](https://dl.acm.org/doi/abs/10.1145/3320061), Zheng-Jun Zha, **Jiawei Liu**, Tianhao Yang, Yongdong Zhang
-</div>
 
 
 <span class='anchor' id='chinese-patents'></span>
 # 💬 Chinese Patents
 
-<div class="academic-card theme-purple" markdown="1">
 - *2026.03* 查正军; **刘嘉威**; 展宏民; 张凡瑞. 基于检索与推理增强大语言模型的多模态事实核查方法. 发明专利. (专利号：CN202610248544.2)
 - *2025.11* 查正军; **刘嘉威**; 张强; 张凡瑞. 基于冲突感知检索和多级协同引导的多模态知识编辑方法. 发明专利. (专利号：CN202511709848.6)
 - *2025.10* 查正军; **刘嘉威**; 郑雨霏. 基于双重不确定性引导特征对齐的文本到图像行人检索方法. 发明专利. (专利号：CN202511451428.2)
@@ -241,12 +200,10 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2022.10* 查正军; **刘嘉威**; 黄志鹏. 基于模态自适应混合和不变性卷积分解的行人重识别方法. 发明专利. (专利号：CN202210155715.9)
 - *2020.10* 刘武; **刘嘉威**; 梅涛; 郑可成. 检索目标的方法和装置. 发明专利. (专利号：CN202010215923.4)
 - *2019.10* 查正军; **刘嘉威**. 行人再识别数据生成方法. 发明专利. (专利号：CN201910466234.8)
-</div>
 
 <span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
 
-<div class="academic-card theme-orange" markdown="1">
 - *2025.10*, First-Class Award of Anhui Provincial Natural Science Award [(3/3)](https://kjt.ah.gov.cn/kjzx/tzgg/123091461.html)
 - *2025.10*, PRCV2025 Workshop: Omni Multi-modal Person Re-identification Challenge (Excellence Award)
 - *2024.07*, ACM MM2024 Workshop: Micro-Action Analysis Grand Challenge ([3rd Place Award](https://sites.google.com/view/micro-action/challenge/winners))
@@ -257,12 +214,10 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2019.06*, Outstanding Graduates Scholarship, USTC
 - *2018.09*, Individual Scholarship, USTC
 - *2016.09*, Individual Scholarship, USTC
-</div>
 
 <span class='anchor' id='experiences'></span>
 # 📖 Experiences
 
-<div class="academic-card theme-blue" markdown="1">
 **Work Experiences:**
 - *2026.05 - Present*, Associate Professor, USTC, Collaborating with Prof. Zheng-Jun Zha
 - *2021.12 - 2026.04*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
@@ -274,12 +229,10 @@ I am currently looking for highly motivated graduate students who are passionate
 **Educations:**
 - *2014.09 - 2019.06*, <span style="color:#1a73e8; font-weight:500;">Ph.D.</span> in the Department of Automation, University of Science and Technology of China
 - *2009.08 - 2013.07*, <span style="color:#1a73e8; font-weight:500;">B.S.</span> in the Department of Automation, Hefei University of Technology
-</div>
 
 <span class='anchor' id='fundings'></span>
 # 💻 Fundings
 
-<div class="academic-card theme-green" markdown="1">
 - *2025.01 - 2028.12*, National Natural Science Foundation of China, General Program, PI (基金委面上基金项目, 主持)
 - *2025.09 - 2026.08*, CCF-1688 Yuanbao Cooperation Fund, PI (CCF-1688源宝合作基金项目，主持)
 - *2025.01 - 2026.12*, USTC Research Funds of the Double First-Class Initiative, PI (校青年创新重点基金项目, 主持)
@@ -293,12 +246,10 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2020.11 - 2023.10*, National Key R&D Program of China, Key Participant (科技创新2030-"新一代人工智能"重大项目, 参与)
 - *2020.01 - 2023.12*, Joint Funds of the National Natural Science Foundation of China, Key Participant (基金委联合重点基金项目, 参与)
 - *2017.01 - 2021.12*, National Key R&D Program of China, Key Participant (国家重点研发计划课题, 参与)
-</div>
 
 <span class='anchor' id='professional-activities'></span>
 # 📸 Professional Activities
 
-<div class="academic-card theme-blue" markdown="1">
 **Teaching:**
 - *2022 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2023 Fall*, Graduate Course - Computer Vision (计算机视觉)
@@ -311,9 +262,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - [Member of CSIG Technical Committee on Multimedia](http://mm.csig.org.cn/?page_id=263 )
 - Member of CSIG Technical Committee on Digital Media Forensics and Security
 - Member of CCF Technical Committee on Multimedia Technology
-</div>
 
-<div class="academic-card theme-blue" markdown="1">
 **Journal Reviewer:**
 - IEEE Transactions on Pattern Analysis and Machine Intelligence
 - International Journal of Computer Vision
@@ -344,4 +293,3 @@ I am currently looking for highly motivated graduate students who are passionate
 
 **Conference Reviewer or Program Committee:**
 - NeurIPS, CVPR, ICCV, ECCV, ICML, ICLR, ACM MM, IJCAI, AAAI, ICME, PRVC, ACCV
-</div>
