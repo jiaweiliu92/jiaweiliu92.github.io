@@ -239,7 +239,8 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <div class="academic-card theme-blue" markdown="1">
 ## 🚀 Large Vision-Language Models
-- ``ICLR 2026`` [PSP: Prompt-Guided Self-Training Sampling Policy for Active Prompt Learning](https://openreview.net/pdf?id=7D7VLU9227), Sen Tao, Kaiduo Feng, **Jiawei Liu**, Peng Zeng, Yongchao Xu, Yufei Zheng, Zheng-Jun Zha
+ - ``CVM 2026`` [Mining the Potential of Rehearsal Mechanism for VLM-based Class Incremental Learning](https://iccvm.org/2026/files/papers/9.pdf), Sen Tao, **Jiawei Liu**, Yongchao Xu, Guangxi Wan, and Peng Zeng
+  - ``ICLR 2026`` [PSP: Prompt-Guided Self-Training Sampling Policy for Active Prompt Learning](https://openreview.net/pdf?id=7D7VLU9227), Sen Tao, Kaiduo Feng, **Jiawei Liu**, Peng Zeng, Yongchao Xu, Yufei Zheng, Zheng-Jun Zha
 - ``IJCV 2025`` [Boosting Active Prompt Learning via Discriminative Self-Training Dual-Curriculum Learning](https://link.springer.com/article/10.1007/s11263-025-02641-x), Sen Tao, **Jiawei Liu**, Peng Zeng, Yongchao Xu, Bingyu Hu, Zheng-Jun Zha
 - `NeurIPS 2025` [Reliable Lifelong Multimodal Editing: Conflict-Aware Retrieval Meets Multi-Level Guidance](https://openreview.net/attachment?id=hdJXzKZjY9&name=pdf), Qiang Zhang, Fanrui Zhang, **Jiawei Liu**, Ming Hu, Junjun He, Zheng-Jun Zha
 - `CVPR 2025` [Hierarchical Knowledge Prompt Tuning for Multi-task Test-Time Adaptation](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Hierarchical_Knowledge_Prompt_Tuning_for_Multi-task_Test-Time_Adaptation_CVPR_2025_paper.html), Qiang Zhang, Mengsheng Zhao, **Jiawei Liu**, Fanrui Zhang, Yongchao Xu, Zheng-Jun Zha
