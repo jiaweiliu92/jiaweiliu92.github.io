@@ -78,33 +78,32 @@ I am currently looking for highly motivated graduate students who are passionate
     margin-bottom: 0 !important;
   }
 
-  /* 精制标签样式 (复刻 Highlight 形式) */
-  .badge-conf {
-    display: inline-block;
-    padding: 1px 6px;
-    font-size: 0.85em;
-    font-weight: 600;
-    line-height: 1.4;
-    border-radius: 4px;
-    background-color: #e8f0fe; /* 淡蓝色背景 */
-    color: #1a73e8;            /* 专业蓝文字 */
-    border: 1px solid #d2e3fc;
-    margin-right: 4px;
-    vertical-align: middle;
-  }
-
-  .badge-highlight {
+  /* 标签样式修正：解决“偏下”对齐问题 */
+  .badge-conf, .badge-highlight {
     display: inline-block;
     padding: 1px 6px;
     font-size: 0.82em;
     font-weight: 600;
     line-height: 1.4;
     border-radius: 4px;
+    vertical-align: baseline; /* 回到基线 */
+    position: relative;
+    top: -1.5px;              /* 🚀 关键：向上平移 1.5 像素，实现视觉中轴对齐 */
+    text-decoration: none !important;
+  }
+
+  .badge-conf {
+    background-color: #e8f0fe;
+    color: #1a73e8;
+    border: 1px solid #d2e3fc;
+    margin-right: 4px;
+  }
+
+  .badge-highlight {
     background-color: #f1f3f5; /* 精致淡灰背景 */
     color: #0069d9;            /* 鲜艳蓝色文字 */
     border: 1px solid #e9ecef;
     margin-left: 4px;
-    vertical-align: middle;
   }
 
   /* 历史折叠按钮 */
