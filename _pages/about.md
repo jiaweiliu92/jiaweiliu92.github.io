@@ -78,31 +78,33 @@ I am currently looking for highly motivated graduate students who are passionate
     margin-bottom: 0 !important;
   }
 
-  /* 🏆 升级后的胶囊标签样式 */
-  .badge {
+  /* 精制标签样式 (复刻 Highlight 形式) */
+  .badge-conf {
     display: inline-block;
-    padding: 0.15em 0.5em;
+    padding: 1px 6px;
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1.4;
+    border-radius: 4px;
+    background-color: #e8f0fe; /* 淡蓝色背景 */
+    color: #1a73e8;            /* 专业蓝文字 */
+    border: 1px solid #d2e3fc;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  .badge-highlight {
+    display: inline-block;
+    padding: 1px 6px;
     font-size: 0.82em;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.4;
     border-radius: 4px;
-    margin-right: 5px;
-    vertical-align: baseline;
-    text-decoration: none !important;
-  }
-
-  /* 💙 蓝色胶囊 (用于会议/期刊) */
-  .badge-blue {
-    background-color: #e8f0fe;
-    color: #1a73e8;
-    border: 1px solid #d2e3fc;
-  }
-
-  /* ❤️ 红色胶囊 (用于 Oral, Highlight 等亮点) */
-  .badge-red {
-    background-color: #fde8e8; /* 极浅红色背景 */
-    color: #d35400;            /* 深橙红色文字 */
-    border: 1px solid #fbd5d5; /* 浅红色边框 */
+    background-color: #f1f3f5; /* 精致淡灰背景 */
+    color: #0069d9;            /* 鲜艳蓝色文字 */
+    border: 1px solid #e9ecef;
+    margin-left: 4px;
+    vertical-align: middle;
   }
 
   /* 历史折叠按钮 */
@@ -130,10 +132,10 @@ I am currently looking for highly motivated graduate students who are passionate
 # 🔥 News
 <div class="academic-card theme-orange" markdown="1">
 <div class="recent-news" markdown="1">
-- \[*2026.02*\]: &nbsp;🎉🎉 One paper on automatic rigging is accepted by <span style="color:#1a73e8; font-weight:500;">ICIC</span> 2026 <span class="badge badge-red">Oral</span>.
+- \[*2026.02*\]: &nbsp;🎉🎉 One paper on automatic rigging is accepted by <span style="color:#1a73e8; font-weight:500;">ICIC</span> 2026 <span class="badge-highlight">Oral</span>.
 - \[*2026.03*\]: &nbsp;🏆🏆 Won the champion of the 2nd multimodal deception detection competition @<span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026.
 - \[*2026.03*\]: &nbsp;🏛️🏛️ Promoted to Associate Professor (tenured) at <span style="color:#198754; font-weight:500;">USTC</span>.
-- \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026 <span class="badge badge-red">Highlight</span>.
+- \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026 <span class="badge-highlight">Highlight</span>.
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:#1a73e8; font-weight:500;">ICLR</span> 2026. 
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on multimodal fact-checking is accepted by <span style="color:#1a73e8; font-weight:500;">WWW</span> 2026. 
 - \[*2025.12*\]: &nbsp;🎉🎉 One paper on class incremental learning is accepted by <span style="color:#1a73e8; font-weight:500;">CVM</span> 2026. 
