@@ -120,9 +120,10 @@ I am currently looking for highly motivated graduate students who are passionate
 # 🔥 News
 <div class="academic-card theme-orange" markdown="1">
 <div class="recent-news" markdown="1">
+- \[*2026.02*\]: &nbsp;🎉🎉 One paper on automatic rigging is accepted by <span style="color:#1a73e8; font-weight:500;">ICIC</span> 2026 (Oral). 
 - \[*2026.03*\]: &nbsp;🏆🏆 Won the champion of the 2nd multimodal deception detection competition @<span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026.
 - \[*2026.03*\]: &nbsp;🏛️🏛️ Promoted to Associate Professor (tenured) at <span style="color:#198754; font-weight:500;">USTC</span>.
-- \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026. 
+- \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026 (Highlight). 
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:#1a73e8; font-weight:500;">ICLR</span> 2026. 
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on multimodal fact-checking is accepted by <span style="color:#1a73e8; font-weight:500;">WWW</span> 2026. 
 - \[*2025.12*\]: &nbsp;🎉🎉 One paper on class incremental learning is accepted by <span style="color:#1a73e8; font-weight:500;">CVM</span> 2026. 
