@@ -350,7 +350,8 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2025 Fall*, Graduate Course - Computer Vision (计算机视觉)
 
 **Academic Service:**
-- National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database Expert
+- Expert in the National Graduate Education Evaluation and Monitoring Expert Database
+- Expert in the National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database
 - [Member of CSIG Technical Committee on Multimedia](http://mm.csig.org.cn/?page_id=263 )
 - Member of CSIG Technical Committee on Digital Media Forensics and Security
 - Member of CCF Technical Committee on Multimedia Technology
