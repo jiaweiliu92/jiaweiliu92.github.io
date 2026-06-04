@@ -236,6 +236,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <div class="academic-card theme-blue" markdown="1">
 ## 🌱 Fake Media Content Analysis
+- ``CVPRW 2026`` [PRISM: Prior-Informed Semantic Multimodal Fusion for Audio-Visual Deception Detection](https://openaccess.thecvf.com/content/CVPR2026W/SVC/papers/Yu_PRISM_Prior-Informed_Semantic_Multimodal_Fusion_for_Audio-Visual_Deception_Detection_CVPRW_2026_paper.pdf), Jiaquan Yu, Yetao Fan, Yuanfang Shi, Rongtian Wang, Hui Zheng, Shuping He, **Jiawei Liu**, Zheng-Jun Zha
 - ``WWW 2026`` [Navigating Truth in Multimodal Fact-checking via Retrieval- and Reasoning-Enhanced Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3774904.3792706), Fanrui Zhang, Qiang Zhang, Jianwen Sun, Chuanhao Li, Jiaxin Ai, Yukang Feng, Zizhen Li, Kaipeng Zhang, **Jiawei Liu**, Zheng-Jun Zha
 - ``NeurIPS 2025`` [Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning](https://arxiv.org/pdf/2505.16836), Fanrui Zhang, Dian Li, Qiang Zhang, Jun Chen, Gang Liu, Junxiong Lin, Jiahong Yan, **Jiawei Liu**, Zheng-Jun Zha [![](https://img.shields.io/github/stars/zfr00/fact-r1?style=social&label=Code+Stars)](https://github.com/zfr00/fact-r1)
 - ``IEEE TKDE 2025`` [Toward Effective and Transferable Detection for Multi-modal Fake News in the Social Media Stream](https://ieeexplore.ieee.org/document/11159538), Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
