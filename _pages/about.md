@@ -131,6 +131,7 @@ I am currently looking for highly motivated graduate students who are passionate
 # 🔥 News
 <div class="academic-card theme-orange" markdown="1">
 <div class="recent-news" markdown="1">
+- \[*2026.06*\]: &nbsp;🎉🎉 One paper on visible-infrared person re-id is accepted by <span style="color:#1a73e8; font-weight:500;">IEEE TIFS</span> 2026.
 - \[*2025.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:#d35400; font-weight:500;">Jingyi Xie (谢璟毅)</span> on earning his Ph.D. degree! 
 - \[*2025.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:#d35400; font-weight:500;">Changrong Hu (胡长荣)</span> on earning her Master’s degree!    
 - \[*2026.05*\]: &nbsp;🎉🎉 One paper on open-ended agents is accepted by <span style="color:#1a73e8; font-weight:500;">ICML</span> 2026.
