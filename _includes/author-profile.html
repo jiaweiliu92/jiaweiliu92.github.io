@@ -230,50 +230,67 @@
 
 <script>
 (function() {
-    // 核心安全优化：等网页骨架完全在浏览器里搭好，确保上面的 div 容器 100% 存在
+    // 1. 顺应现代浏览器标准：等网页 HTML 骨架搭好就立刻执行逻辑，保持正常的标签页转圈反馈
     document.addEventListener('DOMContentLoaded', function() {
-        
         var container = document.getElementById('visitor-map');
-        if (!container) return; 
+        if (!container) return;
 
-        // 2. 动态创建网易极速 CDN 的 IP 接口
+        var ipScriptLoaded = false;
         var scriptIp = document.createElement('script');
         scriptIp.src = 'https://ip.ws.126.net/ipquery';
-        scriptIp.async = true;
-        
+        scriptIp.async = true; // 异步加载
+
         scriptIp.onload = function() {
-            // 3. 判定是不是中国大陆 IP
+            ipScriptLoaded = true;
+            // 2. 判定是不是中国大陆 IP
             if (typeof lc !== 'undefined') {
                 if (lc.indexOf('省') !== -1 || lc.indexOf('市') !== -1 || lc.indexOf('局') !== -1) {
-                    console.log("Mainland China user detected by IP. Skip map.");
-                    return; // 国内用户直接终止，0次外网请求，主页秒开
+                    console.log("Mainland China user detected by IP. Force stop map.");
+                    cleanupIpScript();
+                    return; // 国内 IP 瞬间在后台拦截，不碰外网，转圈一瞬间就会停止
                 }
             }
-            
-            // 4. 非国内用户（如新加坡或欧美），完美呼应你原本的脚本配置，动态加载出来
+            // 海外 IP，顺利放行加载真正的地图
             loadRealMap();
         };
 
-        // 降级保障：如果网易接口万一响应慢或挂了，500ms 后直接放行（确保海外 100% 出图）
+        // 网易接口万一在国内某些特定网络下挂了，触发降级保障，直接放行海外地图
         scriptIp.onerror = function() {
+            ipScriptLoaded = true;
             loadRealMap();
         };
 
-        // 封装你原始地图的加载逻辑
+        document.head.appendChild(scriptIp);
+
+        // 3. 【最核心的超时生命周期】：给予 1500毫秒（1.5秒）连接线
+        // 如果在国内网络下，1.5 秒内由于被墙根本无法返回，代码强行出手拔掉网络连接！
+        // 这一拔掉，浏览器的底层长连接就被释放了，国内用户的标签页会【立刻停止转圈】，保障流畅度
+        setTimeout(function() {
+            if (!ipScriptLoaded) {
+                console.warn("IP check network timeout (1500ms). Force release.");
+                cleanupIpScript(); 
+                // 超时通常发生在国内，直接放弃加载地图，让国内用户彻底停止转圈
+            }
+        }, 1500); 
+
+        function cleanupIpScript() {
+            if (scriptIp && scriptIp.parentNode) {
+                scriptIp.parentNode.removeChild(scriptIp);
+            }
+        }
+
+        // 完美呼应你原始代码的所有参数配置和Token
         function loadRealMap() {
+            cleanupIpScript();
             if (container && !container.hasChildNodes()) {
                 var scriptMap = document.createElement('script');
                 scriptMap.type = 'text/javascript';
                 scriptMap.id = 'mapmyvisitors';
-                // 【完美呼应】：这里完全复制了你原始代码里的链接和所有配置参数，保证地图样式和数据丝毫不变
                 scriptMap.src = "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff";
                 scriptMap.async = true;
-                
                 container.appendChild(scriptMap);
             }
         }
-
-        document.head.appendChild(scriptIp);
     });
 })();
 </script>
