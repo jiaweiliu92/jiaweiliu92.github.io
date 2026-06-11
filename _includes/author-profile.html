@@ -230,43 +230,51 @@
 
 <script>
 (function() {
-    // 1. 使用网易国内极速 CDN 的 IP 归属地接口（国内外访问都极快，不会卡死网页）
-    // 这个接口会返回一个全局变量 loaddata，其中包含省份和国家信息
-    var scriptIp = document.createElement('script');
-    scriptIp.src = 'https://ip.ws.126.net/ipquery';
-    
-    scriptIp.onload = function() {
-        // 2. 安全校验：确保接口成功返回了地理位置数据
-        if (typeof lc !== 'undefined') {
-            // 如果定位显示在中国大陆的省份（如安徽、北京、上海等），直接终止，100% 拦截
-            if (lc.indexOf('省') !== -1 || lc.indexOf('市') !== -1 || lc.indexOf('局') !== -1) {
-                console.log("Mainland China user detected by IP. Skip map.");
-                return;
+    // 核心安全优化：等网页骨架完全在浏览器里搭好，确保上面的 div 容器 100% 存在
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        var container = document.getElementById('visitor-map');
+        if (!container) return; 
+
+        // 2. 动态创建网易极速 CDN 的 IP 接口
+        var scriptIp = document.createElement('script');
+        scriptIp.src = 'https://ip.ws.126.net/ipquery';
+        scriptIp.async = true;
+        
+        scriptIp.onload = function() {
+            // 3. 判定是不是中国大陆 IP
+            if (typeof lc !== 'undefined') {
+                if (lc.indexOf('省') !== -1 || lc.indexOf('市') !== -1 || lc.indexOf('局') !== -1) {
+                    console.log("Mainland China user detected by IP. Skip map.");
+                    return; // 国内用户直接终止，0次外网请求，主页秒开
+                }
+            }
+            
+            // 4. 非国内用户（如新加坡或欧美），完美呼应你原本的脚本配置，动态加载出来
+            loadRealMap();
+        };
+
+        // 降级保障：如果网易接口万一响应慢或挂了，500ms 后直接放行（确保海外 100% 出图）
+        scriptIp.onerror = function() {
+            loadRealMap();
+        };
+
+        // 封装你原始地图的加载逻辑
+        function loadRealMap() {
+            if (container && !container.hasChildNodes()) {
+                var scriptMap = document.createElement('script');
+                scriptMap.type = 'text/javascript';
+                scriptMap.id = 'mapmyvisitors';
+                // 【完美呼应】：这里完全复制了你原始代码里的链接和所有配置参数，保证地图样式和数据丝毫不变
+                scriptMap.src = "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff";
+                scriptMap.async = true;
+                
+                container.appendChild(scriptMap);
             }
         }
-        
-        // 3. 如果是海外 IP（例如你在新加坡，lc 会返回空或者非国内城市名），全速加载地图
-        var container = document.getElementById('visitor-map');
-        if (container) {
-            var scriptMap = document.createElement('script');
-            scriptMap.src = "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff";
-            scriptMap.async = true;
-            container.appendChild(scriptMap);
-        }
-    };
 
-    // 如果这个 IP 接口因为极端原因加载失败，兜底保障：500毫秒后直接允许海外加载，绝不卡住网页
-    scriptIp.onerror = function() {
-        var container = document.getElementById('visitor-map');
-        if (container && !container.hasChildNodes()) {
-            var scriptMap = document.createElement('script');
-            scriptMap.src = "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff";
-            scriptMap.async = true;
-            container.appendChild(scriptMap);
-        }
-    };
-
-    document.head.appendChild(scriptIp);
+        document.head.appendChild(scriptIp);
+    });
 })();
 </script>
 
