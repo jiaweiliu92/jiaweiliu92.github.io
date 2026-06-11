@@ -225,18 +225,43 @@
     </div>
   </div>
 
-  
-<div class="globe-desktop-only">
-  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-</div>
+
+<div id="visitor-map" class="globe-desktop-only"></div>
+
+<script>
+(function () {
+
+  const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  const chinaTZ = [
+    "Asia/Shanghai",
+    "Asia/Chongqing",
+    "Asia/Urumqi",
+    "Asia/Harbin"
+  ];
+
+  if (chinaTZ.includes(tz)) {
+    return;
+  }
+
+  const script = document.createElement('script');
+
+  script.src =
+    "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff";
+
+  script.async = true;
+
+  document.getElementById('visitor-map').appendChild(script);
+
+})();
+</script>
 
 <style>
-  @media (max-width: 768px) {
-    .globe-desktop-only {
-      display: none;
-    }
+@media (max-width: 768px) {
+  .globe-desktop-only {
+    display: none;
   }
+}
 </style>
-
   
 </div>
