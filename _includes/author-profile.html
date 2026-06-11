@@ -226,9 +226,42 @@
   </div>
 
 
-<div class="globe-desktop-only">
-  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-</div>
+<div id="visitor-map" class="globe-desktop-only"></div>
+
+<script>
+// 保障第一步：等网页核心资源（头像、文字、学术链接）全部下载完毕后，再启动逻辑
+window.addEventListener('load', function() {
+  
+  // 保障第二步：延迟 2 秒后再去悄悄请求地图，给主页渲染留出绝对充足的时间
+  setTimeout(function() {
+    var container = document.getElementById('visitor-map');
+    if (!container) return;
+
+    var scriptLoaded = false;
+    var script = document.createElement('script');
+    // 把原本死在 HTML 里的链接，变成动态创建
+    script.src = "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff";
+    script.async = true;
+
+    // 记录脚本是否在规定时间内成功下载
+    script.onload = function() {
+      scriptLoaded = true;
+    };
+
+    container.appendChild(script);
+
+    // 保障第三步（最关键）：设置 2 秒超时。
+    // 如果是国内网络，2 秒内连不上服务器，立刻出手强行清空，彻底掐断后续的垃圾请求，网页绝对不卡！
+    setTimeout(function() {
+      if (!scriptLoaded) {
+        console.warn("MapMyVisitors timeout. Clear container to keep page fast.");
+        container.innerHTML = ''; 
+      }
+    }, 2000);
+
+  }, 2000);
+});
+</script>
 
 <style>
 @media (max-width: 768px) {
