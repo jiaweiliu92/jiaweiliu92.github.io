@@ -226,34 +226,44 @@
   </div>
 
 
-<div id="visitor-map" class="globe-desktop-only"></div>
+<div id="visitor-map" class="globe-desktop-only" style="min-height: 100px; margin-top: 15px; text-align: center;"></div>
 
 <script>
-(function () {
+// 使用 window.onload，确保头像、基本样式等所有核心资源百分之百加载完毕后，才执行内部逻辑
+window.addEventListener('load', function() {
+  
+  // 此时网页核心内容已完美呈现，利用 requestIdleCallback 在浏览器处于“空闲”时静默加载地图
+  // 如果浏览器不支持该 API，则兜底延迟 1 秒加载
+  const runLoader = function() {
+    var container = document.getElementById('visitor-map');
+    if (!container) return;
 
-  const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    var scriptLoaded = false;
+    var script = document.createElement('script');
+    script.src = "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff";
+    script.async = true;
 
-  const chinaTZ = [
-    "Asia/Shanghai",
-    "Asia/Chongqing",
-    "Asia/Urumqi",
-    "Asia/Harbin"
-  ];
+    script.onload = function() {
+      scriptLoaded = true;
+    };
 
-  if (chinaTZ.includes(tz)) {
-    return;
+    container.appendChild(script);
+
+    // 将超时机制缩短至 2 秒（2000ms）。国外网络 2 秒足够，国内连不上则 2 秒内果断放弃，体验极佳
+    setTimeout(function() {
+      if (!scriptLoaded) {
+        console.warn("MapMyVisitors 加载超时，已自动跳过。");
+        container.innerHTML = ''; 
+      }
+    }, 2000);
+  };
+
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(function() { runLoader(); });
+  } else {
+    setTimeout(runLoader, 1000);
   }
-
-  const script = document.createElement('script');
-
-  script.src =
-    "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff";
-
-  script.async = true;
-
-  document.getElementById('visitor-map').appendChild(script);
-
-})();
+});
 </script>
 
 <style>
