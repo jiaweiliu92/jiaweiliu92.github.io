@@ -226,28 +226,9 @@
   </div>
 
 
-<div id="visitor-map" class="globe-desktop-only"></div>
-
-<script>
-(function() {
-    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-
-    const chinaTimezones = [
-        "Asia/Shanghai",
-        "Asia/Chongqing",
-        "Asia/Urumqi",
-        "Asia/Harbin"
-    ];
-
-    // 只有当【不是】中国大陆时区时，才去动态塞入脚本并请求外网服务
-    if (!chinaTimezones.includes(timezone)) {
-        const script = document.createElement('script');
-        script.src = "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff";
-        script.async = true;
-        document.getElementById('visitor-map').appendChild(script);
-    }
-})();
-</script>
+<div class="globe-desktop-only">
+  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+</div>
 
 <style>
 @media (max-width: 768px) {
