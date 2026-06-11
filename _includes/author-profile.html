@@ -226,9 +226,37 @@
   </div>
 
 
-<div class="globe-desktop-only">
-  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-</div>
+<div id="visitor-map" class="globe-desktop-only"></div>
+
+<script>
+(function() {
+    // 【核心延迟加载逻辑】：死等全局生命周期的 load 事件
+    // 只有当你的核心论文文字、学术挂件、侧边栏头像全部 100% 渲染完毕，网页彻底呈现在眼前后，才启动逻辑
+    window.addEventListener('load', function() {
+        
+        // 再故意延迟 300 毫秒执行
+        // 这等于明确通知浏览器底层：“所有核心同步任务已全部终结！”
+        // 此时国内用户的左上角标签页会【瞬间停止转圈】
+        setTimeout(function() {
+            var container = document.getElementById('visitor-map');
+            if (!container) return;
+
+            // 动态创建你原本一模一样的地图脚本
+            var scriptMap = document.createElement('script');
+            scriptMap.type = 'text/javascript';
+            scriptMap.id = 'mapmyvisitors';
+            
+            // 【完美呼应】：原封不动地搬运你原始代码的所有专属样式参数与 Token 历史数据
+            scriptMap.src = "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=t&d=OF5XxA4NDA-lcpQMHTYf3iys0ZwjvqpN5kyirzOkhJA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff";
+            scriptMap.async = true; // 开启异步下载
+            
+            // 正式塞入容器，开始在后台静默加载
+            container.appendChild(scriptMap);
+            
+        }, 300); // 300ms 的后台缓冲时间，彻底避开网络并发大撞车
+    });
+})();
+</script>
 
 <style>
 @media (max-width: 768px) {
