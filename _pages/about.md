@@ -196,6 +196,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <div class="academic-card theme-blue" markdown="1">
 ## 📚 Human-Centric Visual Understanding
+- ``IEEE TIFS 2026`` [Frequency-Guided Multi-Perspective Prompt Learning for Visible-Infrared Person Re-identification](https://ieeexplore.ieee.org/document/11560981), **Jiawei Liu**, Yong Wu, Yufei Zheng, Hao Tong, Guozhi Zhao, Zheng-Jun Zha
 - ``CVPR 2026`` [Learning to Diversify and Focus: A Reinforcement Framework for Open-Vocabulary HOI Detection](https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Learning_to_Diversify_and_Focus_A_Reinforcement_Framework_for_Open-Vocabulary_CVPR_2026_paper.pdf), Yongchao Xu, **Jiawei Liu**, Junfeng Wang, Sen Tao, Na Jiang, Zheng-Jun Zha
 - ``IJCV 2025`` [Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection](https://link.springer.com/article/10.1007/s11263-025-02616-y), **Jiawei Liu**, Yongchao Xu, Sen Tao, Yuexuan Qi, Zheng-Jun Zha
 - ``ACM MM 2025`` [Dual Uncertainty-Guided Feature Alignment Learning for Text-Based Person Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3755063), Yufei Zheng, **Jiawei Liu**, Bingyu Hu, Zikun Wei, Yong Wu, Zheng-Jun Zha
