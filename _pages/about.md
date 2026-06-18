@@ -131,6 +131,7 @@ I am currently looking for highly motivated graduate students who are passionate
 # 🔥 News
 <div class="academic-card theme-orange" markdown="1">
 <div class="recent-news" markdown="1">
+- \[*2026.06*\]: &nbsp;🎉🎉 One paper on agentic tool use is accepted by <span style="color:#1a73e8; font-weight:500;">ECCV</span> 2026.
 - \[*2026.06*\]: &nbsp;🎉🎉 One paper on visible-infrared person identification is accepted by <span style="color:#1a73e8; font-weight:500;">IEEE TIFS</span> 2026.
 - \[*2026.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:#d35400; font-weight:500;">Jingyi Xie (谢璟毅)</span> on earning his Ph.D. degree! 
 - \[*2026.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:#d35400; font-weight:500;">Changrong Hu (胡长荣)</span> on earning her Master’s degree!    
@@ -258,6 +259,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <div class="academic-card theme-blue" markdown="1">
 ## 🚀 Large Vision-Language Models
+- `ECCV 2026` [Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection](https://arxiv.org/pdf/2512.16300), Fanrui Zhang, Qiang Zhang, Sizhuo Zhou, Jianwen Sun, Chuanhao Li, Jiaxin Ai, Yukang Feng, Yujie Zhang, Wenjie Li, Zizhen Li, Yifan Chang, **Jiawei Liu**, Kaipeng Zhang [![](https://img.shields.io/github/stars/zfr00/ForenAgent?style=social&label=Code+Stars)](https://github.com/zfr00/ForenAgent)
 - ``ICML 2026`` [ArenaRL: Scaling RL for Open-Ended Agents via Tournament-based Relative Ranking](https://icml.cc/virtual/2026/poster/66670), Qiang Zhang, Boli Chen, Fanrui Zhang, Ruixue Ding, Shihang Wang, Qiuchen Wang, Yinfeng Huang, Haonan Zhang, Rongxiang Zhu, Xin Li, Houquan Zhou, Pengjun Xie, Kaipeng Zhang, Jingren Zhou, **Jiawei Liu** \| [**Project**](https://github.com/Alibaba-NLP/qqr/) [![](https://img.shields.io/github/stars/Alibaba-NLP/qqr?style=social&label=Code+Stars)](https://github.com/Alibaba-NLP/qqr)
 - ``CVM 2026`` [Mining the Potential of Rehearsal Mechanism for VLM-based Class Incremental Learning](https://iccvm.org/2026/files/papers/9.pdf), Sen Tao, **Jiawei Liu**, Yongchao Xu, Guangxi Wan, and Peng Zeng
 - ``ICLR 2026`` [PSP: Prompt-Guided Self-Training Sampling Policy for Active Prompt Learning](https://openreview.net/pdf?id=7D7VLU9227), Sen Tao, Kaiduo Feng, **Jiawei Liu**, Peng Zeng, Yongchao Xu, Yufei Zheng, Zheng-Jun Zha
