@@ -401,6 +401,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - Journal of Computer Science and Technology
 
 **Conference Area Chair or Senior Program Committee:**
+- AAAI Conference on Artificial Intelligence
 - Chinese Control Conference
 
 **Conference Reviewer or Program Committee:**
