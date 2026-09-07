@@ -374,6 +374,9 @@ I am currently looking for highly motivated graduate students who are passionate
 </div>
 
 <div class="academic-card theme-purple" markdown="1">
+**Young Editorial Board Member:**
+- Journal of Intelligent Computing and Networking
+
 **Journal Reviewer:**
 - IEEE Transactions on Pattern Analysis and Machine Intelligence
 - International Journal of Computer Vision
