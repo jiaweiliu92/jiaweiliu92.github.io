@@ -364,6 +364,7 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2024 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2025 Spring*, Undergraduate Course - Python and Deep Learning Basics (Python与深度学习基础) <!-- <span style="color:#000000;background-color:#DCFFB7"> *2025 Spring*, Undergraduate Course - Python and Deep Learning Basics (Python与深度学习基础) \[coming soon\] </span> -->
 - *2025 Fall*, Graduate Course - Computer Vision (计算机视觉)
+- *2026 Fall*, Graduate Course - Computer Vision (计算机视觉)
 
 **Academic Service:**
 - Expert in the National Graduate Education Evaluation and Monitoring Expert Database
