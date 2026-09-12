@@ -146,6 +146,9 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026. <span class="badge-highlight">Highlight</span>
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:#1a73e8; font-weight:500;">ICLR</span> 2026. 
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on multimodal fact-checking is accepted by <span style="color:#1a73e8; font-weight:500;">WWW</span> 2026. <span class="badge-highlight">Oral</span> 
+</div>
+
+<div id="history-news" style="display: none;" markdown="1">
 - \[*2025.12*\]: &nbsp;🎉🎉 One paper on class incremental learning is accepted by <span style="color:#1a73e8; font-weight:500;">CVM</span> 2026. 
 - \[*2025.11*\]: &nbsp;🎉🎉 One paper on zero-shot HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">IJCV</span> 2025. 
 - \[*2025.11*\]: &nbsp;🎉🎉 One paper on occluded person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">JICN</span> 2025. 
@@ -161,9 +164,6 @@ I am currently looking for highly motivated graduate students who are passionate
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on test-time adaptation is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2025. 
 - \[*2025.02*\]: &nbsp;🎉🎉 One paper on comprehensive image captioning is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2025. 
 - \[*2025.01*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">IEEE TIFS</span> 2025.
-</div>
-
-<div id="history-news" style="display: none;" markdown="1">
 - \[*2024.12*\]: &nbsp;🎓🎓 Congratulations to <span style="color:#d35400; font-weight:500;">Bingyu Hu (胡冰玉)</span> on earning her Ph.D. degree! 
 - \[*2024.12*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">CVM</span> 2025.
 - \[*2024.12*\]: &nbsp;🎉🎉 One paper on human-object interaction is accepted by <span style="color:#1a73e8; font-weight:500;">AAAI</span> 2025. 
