@@ -294,3 +294,205 @@ a:focus-visible, button:focus-visible {
   height: 0;
   margin: 0;
 }
+
+/* -------------------------------------------------------------------------
+   Refined visual layer
+   A quiet, editorial finish: more depth and hierarchy without adding
+   separators or changing the page structure/content.
+   ------------------------------------------------------------------------- */
+:root {
+  --site-bg: #f4f6fa;
+  --surface: #ffffff;
+  --heading: #202c3e;
+  --text: #4a566a;
+  --muted: #66758b;
+  --accent: #3b669f;
+  --accent-soft: #edf3fc;
+  --card-border: rgba(75, 106, 149, .075);
+  --card-shadow: 0 14px 38px rgba(38, 65, 101, .055), 0 2px 8px rgba(38, 65, 101, .025);
+  --card-shadow-hover: 0 18px 44px rgba(38, 65, 101, .075), 0 3px 10px rgba(38, 65, 101, .03);
+}
+
+html { background: var(--site-bg); }
+body {
+  background:
+    radial-gradient(820px 420px at -5% -8%, rgba(103, 145, 204, .10), transparent 68%),
+    radial-gradient(760px 420px at 105% 16%, rgba(139, 124, 194, .055), transparent 70%),
+    linear-gradient(180deg, #f8f9fc 0%, #f2f5f9 100%);
+}
+::selection { background: #dce9fb; color: #213b61; }
+
+.masthead {
+  border: 1px solid rgba(75, 106, 149, .065);
+  background: rgba(255, 255, 255, .88);
+  box-shadow: 0 12px 32px rgba(39, 65, 99, .055), 0 1px 0 rgba(255, 255, 255, .9) inset;
+  -webkit-backdrop-filter: blur(16px) saturate(115%);
+  backdrop-filter: blur(16px) saturate(115%);
+}
+.greedy-nav .visible-links a {
+  border: 1px solid transparent;
+  transition: background-color .18s ease, border-color .18s ease, color .18s ease, transform .18s ease;
+}
+.greedy-nav .visible-links a:hover {
+  border-color: rgba(76, 116, 171, .08);
+  box-shadow: 0 4px 12px rgba(45, 77, 120, .06);
+  transform: translateY(-1px);
+}
+.greedy-nav .masthead__menu-home-item a {
+  border-color: rgba(76, 116, 171, .055);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .72);
+}
+.greedy-nav .hidden-links {
+  border: 1px solid rgba(75, 106, 149, .075);
+  background: rgba(255, 255, 255, .96);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+}
+
+.sidebar .profile_box,
+.academic-card {
+  border: 1px solid var(--card-border);
+  box-shadow: var(--card-shadow);
+}
+.sidebar .profile_box {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, #ffffff 0%, #fbfcff 100%);
+}
+.sidebar .profile_box::before {
+  position: absolute;
+  top: -150px;
+  right: -135px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(102, 145, 205, .13), transparent 67%);
+  content: "";
+  pointer-events: none;
+}
+.sidebar .profile_box > * { position: relative; z-index: 1; }
+.sidebar .author__avatar img {
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, .92), 0 10px 24px rgba(43, 74, 116, .14);
+}
+.sidebar .author__urls a {
+  border: 1px solid transparent;
+  background: rgba(242, 246, 251, .86);
+  transition: background-color .18s ease, border-color .18s ease, color .18s ease, transform .18s ease;
+}
+.sidebar .author__urls a:hover {
+  border-color: rgba(76, 116, 171, .09);
+  box-shadow: 0 5px 14px rgba(45, 77, 120, .06);
+  transform: translateX(2px);
+}
+
+.academic-card {
+  background: linear-gradient(145deg, #ffffff 0%, #fcfdff 100%);
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+.academic-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-1px);
+}
+.section-news { background: linear-gradient(145deg, #ffffff 0%, #fbfdff 100%); }
+.section-publications { background: linear-gradient(145deg, #ffffff 0%, #fdfcff 100%); }
+.section-honors-and-awards { background: linear-gradient(145deg, #ffffff 0%, #fffdfc 100%); }
+.section-experiences,
+.section-fundings,
+.section-professional-activities { background: linear-gradient(145deg, #ffffff 0%, #fbfcff 100%); }
+
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  letter-spacing: -.018em;
+}
+.page__content h1 { font-weight: 700; }
+.page__content h2 { color: #2f4c72; }
+.page__content h3 { color: #3b587d; }
+.recruitment-note {
+  background: linear-gradient(135deg, #f1f6fd 0%, #f7f9fd 100%);
+  box-shadow: inset 3px 0 0 rgba(73, 119, 181, .35), 0 5px 16px rgba(56, 91, 138, .035);
+}
+
+.recent-news li,
+#history-news li {
+  margin-left: -6px;
+  padding: 7px 10px 7px 6px;
+  border-radius: 10px;
+  transition: background-color .18s ease, transform .18s ease;
+}
+.recent-news li:hover,
+#history-news li:hover {
+  background: rgba(239, 245, 253, .72);
+  transform: translateX(2px);
+}
+.recent-news li::marker,
+#history-news li::marker { color: #7898c4; font-size: .78em; }
+.recent-news em,
+#history-news em {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: #f0f4fa;
+  color: #526d96;
+}
+.view-history-bar {
+  box-shadow: 0 5px 14px rgba(53, 95, 157, .08);
+  transition: background-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+.view-history-bar:hover {
+  box-shadow: 0 8px 18px rgba(53, 95, 157, .12);
+  transform: translateY(-1px);
+}
+
+.academic-group > ul > li {
+  border-radius: 10px;
+  transition: background-color .18s ease, transform .18s ease;
+}
+.academic-group > ul > li:hover {
+  background: rgba(247, 250, 255, .8);
+  transform: translateX(2px);
+}
+.section-publications .academic-group li {
+  margin-left: -12px;
+  margin-right: -12px;
+  padding-top: 11px;
+  padding-right: 12px;
+  padding-bottom: 11px;
+  padding-left: 144px;
+  border-radius: 11px;
+  transition: background-color .18s ease, transform .18s ease;
+}
+.section-publications .academic-group li:hover {
+  background: rgba(241, 246, 253, .78);
+  transform: translateX(3px);
+}
+.section-publications li > code:first-child {
+  left: 12px;
+  top: 13px;
+  box-shadow: 0 3px 9px rgba(53, 95, 157, .06);
+}
+.section-publications li > a:first-of-type { color: #315f9f; }
+.badge-highlight {
+  background: #fff4df;
+  color: #a36b18;
+}
+
+@media (max-width: 800px) {
+  .academic-card:hover { transform: none; }
+  .recent-news li:hover,
+  #history-news li:hover,
+  .academic-group > ul > li:hover,
+  .section-publications .academic-group li:hover { transform: none; }
+  .section-publications .academic-group li {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+  .section-publications li > code:first-child { left: auto; top: auto; }
+}
+
+@media print {
+  html, body { background: white; }
+  .masthead { -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .academic-card, .sidebar .profile_box { border: 0; }
+}
