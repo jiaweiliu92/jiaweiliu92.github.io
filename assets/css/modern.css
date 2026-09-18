@@ -503,18 +503,15 @@ body {
    follow the reader on desktop without changing the mobile flow.
    ------------------------------------------------------------------------- */
 @media (min-width: 1101px) {
-  .greedy-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  /* Keep the original greedy-navigation width calculation intact. */
+  .greedy-nav { text-align: center; }
   .greedy-nav .visible-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    display: table;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
   }
-  .greedy-nav .visible-links li { display: block; }
+  .greedy-nav .visible-links li { display: table-cell; }
 }
 
 @media (min-width: 801px) {
