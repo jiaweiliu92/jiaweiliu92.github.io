@@ -496,3 +496,35 @@ body {
   .masthead { -webkit-backdrop-filter: none; backdrop-filter: none; }
   .academic-card, .sidebar .profile_box { border: 0; }
 }
+
+/* -------------------------------------------------------------------------
+   Final layout polish
+   Keep the navigation balanced on wide screens and let the profile card
+   follow the reader on desktop without changing the mobile flow.
+   ------------------------------------------------------------------------- */
+@media (min-width: 1101px) {
+  .greedy-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .greedy-nav .visible-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .greedy-nav .visible-links li { display: block; }
+}
+
+@media (min-width: 801px) {
+  #main > .sidebar {
+    position: sticky;
+    top: 110px;
+    align-self: start;
+  }
+}
+
+@media (max-width: 800px) {
+  #main > .sidebar { position: static; }
+}
