@@ -527,6 +527,34 @@ body {
 }
 
 /* -------------------------------------------------------------------------
+   Sidebar metadata row
+   Keep the location independent from the clickable contact buttons, while
+   giving its map icon the same visual language as the rest of the page.
+   ------------------------------------------------------------------------- */
+.sidebar .author__urls li:has(> .fa-map-marker) {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 2px 0 14px;
+  padding: 3px 2px;
+  color: #5b6b82;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.sidebar .author__urls li:has(> .fa-map-marker) > i {
+  display: inline-grid;
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  border-radius: 8px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 12px;
+}
+
+/* -------------------------------------------------------------------------
    Section title icons and quiet list markers
    The original heading icons were hidden by the anchor-offset fix above.
    Restore them with the Font Awesome font already bundled by the theme.
