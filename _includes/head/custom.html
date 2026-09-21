@@ -23,7 +23,7 @@
 <!-- end custom head snippets -->
 
 <!-- Modern academic theme; loaded after the original theme. -->
-<link rel="stylesheet" href="{{ "/assets/css/modern.css" | relative_url }}?v=20260921-reading1">
+<link rel="stylesheet" href="{{ "/assets/css/modern.css" | relative_url }}?v=20260921-reading2">
 
 <!-- Homepage layout and navigation compatibility fix -->
 <style>
@@ -56,50 +56,12 @@
     var homeLink = document.querySelector('.masthead__menu-home-item a');
     if (homeLink) homeLink.setAttribute('href', location.pathname + location.search);
     var initialCancelled = false;
-    var sidebar = document.querySelector('#main > .sidebar');
-    var navigation = Array.from(header.querySelectorAll('a[href]')).map(function (link) {
-      var url = new URL(link.href, location.href);
-      if (url.origin !== location.origin || url.pathname !== location.pathname || url.search !== location.search) return null;
-      if (link === homeLink) return {link: link, element: null};
-      var element = url.hash && resolve(url.hash);
-      return element && element.closest('.page__content') ? {link: link, element: element} : null;
-    }).filter(Boolean);
-    var sections = navigation.filter(function (item) { return item.element; });
-    var framePending = false;
-    function updateCurrent() {
-      framePending = false;
-      var current = homeLink;
-      var threshold = gap() + 12;
-      sections.forEach(function (item) {
-        if (item.element.getBoundingClientRect().top <= threshold) current = item.link;
-      });
-      if (window.scrollY <= 2) {
-        var about = sections.find(function (item) { return item.element.id === 'about-title'; });
-        current = location.hash === '#about-me' && about ? about.link : homeLink;
-      } else if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2 && sections.length) {
-        current = sections[sections.length - 1].link;
-      }
-      navigation.forEach(function (item) {
-        if (item.link === current) item.link.setAttribute('aria-current', 'location');
-        else item.link.removeAttribute('aria-current');
-      });
-    }
-    function scheduleCurrent() {
-      if (!framePending) { framePending = true; requestAnimationFrame(updateCurrent); }
-    }
     function gap() {
       var stickyTop = parseFloat(getComputedStyle(header).top) || 0;
       return Math.ceil(header.getBoundingClientRect().height + stickyTop + 16);
     }
     function updateGap() {
-      var offset = gap();
-      document.documentElement.style.setProperty('--anchor-offset', offset + 'px');
-      if (sidebar) {
-        var fits = window.matchMedia('(min-width: 801px)').matches &&
-          sidebar.getBoundingClientRect().height + offset + 16 <= window.innerHeight;
-        sidebar.classList.toggle('sidebar--fits', fits);
-      }
-      scheduleCurrent();
+      document.documentElement.style.setProperty('--anchor-offset', gap() + 'px');
     }
     function resolve(hash) {
       var id;
@@ -142,8 +104,6 @@
       go(url.hash, true);
     }, true);
     window.addEventListener('hashchange', function () { go(location.hash, false); });
-    window.addEventListener('popstate', function () { go(location.hash, false); });
-    window.addEventListener('scroll', scheduleCurrent, {passive: true});
     ['wheel', 'touchstart', 'keydown', 'pointerdown'].forEach(function (name) {
       window.addEventListener(name, function () { initialCancelled = true; }, {passive: true, once: true});
     });
@@ -152,14 +112,7 @@
     }
     updateGap();
     window.addEventListener('resize', updateGap);
-    if (window.ResizeObserver) {
-      var layoutObserver = new ResizeObserver(updateGap);
-      layoutObserver.observe(header);
-      if (sidebar) layoutObserver.observe(sidebar);
-      var content = document.querySelector('.page__content');
-      if (content) layoutObserver.observe(content);
-    }
-    window.addEventListener('load', updateGap, {once: true});
+    if (window.ResizeObserver) new ResizeObserver(updateGap).observe(header);
     requestAnimationFrame(alignInitialHash);
     if (document.readyState !== 'complete') window.addEventListener('load', alignInitialHash, {once: true});
   }
