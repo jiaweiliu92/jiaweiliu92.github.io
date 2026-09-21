@@ -689,3 +689,33 @@ body {
 @media print {
   #main > .sidebar.sidebar--fits { position: static; }
 }
+
+
+/* Final cascade fix for dated lists. Keep this block at the end of the file. */
+@media (min-width: 1001px) {
+  .page__content .academic-card:not(.section-publications) .academic-group.dated-list li {
+    padding-left: calc(32px + var(--date-column)) !important;
+  }
+  .page__content .academic-card:not(.section-publications) .academic-group.dated-list li > em:first-child {
+    position: absolute !important;
+    left: 32px !important;
+    top: 7px !important;
+    width: calc(var(--date-column) - 12px) !important;
+  }
+}
+@media (max-width: 1000px) {
+  .page__content .academic-card:not(.section-publications) .academic-group.dated-list li {
+    padding-left: 32px !important;
+  }
+  .page__content .academic-card:not(.section-publications) .academic-group.dated-list li > em:first-child {
+    position: static !important;
+    display: block !important;
+    width: auto !important;
+    margin-bottom: 2px !important;
+  }
+}
+@media (max-width: 800px) {
+  .page__content .academic-card:not(.section-publications) .academic-group.dated-list li {
+    padding-left: 28px !important;
+  }
+}
