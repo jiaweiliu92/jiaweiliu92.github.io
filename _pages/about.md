@@ -23,7 +23,9 @@ redirect_from:
 
 Hi! I’m Jiawei Liu (刘嘉威), currently an Associate Professor with the Department of Automation, University of Science and Technology of China (中国科学技术大学), working with [Prof. Zheng-Jun Zha](https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm) at [the Lab for Multimodal Embodied Intelligence (多模态具身智能实验室)](https://ustc-milab.github.io/). From September 2025 to August 2026, I was a visiting scholar at the National University of Singapore (NUS) <img src="./images/nus.png" style="width: 2.7em;">, supervised by [Prof. Shuicheng Yan](https://www.lv-lab.org/).
 
-I received the B.S. degree from Hefei University of Technology (HFUT) in 2013, and the Ph.D. degree from the University of Science and Technology of China (USTC) in 2019. During my Ph.D., I worked at [Microsoft Research Asia (MSRA)](https://www.msra.cn/) <img src="./images/microsoft.png" style="width: 4.5em;"> as a research intern under the supervision of [Prof. Tao Mei](https://taomei.me/) from  October 2016 to January 2017. My research interests span Computer Vision, Multimedia Analysis, and Embodied AI, with a particular focus on Human-Centric Visual Understanding, Fake Media Content Analysis, and Multimodal Large Language Models, <em>etc</em>. I have published over 60 papers <a href='https://scholar.google.com/citations?user=sR7Sf2YAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fjiaweiliu92%2Fjiaweiliu92.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international AI journals and conferences.
+I received the B.S. degree from Hefei University of Technology (HFUT) in 2013, and the Ph.D. degree from the University of Science and Technology of China (USTC) in 2019. During my Ph.D., I worked at [Microsoft Research Asia (MSRA)](https://www.msra.cn/) <img src="./images/microsoft.png" style="width: 4.5em;"> as a research intern under the supervision of [Prof. Tao Mei](https://taomei.me/) from  October 2016 to January 2017.
+
+My research interests span Computer Vision, Multimedia Analysis, and Embodied AI, with a particular focus on Human-Centric Visual Understanding, Fake Media Content Analysis, and Multimodal Large Language Models, <em>etc</em>. I have published over 60 papers <a href='https://scholar.google.com/citations?user=sR7Sf2YAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fjiaweiliu92%2Fjiaweiliu92.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international AI journals and conferences.
 
 <div class="recruitment-note" markdown="1">
 
@@ -204,7 +206,7 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <h1 id="-chinese-patents">Chinese Patents</h1>
 
-<div class="academic-group" markdown="1">
+<div class="academic-group dated-list" markdown="1">
 - *2026.04* 查正军; **刘嘉威**; 徐永超; 王浚沣. 一种基于强化学习框架的开放词汇人物交互检测方法. 发明专利. (专利号：CN202610429538.7)
 - *2026.03* 查正军; **刘嘉威**; 展宏民; 张凡瑞. 基于检索与推理增强大语言模型的多模态事实核查方法. 发明专利. (专利号：CN202610248544.2)
 - *2025.11* 查正军; **刘嘉威**; 张强; 张凡瑞. 基于冲突感知检索和多级协同引导的多模态知识编辑方法. 发明专利. (专利号：CN202511709848.6)
@@ -232,18 +234,18 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <h1 id="-honors-and-awards">Honors and Awards</h1>
 
-<div class="academic-group" markdown="1">
-- *2026.06*, CVPR2026 Workshop: MultiModal Deception Detection Challenge ([1st Place Award](https://www.codabench.org/competitions/12678/#/results-tab)) 
-- *2025.10*, First-Class Award of Anhui Provincial Natural Science Award [(3/3)](https://kjt.ah.gov.cn/kjzx/tzgg/123091461.html)
-- *2025.10*, PRCV2025 Workshop: Omni Multi-modal Person Re-identification Challenge (Excellence Award)
-- *2024.07*, ACM MM2024 Workshop: Micro-Action Analysis Grand Challenge ([3rd Place Award](https://sites.google.com/view/micro-action/challenge/winners))
-- *2023.03*, AAAI2023 Workshop: Defactify 2: Multimodal Fake News Detection ([4th Place Award](https://aiisc.ai/defactify2/))
-- *2022.01*, Mozi Distinguished Youth Special Allowance of USTC
-- *2020.01*, Special Research Assistantship of CAS
-- *2019.06*, CAS Presidential Scholarship
-- *2019.06*, Outstanding Graduates Scholarship, USTC
-- *2018.09*, Individual Scholarship, USTC
-- *2016.09*, Individual Scholarship, USTC
+<div class="academic-group dated-list" markdown="1">
+- *2026.06* CVPR2026 Workshop: MultiModal Deception Detection Challenge ([1st Place Award](https://www.codabench.org/competitions/12678/#/results-tab)) 
+- *2025.10* First-Class Award of Anhui Provincial Natural Science Award [(3/3)](https://kjt.ah.gov.cn/kjzx/tzgg/123091461.html)
+- *2025.10* PRCV2025 Workshop: Omni Multi-modal Person Re-identification Challenge (Excellence Award)
+- *2024.07* ACM MM2024 Workshop: Micro-Action Analysis Grand Challenge ([3rd Place Award](https://sites.google.com/view/micro-action/challenge/winners))
+- *2023.03* AAAI2023 Workshop: Defactify 2: Multimodal Fake News Detection ([4th Place Award](https://aiisc.ai/defactify2/))
+- *2022.01* Mozi Distinguished Youth Special Allowance of USTC
+- *2020.01* Special Research Assistantship of CAS
+- *2019.06* CAS Presidential Scholarship
+- *2019.06* Outstanding Graduates Scholarship, USTC
+- *2018.09* Individual Scholarship, USTC
+- *2016.09* Individual Scholarship, USTC
 </div>
 
 </div>
@@ -254,18 +256,20 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <h1 id="-experiences">Experiences</h1>
 
-<div class="academic-group" markdown="1">
-**Work Experiences:**
-- *2026.05 - Present*, Associate Professor, USTC, Collaborating with Prof. Zheng-Jun Zha
-- *2021.12 - 2026.04*, Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
-- *2025.09 - 2026.08*, Visiting Scholar, <span style="color:#d35400; font-weight:500;">NUS</span>, Hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/)
-- *2019.10 - 2021.11*, Postdoctoral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and [Prof. Yongdong Zhang](https://imcc.ustc.edu.cn/main.htm)
-- *2019.08 - 2019.10*, Researcher, <span style="color:#d35400; font-weight:500;">JD AI Lab</span>, Working with Prof. Tao Mei and [Prof. Wu Liu](https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm)
-- *2016.10 - 2017.01*, Research Intern, <span style="color:#1a73e8; font-weight:500;">MSRA</span>, Under the supervision of Prof. Tao Mei
+<div class="academic-group dated-list" markdown="1">
+<h3>Work Experiences</h3>
 
-**Educations:**
-- *2014.09 - 2019.06*, <span style="color:#1a73e8; font-weight:500;">Ph.D.</span> in the Department of Automation, University of Science and Technology of China
-- *2009.08 - 2013.07*, <span style="color:#1a73e8; font-weight:500;">B.S.</span> in the Department of Automation, Hefei University of Technology
+- *2026.05 - Present* Associate Professor, USTC, Collaborating with Prof. Zheng-Jun Zha
+- *2021.12 - 2026.04* Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
+- *2025.09 - 2026.08* Visiting Scholar, <span style="color:#d35400; font-weight:500;">NUS</span>, Hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/)
+- *2019.10 - 2021.11* Postdoctoral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and [Prof. Yongdong Zhang](https://imcc.ustc.edu.cn/main.htm)
+- *2019.08 - 2019.10* Researcher, <span style="color:#d35400; font-weight:500;">JD AI Lab</span>, Working with Prof. Tao Mei and [Prof. Wu Liu](https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm)
+- *2016.10 - 2017.01* Research Intern, <span style="color:#1a73e8; font-weight:500;">MSRA</span>, Under the supervision of Prof. Tao Mei
+
+<h3>Educations</h3>
+
+- *2014.09 - 2019.06* <span style="color:#1a73e8; font-weight:500;">Ph.D.</span> in the Department of Automation, University of Science and Technology of China
+- *2009.08 - 2013.07* <span style="color:#1a73e8; font-weight:500;">B.S.</span> in the Department of Automation, Hefei University of Technology
 </div>
 
 </div>
@@ -276,20 +280,20 @@ I am currently looking for highly motivated graduate students who are passionate
 
 <h1 id="-fundings">Fundings</h1>
 
-<div class="academic-group" markdown="1">
-- *2025.01 - 2028.12*, National Natural Science Foundation of China, General Program, PI (基金委面上基金项目, 主持)
-- *2025.09 - 2026.08*, CCF-1688 Yuanbao Cooperation Fund, PI (CCF-1688源宝合作基金项目，主持)
-- *2025.01 - 2026.12*, USTC Research Funds of the Double First-Class Initiative, PI (校青年创新重点基金项目, 主持)
-- *2022.01 - 2024.12*, National Natural Science Foundation of China, Youth Program, PI (基金委青年基金项目, 主持)
-- *2023.06 - 2024.12*, China Merchants Bank-USTC Laboratory Collaborative Project，PI (招商银行-中国科大实验室合作项目, 主持)
-- *2021.01 - 2022.12*, USTC Research Funds of the Double First-Class Initiative, PI (校青年创新基金项目, 主持)
-- *2021.01 - 2022.12*, China Postdoctoral Science Foundation, PI (中国博士后面上基金项目, 主持)
-- *2024.07 - 2029.06*, Chinese Academy of Sciences Stable Support Basic Research Youth Team Program, Key Participant (中国科学院稳定支持基础研究领域青年团队计划课题, 主持)
-- *2024.04 - 2030.12*, Strategic Priority Project of the Chinese Academy of Sciences on Securing the High Ground in Science and Technology, Key Participant（中国科学院抢占科技制高点专项课题，参与）
-- *2025.01 - 2026.12*, USTC Research Funds of the Double First-Class Initiative, Key Participant (校融合专项基金项目, 参与)
-- *2020.11 - 2023.10*, National Key R&D Program of China, Key Participant (科技创新2030-"新一代人工智能"重大项目, 参与)
-- *2020.01 - 2023.12*, Joint Funds of the National Natural Science Foundation of China, Key Participant (基金委联合重点基金项目, 参与)
-- *2017.01 - 2021.12*, National Key R&D Program of China, Key Participant (国家重点研发计划课题, 参与)
+<div class="academic-group dated-list" markdown="1">
+- *2025.01 - 2028.12* National Natural Science Foundation of China, General Program, PI (基金委面上基金项目, 主持)
+- *2025.09 - 2026.08* CCF-1688 Yuanbao Cooperation Fund, PI (CCF-1688源宝合作基金项目，主持)
+- *2025.01 - 2026.12* USTC Research Funds of the Double First-Class Initiative, PI (校青年创新重点基金项目, 主持)
+- *2022.01 - 2024.12* National Natural Science Foundation of China, Youth Program, PI (基金委青年基金项目, 主持)
+- *2023.06 - 2024.12* China Merchants Bank-USTC Laboratory Collaborative Project，PI (招商银行-中国科大实验室合作项目, 主持)
+- *2021.01 - 2022.12* USTC Research Funds of the Double First-Class Initiative, PI (校青年创新基金项目, 主持)
+- *2021.01 - 2022.12* China Postdoctoral Science Foundation, PI (中国博士后面上基金项目, 主持)
+- *2024.07 - 2029.06* Chinese Academy of Sciences Stable Support Basic Research Youth Team Program, Key Participant (中国科学院稳定支持基础研究领域青年团队计划课题, 主持)
+- *2024.04 - 2030.12* Strategic Priority Project of the Chinese Academy of Sciences on Securing the High Ground in Science and Technology, Key Participant（中国科学院抢占科技制高点专项课题，参与）
+- *2025.01 - 2026.12* USTC Research Funds of the Double First-Class Initiative, Key Participant (校融合专项基金项目, 参与)
+- *2020.11 - 2023.10* National Key R&D Program of China, Key Participant (科技创新2030-"新一代人工智能"重大项目, 参与)
+- *2020.01 - 2023.12* Joint Funds of the National Natural Science Foundation of China, Key Participant (基金委联合重点基金项目, 参与)
+- *2017.01 - 2021.12* National Key R&D Program of China, Key Participant (国家重点研发计划课题, 参与)
 </div>
 
 </div>
@@ -301,7 +305,8 @@ I am currently looking for highly motivated graduate students who are passionate
 <h1 id="-professional-activities">Professional Activities</h1>
 
 <div class="academic-group" markdown="1">
-**Teaching:**
+<h3>Teaching</h3>
+
 - *2022 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2023 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2024 Fall*, Graduate Course - Computer Vision (计算机视觉)
@@ -309,7 +314,8 @@ I am currently looking for highly motivated graduate students who are passionate
 - *2025 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2026 Fall*, Graduate Course - Computer Vision (计算机视觉)
 
-**Academic Service:**
+<h3>Academic Service</h3>
+
 - Expert in the National Graduate Education Evaluation and Monitoring Expert Database
 - Expert in the National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database
 - [Member of CSIG Technical Committee on Multimedia](http://mm.csig.org.cn/?page_id=263 )
@@ -318,10 +324,12 @@ I am currently looking for highly motivated graduate students who are passionate
 </div>
 
 <div class="academic-group" markdown="1">
-**Young Editorial Board Member:**
+<h3>Young Editorial Board Member</h3>
+
 - Journal of Intelligent Computing and Networking
 
-**Journal Reviewer:**
+<h3>Journal Reviewer</h3>
+
 - IEEE Transactions on Pattern Analysis and Machine Intelligence
 - International Journal of Computer Vision
 - IEEE Transactions on Multimedia
@@ -348,11 +356,13 @@ I am currently looking for highly motivated graduate students who are passionate
 - IEEE Sensors Letters
 - Journal of Computer Science and Technology
 
-**Conference Area Chair or Senior Program Committee:**
+<h3>Conference Area Chair or Senior Program Committee</h3>
+
 - AAAI Conference on Artificial Intelligence
 - Chinese Control Conference
 
-**Conference Reviewer or Program Committee:**
+<h3>Conference Reviewer or Program Committee</h3>
+
 - NeurIPS, CVPR, ICCV, ECCV, ICML, ICLR, ACM MM, IJCAI, AAAI, ICME, PRVC, ACCV
 </div>
 
