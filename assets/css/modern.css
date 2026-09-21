@@ -55,7 +55,7 @@ a:focus-visible, button:focus-visible {
 }
 .greedy-nav .visible-links a::before { display: none; }
 .greedy-nav .visible-links a:hover,
-.greedy-nav .masthead__menu-home-item a {
+.greedy-nav a[aria-current] {
   color: var(--accent);
   background: var(--accent-soft);
 }
@@ -227,7 +227,7 @@ a:focus-visible, button:focus-visible {
 .section-publications .academic-group li {
   position: relative;
   padding-left: 132px;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   color: var(--muted);
   font-size: 14px;
   line-height: 1.7;
@@ -338,7 +338,7 @@ body {
   box-shadow: 0 4px 12px rgba(45, 77, 120, .06);
   transform: translateY(-1px);
 }
-.greedy-nav .masthead__menu-home-item a {
+.greedy-nav a[aria-current] {
   border-color: rgba(76, 116, 171, .055);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .72);
 }
@@ -455,9 +455,9 @@ body {
 .section-publications .academic-group li {
   margin-left: -12px;
   margin-right: -12px;
-  padding-top: 11px;
+  padding-top: 9px;
   padding-right: 12px;
-  padding-bottom: 11px;
+  padding-bottom: 9px;
   padding-left: 144px;
   border-radius: 11px;
   transition: background-color .18s ease, transform .18s ease;
@@ -468,7 +468,7 @@ body {
 }
 .section-publications li > code:first-child {
   left: 12px;
-  top: 13px;
+  top: 11px;
   box-shadow: 0 3px 9px rgba(53, 95, 157, .06);
 }
 .section-publications li > a:first-of-type { color: #315f9f; }
@@ -515,9 +515,9 @@ body {
 }
 
 @media (min-width: 801px) {
-  #main > .sidebar {
+  #main > .sidebar.sidebar--fits {
     position: sticky;
-    top: 110px;
+    top: var(--anchor-offset, 110px);
     align-self: start;
   }
 }
@@ -637,4 +637,55 @@ body {
     height: 7px;
     box-shadow: 0 0 0 4px rgba(224, 234, 249, .88);
   }
+}
+
+
+/* Reading refinements: preserve the News markers and the existing nav layout. */
+.greedy-nav .hidden-links a[aria-current] {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+.greedy-nav a:focus-visible {
+  outline: 2px solid #7997c5;
+  outline-offset: 2px;
+}
+.page__content .academic-group > h3 {
+  margin: 28px 0 14px;
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 1.45;
+}
+.page__content .academic-group > h3:first-child { margin-top: 0; }
+
+/* Use a separate date column without adding borders or changing list markers. */
+.dated-list { --date-column: 9ch; }
+.section-experiences .dated-list,
+.section-fundings .dated-list { --date-column: 19ch; }
+.page__content .academic-card .dated-list li {
+  padding-left: calc(32px + var(--date-column));
+}
+.page__content .academic-card .dated-list li > em:first-child {
+  position: absolute;
+  top: 7px;
+  left: 32px;
+  width: calc(var(--date-column) - 12px);
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: var(--muted);
+}
+@media (max-width: 1000px) {
+  .page__content .academic-card .dated-list li { padding-left: 32px; }
+  .page__content .academic-card .dated-list li > em:first-child {
+    display: block;
+    position: static;
+    width: auto;
+    margin-bottom: 2px;
+  }
+}
+@media (max-width: 800px) {
+  .page__content .academic-card .dated-list li { padding-left: 28px; }
+}
+@media print {
+  #main > .sidebar.sidebar--fits { position: static; }
 }
