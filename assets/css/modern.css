@@ -661,10 +661,10 @@ body {
 .dated-list { --date-column: 9ch; }
 .section-experiences .dated-list,
 .section-fundings .dated-list { --date-column: 19ch; }
-.page__content .academic-card .dated-list li {
+.page__content .academic-card:not(.section-publications) .academic-group.dated-list li {
   padding-left: calc(32px + var(--date-column));
 }
-.page__content .academic-card .dated-list li > em:first-child {
+.page__content .academic-card:not(.section-publications) .academic-group.dated-list li > em:first-child {
   position: absolute;
   top: 7px;
   left: 32px;
@@ -675,8 +675,8 @@ body {
   color: var(--muted);
 }
 @media (max-width: 1000px) {
-  .page__content .academic-card .dated-list li { padding-left: 32px; }
-  .page__content .academic-card .dated-list li > em:first-child {
+  .page__content .academic-card:not(.section-publications) .academic-group.dated-list li { padding-left: 32px; }
+  .page__content .academic-card:not(.section-publications) .academic-group.dated-list li > em:first-child {
     display: block;
     position: static;
     width: auto;
@@ -684,7 +684,7 @@ body {
   }
 }
 @media (max-width: 800px) {
-  .page__content .academic-card .dated-list li { padding-left: 28px; }
+  .page__content .academic-card:not(.section-publications) .academic-group.dated-list li { padding-left: 28px; }
 }
 @media print {
   #main > .sidebar.sidebar--fits { position: static; }
