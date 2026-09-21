@@ -23,7 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jiawei Liu 刘嘉威"
   avatar           : "images/img1.png"
-  bio              : "University of Science and Technology of China"
+  bio              : "Associate Professor<br>Department of Automation<br>University of Science and Technology of China"
+  research_interests : "Computer Vision, Multimedia Analysis, and Embodied AI"
   location         : "Hefei, China"
   employer         :
   pubmed           : 
