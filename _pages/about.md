@@ -176,7 +176,7 @@ I welcome applications from motivated graduate students interested in computer v
 - ``ACM MM 2023`` [Hierarchical Semantic Enhancement Network for Multimodal Fake News Detection](https://dl.acm.org/doi/abs/10.1145/3581783.3612423) <br> Qiang Zhang, **Jiawei Liu**, Fanrui Zhang, Jingyi Xie, Zheng-Jun Zha
 - ``ACM MM 2023`` [ECENet: Explainable and Context-Enhanced Network for Multi-modal Fact verification](https://dl.acm.org/doi/abs/10.1145/3581783.3612183) <br> Fanrui Zhang, **Jiawei Liu**, Qiang Zhang, Esther Sun, Jingyi Xie, Zheng-Jun Zha
 - ``ARXIV 2023`` [Knowledge-enhanced Hierarchical Information Correlation Learning for Multi-modal Rumor Detection](https://arxiv.org/abs/2306.15946) <br> **Jiawei Liu**, Jingyi Xie, Fanrui Zhang, Qiang Zhang, Zheng-Jun Zha
-- `De-Factify2 2023` [Unimodal Feature-Enhanced and Cross-Modal Correlation Learning for Multi-Modal Fact Verification](https://ceur-ws.org/Vol-3555/paper16.pdf) <br> Fanrui Zhang, Qiang Zhang, **Jiawei Liu Liu**, Sun Esther
+- `De-Factify2 2023` [Unimodal Feature-Enhanced and Cross-Modal Correlation Learning for Multi-Modal Fact Verification](https://ceur-ws.org/Vol-3555/paper16.pdf) <br> Fanrui Zhang, Qiang Zhang, **Jiawei Liu**, Sun Esther
 - `CVPR 2023` [Edge-Aware Regional Message Passing Controller for Image Forgery Localization](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Edge-Aware_Regional_Message_Passing_Controller_for_Image_Forgery_Localization_CVPR_2023_paper.html) <br> Dong Li, Jiaying Zhu, Menglu Wang, **Jiawei Liu**, Xueyang Fu, Zheng-Jun Zha
 - `ACM MM 2022` [JPEG Compression-aware Image Forgery Localization](https://dl.acm.org/doi/abs/10.1145/3503161.3547749) <br> Menglu Wang, Xueyang Fu, **Jiawei Liu**, Zheng-Jun Zha
 - `ARXIV 2022` [Label Noise-Resistant Mean Teaching for Weakly Supervised Fake News Detection](https://arxiv.org/abs/2206.12260) <br> Jingyi Xie, **Jiawei Liu**, Zheng-Jun Zha
@@ -257,7 +257,7 @@ I welcome applications from motivated graduate students interested in computer v
 <h1 id="-experiences">Experiences</h1>
 
 <div class="academic-group dated-list" markdown="1">
-<h3>Work Experiences</h3>
+<h3>Professional Experience</h3>
 
 - *2026.05 - Present* Associate Professor, USTC, Collaborating with Prof. Zheng-Jun Zha
 - *2021.12 - 2026.04* Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
@@ -266,7 +266,7 @@ I welcome applications from motivated graduate students interested in computer v
 - *2019.08 - 2019.10* Researcher, <span style="color:#d35400; font-weight:500;">JD AI Lab</span>, Working with Prof. Tao Mei and [Prof. Wu Liu](https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm)
 - *2016.10 - 2017.01* Research Intern, <span style="color:#1a73e8; font-weight:500;">MSRA</span>, Under the supervision of Prof. Tao Mei
 
-<h3>Educations</h3>
+<h3>Education</h3>
 
 - *2014.09 - 2019.06* <span style="color:#1a73e8; font-weight:500;">Ph.D.</span> in the Department of Automation, University of Science and Technology of China
 - *2009.08 - 2013.07* <span style="color:#1a73e8; font-weight:500;">B.S.</span> in the Department of Automation, Hefei University of Technology
@@ -278,7 +278,7 @@ I welcome applications from motivated graduate students interested in computer v
 
 <div class="academic-card section-fundings" markdown="1">
 
-<h1 id="-fundings">Fundings</h1>
+<h1 id="-fundings">Funding</h1>
 
 <div class="academic-group dated-list" markdown="1">
 - *2025.01 - 2028.12* National Natural Science Foundation of China, General Program, PI (基金委面上基金项目, 主持)
@@ -288,7 +288,7 @@ I welcome applications from motivated graduate students interested in computer v
 - *2023.06 - 2024.12* China Merchants Bank-USTC Laboratory Collaborative Project，PI (招商银行-中国科大实验室合作项目, 主持)
 - *2021.01 - 2022.12* USTC Research Funds of the Double First-Class Initiative, PI (校青年创新基金项目, 主持)
 - *2021.01 - 2022.12* China Postdoctoral Science Foundation, PI (中国博士后面上基金项目, 主持)
-- *2024.07 - 2029.06* Chinese Academy of Sciences Stable Support Basic Research Youth Team Program, Key Participant (中国科学院稳定支持基础研究领域青年团队计划课题, 主持)
+- *2024.07 - 2029.06* Chinese Academy of Sciences Stable Support Basic Research Youth Team Program, Subproject PI (中国科学院稳定支持基础研究领域青年团队计划课题, 主持)
 - *2024.04 - 2030.12* Strategic Priority Project of the Chinese Academy of Sciences on Securing the High Ground in Science and Technology, Key Participant（中国科学院抢占科技制高点专项课题，参与）
 - *2025.01 - 2026.12* USTC Research Funds of the Double First-Class Initiative, Key Participant (校融合专项基金项目, 参与)
 - *2020.11 - 2023.10* National Key R&D Program of China, Key Participant (科技创新2030-"新一代人工智能"重大项目, 参与)
@@ -363,7 +363,7 @@ I welcome applications from motivated graduate students interested in computer v
 
 <h3>Conference Reviewer or Program Committee</h3>
 
-- NeurIPS, CVPR, ICCV, ECCV, ICML, ICLR, ACM MM, IJCAI, AAAI, ICME, PRVC, ACCV
+- NeurIPS, CVPR, ICCV, ECCV, ICML, ICLR, ACM MM, IJCAI, AAAI, ICME, PRCV, ACCV
 </div>
 
 </div>
