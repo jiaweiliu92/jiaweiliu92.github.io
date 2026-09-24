@@ -44,6 +44,10 @@ I welcome applications from motivated graduate students interested in computer v
 <h1 id="-news">News</h1>
 <div class="academic-group" markdown="1">
 <div class="recent-news" markdown="1">
+- \[*2026.09*\]: &nbsp;🎉🎉 One paper on tool-augmented scientific reasoning is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.  
+- \[*2026.09*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.
+- \[*2026.09*\]: &nbsp;🎉🎉 One paper on point cloud segmentation is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.
+- \[*2026.09*\]: &nbsp;🎉🎉 One paper on thinking with images is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.
 - \[*2026.09*\]: &nbsp;🎉🎉 One paper on image forgery detection and localization is accepted by <span style="color:#1a73e8; font-weight:500;">IEEE TIP</span> 2026.
 - \[*2026.08*\]: &nbsp;🎉🎉 One paper on open-ended agent RL is accepted by <span style="color:#1a73e8; font-weight:500;">EMNLP Findings</span> 2026.
 - \[*2026.07*\]: &nbsp;🎉🎉 One paper on wu dialect vowel recognition is accepted by <span style="color:#1a73e8; font-weight:500;">CICAI</span> 2026.
