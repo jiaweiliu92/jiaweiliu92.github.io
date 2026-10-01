@@ -21,15 +21,16 @@ redirect_from:
 
 <h1 id="about-title">About Me</h1>
 
-Hi! I’m Jiawei Liu (刘嘉威), an Associate Professor in the Department of Automation at the University of Science and Technology of China (中国科学技术大学). I work with [Prof. Zheng-Jun Zha](https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm) at [the Lab for Multimodal Embodied Intelligence (多模态具身智能实验室)](https://ustc-milab.github.io/).
+Hi! I’m Jiawei Liu (刘嘉威), an Associate Professor in the Department of Automation at the University of Science and Technology of China (中国科学技术大学). I work with [Prof. Zheng-Jun Zha](https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm) at [the Lab for Multimodal Embodied Intelligence (多模态具身智能实验室)](https://ustc-milab.github.io/). My research focuses on human-centric visual understanding, fake media content analysis, multimodal large language models, and embodied AI. I have published more than 60 papers in leading AI journals and conferences. <a href='https://scholar.google.com/citations?user=sR7Sf2YAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fjiaweiliu92%2Fjiaweiliu92.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+
 
 I received my B.S. degree from Hefei University of Technology (HFUT) in 2013 and my Ph.D. degree from the University of Science and Technology of China (USTC) in 2019. During my Ph.D., I was a research intern at [Microsoft Research Asia (MSRA)](https://www.msra.cn/) <img src="./images/microsoft.png" style="width: 4.5em;"> under the supervision of [Prof. Tao Mei](https://taomei.me/) from October 2016 to January 2017. From September 2025 to August 2026, I was a visiting scholar at the National University of Singapore (NUS) <img src="./images/nus.png" style="width: 2.7em;">, under the supervision of [Prof. Shuicheng Yan](https://www.lv-lab.org/).
 
-My research spans computer vision, multimedia analysis, and embodied AI, with a focus on human-centric visual understanding, fake media content analysis, and multimodal large language models. I have published more than 60 papers in leading international AI journals and conferences. <a href='https://scholar.google.com/citations?user=sR7Sf2YAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fjiaweiliu92%2Fjiaweiliu92.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 <div class="recruitment-note" markdown="1">
 
 I welcome applications from motivated graduate students interested in computer vision, deep learning, and related fields. Students with backgrounds in mathematics, machine learning, or programming are encouraged to email me a brief introduction and CV. I also welcome opportunities for **academic collaboration**. Please contact me at [jwliu6@ustc.edu.cn](mailto:jwliu6@ustc.edu.cn).
+
 
 🌟 欢迎热爱科研、愿意主动投入的本科生加入课题组，参与科研实习、大创或暑研。研究方向包括以人为中心的视觉理解、多模态大模型和具身智能。数学、物理、计算机等相关专业的同学均可通过邮件联系，并附上个人简历；有意继续深造的同学也欢迎交流。
 
