@@ -41,7 +41,7 @@ I welcome applications from motivated graduate students interested in computer v
 
 <div class="academic-card section-news" markdown="1">
 
-<div class="news-heading-row">
+<div class="news-heading-block">
 <h1 id="-news">News</h1>
 <div id="news-year-tabs" class="news-year-tabs" role="group" aria-label="Filter news by year"></div>
 </div>
