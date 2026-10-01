@@ -29,7 +29,7 @@ I received my B.S. degree from Hefei University of Technology (HFUT) in 2013 and
 
 <div class="recruitment-note" markdown="1">
 
-I welcome applications from motivated graduate students interested in computer vision, deep learning, and related fields. Students with backgrounds in mathematics, machine learning, or programming are encouraged to email me a brief introduction and CV. I also welcome opportunities for **academic collaboration**. Please contact me at [jwliu6@ustc.edu.cn](mailto:jwliu6@ustc.edu.cn).
+I welcome applications from motivated graduate students interested in computer vision, multimedia analysis, and embodied AI. Students with backgrounds in mathematics, machine learning, or programming are encouraged to email me a brief introduction and CV. I also welcome opportunities for **academic collaboration**. Please contact me at [jwliu6@ustc.edu.cn](mailto:jwliu6@ustc.edu.cn).
 
 
 🌟 欢迎热爱科研、愿意主动投入的本科生加入课题组，参与科研实习、大创或暑研。研究方向包括以人为中心的视觉理解、多模态大模型和具身智能。数学、物理、计算机等相关专业的同学均可通过邮件联系，并附上个人简历；有意继续深造的同学也欢迎交流。
