@@ -103,6 +103,7 @@ I welcome applications from motivated graduate students interested in computer v
 
     var items = Array.prototype.slice.call(list.querySelectorAll('li'));
     var years = [];
+    var counts = {};
 
     items.forEach(function (item) {
       var date = item.querySelector('em');
@@ -110,6 +111,7 @@ I welcome applications from motivated graduate students interested in computer v
       if (!match) return;
 
       item.setAttribute('data-news-year', match[1]);
+      counts[match[1]] = (counts[match[1]] || 0) + 1;
       if (years.indexOf(match[1]) === -1) years.push(match[1]);
     });
 
@@ -132,7 +134,16 @@ I welcome applications from motivated graduate students interested in computer v
       var button = document.createElement('button');
       button.type = 'button';
       button.className = 'news-year-tab';
-      button.textContent = year;
+      button.setAttribute('aria-label', year + ': ' + counts[year] + ' news items');
+      var yearLabel = document.createElement('span');
+      yearLabel.textContent = year;
+      yearLabel.setAttribute('aria-hidden', 'true');
+      var countLabel = document.createElement('small');
+      countLabel.className = 'news-year-count';
+      countLabel.textContent = counts[year];
+      countLabel.setAttribute('aria-hidden', 'true');
+      button.appendChild(yearLabel);
+      button.appendChild(countLabel);
       button.setAttribute('aria-pressed', index === 0 ? 'true' : 'false');
       button.addEventListener('click', function () {
         selectYear(year, button);
