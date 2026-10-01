@@ -742,51 +742,62 @@ body {
   }
 }
 
-/* News year filter: compact, automatically generated year buttons. */
+/* News heading and year filter: keep the year navigation light and place it
+   beside the section title on desktop. */
+.news-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0 0 18px;
+}
+
+.section-news .news-heading-row h1 {
+  flex: 0 0 auto;
+  margin-bottom: 0;
+}
+
 .news-year-tabs {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8px;
-  margin: 2px 0 18px;
-  padding: 2px 0;
+  justify-content: flex-end;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
 }
 
 .news-year-tab {
   appearance: none;
-  min-width: 70px;
+  min-width: 58px;
   height: 36px;
-  padding: 0 17px;
-  border: 1px solid rgba(91, 125, 174, .16);
-  border-radius: 10px;
-  background: #f5f8fc;
-  color: #61718a;
-  box-shadow: 0 2px 7px rgba(51, 79, 119, .035);
+  padding: 0 13px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: #758196;
+  box-shadow: none;
   font: inherit;
   font-size: 14px;
   font-weight: 600;
-  line-height: 34px;
+  line-height: 36px;
   text-align: center;
   cursor: pointer;
   transition: color .18s ease, background-color .18s ease,
-              border-color .18s ease, box-shadow .18s ease,
-              transform .18s ease;
+              box-shadow .18s ease;
 }
 
 .news-year-tab:hover {
-  color: var(--accent);
-  border-color: rgba(79, 120, 181, .28);
-  background: #eef4fc;
-  transform: translateY(-1px);
+  color: #3f70b1;
+  background: rgba(235, 242, 251, .72);
 }
 
 .news-year-tab.is-active,
 .news-year-tab[aria-pressed="true"] {
-  color: #315f9f;
-  border-color: rgba(79, 120, 181, .30);
-  background: linear-gradient(135deg, #e9f1fc 0%, #f2f6fc 100%);
-  box-shadow: 0 5px 13px rgba(55, 91, 141, .10),
-              inset 0 0 0 1px rgba(255, 255, 255, .55);
+  color: #3568a8;
+  background: linear-gradient(135deg, #e8f1fc 0%, #eef5fd 100%);
+  box-shadow: inset 0 0 0 1px rgba(79, 120, 181, .10),
+              0 3px 9px rgba(55, 91, 141, .07);
 }
 
 .news-year-tab:focus-visible {
@@ -842,12 +853,19 @@ body {
 }
 
 @media (max-width: 800px) {
-  .news-year-tabs {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    gap: 7px;
+  .news-heading-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
     margin-bottom: 16px;
-    padding-bottom: 4px;
+  }
+
+  .news-year-tabs {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: auto;
+    gap: 4px;
     scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
   }
@@ -856,13 +874,11 @@ body {
 
   .news-year-tab {
     flex: 0 0 auto;
-    min-width: 66px;
-    height: 34px;
-    padding: 0 14px;
-    line-height: 32px;
+    min-width: 58px;
+    height: 36px;
+    padding: 0 13px;
+    line-height: 36px;
   }
-
-  .news-year-tab:hover { transform: none; }
 
   .section-news #news-by-year li {
     padding-left: 28px;
