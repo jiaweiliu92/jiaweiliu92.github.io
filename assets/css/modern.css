@@ -741,3 +741,138 @@ body {
     white-space: nowrap;
   }
 }
+
+/* News year filter: compact, automatically generated year buttons. */
+.news-year-tabs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 2px 0 18px;
+  padding: 2px 0;
+}
+
+.news-year-tab {
+  appearance: none;
+  min-width: 70px;
+  height: 36px;
+  padding: 0 17px;
+  border: 1px solid rgba(91, 125, 174, .16);
+  border-radius: 10px;
+  background: #f5f8fc;
+  color: #61718a;
+  box-shadow: 0 2px 7px rgba(51, 79, 119, .035);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: center;
+  cursor: pointer;
+  transition: color .18s ease, background-color .18s ease,
+              border-color .18s ease, box-shadow .18s ease,
+              transform .18s ease;
+}
+
+.news-year-tab:hover {
+  color: var(--accent);
+  border-color: rgba(79, 120, 181, .28);
+  background: #eef4fc;
+  transform: translateY(-1px);
+}
+
+.news-year-tab.is-active,
+.news-year-tab[aria-pressed="true"] {
+  color: #315f9f;
+  border-color: rgba(79, 120, 181, .30);
+  background: linear-gradient(135deg, #e9f1fc 0%, #f2f6fc 100%);
+  box-shadow: 0 5px 13px rgba(55, 91, 141, .10),
+              inset 0 0 0 1px rgba(255, 255, 255, .55);
+}
+
+.news-year-tab:focus-visible {
+  outline: 2px solid #7997c5;
+  outline-offset: 2px;
+}
+
+.section-news #news-by-year ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-news #news-by-year li {
+  position: relative;
+  margin: 0 0 4px;
+  padding: 7px 10px 7px 32px;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: background-color .18s ease, transform .18s ease;
+}
+
+.section-news #news-by-year li::before {
+  position: absolute;
+  top: 1.35em;
+  left: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #5f8fd3;
+  box-shadow: 0 0 0 4px rgba(224, 234, 249, .88);
+  content: "";
+  transform: translateY(-50%);
+}
+
+.section-news #news-by-year li:hover {
+  background: rgba(239, 245, 253, .72);
+  transform: translateX(2px);
+}
+
+.section-news #news-by-year li[hidden] {
+  display: none !important;
+}
+
+.section-news #news-by-year em {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: #f0f4fa;
+  color: #526d96;
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 800px) {
+  .news-year-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 7px;
+    margin-bottom: 16px;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .news-year-tabs::-webkit-scrollbar { display: none; }
+
+  .news-year-tab {
+    flex: 0 0 auto;
+    min-width: 66px;
+    height: 34px;
+    padding: 0 14px;
+    line-height: 32px;
+  }
+
+  .news-year-tab:hover { transform: none; }
+
+  .section-news #news-by-year li {
+    padding-left: 28px;
+  }
+
+  .section-news #news-by-year li::before {
+    left: 7px;
+    width: 7px;
+    height: 7px;
+  }
+
+  .section-news #news-by-year li:hover { transform: none; }
+}
