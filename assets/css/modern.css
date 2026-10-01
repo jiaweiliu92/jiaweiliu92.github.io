@@ -720,23 +720,24 @@ body {
   }
 }
 
-/* Publication venue labels: adaptive inline layout on desktop.
-   Long labels such as "EMNLP Findings 2026" stay on one line,
-   while short labels no longer leave a large fixed-width gap. */
+/* Publication venue labels: aligned two-column layout on desktop.
+   Keep every paper title on the same vertical line while allowing
+   long venue labels such as "EMNLP Findings 2026" to stay on one line. */
 @media (min-width: 801px) {
   .section-publications .academic-group li {
-    padding-left: 12px;
+    padding-left: 144px;
   }
 
   .section-publications li > code:first-child {
-    position: static;
+    position: absolute;
+    left: 12px;
+    top: 11px;
     display: inline-flex;
     align-items: center;
     width: auto;
     max-width: none;
-    margin: 0 8px 0 0;
+    margin: 0;
     padding: 4px 8px;
     white-space: nowrap;
-    vertical-align: 1px;
   }
 }
