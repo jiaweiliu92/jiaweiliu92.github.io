@@ -43,7 +43,9 @@ I welcome applications from motivated graduate students interested in computer v
 
 <h1 id="-news">News</h1>
 <div class="academic-group" markdown="1">
-<div class="recent-news" markdown="1">
+<div id="news-year-tabs" class="news-year-tabs" role="group" aria-label="Filter news by year"></div>
+
+<div id="news-by-year" class="news-by-year" aria-live="polite" markdown="1">
 - \[*2026.09*\]: &nbsp;🎉🎉 One paper on tool-augmented scientific reasoning is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.  
 - \[*2026.09*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.
 - \[*2026.09*\]: &nbsp;🎉🎉 One paper on point cloud segmentation is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.
@@ -63,9 +65,6 @@ I welcome applications from motivated graduate students interested in computer v
 - \[*2026.02*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">CVPR</span> 2026. <span class="badge-highlight">Highlight</span>
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on active prompt learning is accepted by <span style="color:#1a73e8; font-weight:500;">ICLR</span> 2026. 
 - \[*2026.01*\]: &nbsp;🎉🎉 One paper on multimodal fact-checking is accepted by <span style="color:#1a73e8; font-weight:500;">WWW</span> 2026. <span class="badge-highlight">Oral</span> 
-</div>
-
-<div id="history-news" style="display: none;" markdown="1">
 - \[*2025.12*\]: &nbsp;🎉🎉 One paper on class incremental learning is accepted by <span style="color:#1a73e8; font-weight:500;">CVM</span> 2026. 
 - \[*2025.11*\]: &nbsp;🎉🎉 One paper on zero-shot HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">IJCV</span> 2025. 
 - \[*2025.11*\]: &nbsp;🎉🎉 One paper on occluded person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">JICN</span> 2025. 
@@ -89,29 +88,61 @@ I welcome applications from motivated graduate students interested in computer v
 - \[*2024.06*\]: &nbsp;🎓🎓 Congratulations to <span style="color:#d35400; font-weight:500;">Wenjun Gan (甘文君)</span> on earning her Master’s degree!  
 - \[*2024.04*\]: &nbsp;🎉🎉 One paper on person re-identification is accepted by <span style="color:#1a73e8; font-weight:500;">ICME</span> 2024.
 </div>
-
-<button type="button" id="toggle-news-btn" class="view-history-bar" aria-expanded="false" aria-controls="history-news">
-  View History News... ▼
-</button>
 </div>
 
 <script>
-  document.getElementById('toggle-news-btn').addEventListener('click', function() {
-    var historyDiv = document.getElementById('history-news');
-    var btn = this;
-    
-    if (historyDiv.style.display === "none" || historyDiv.style.display === "") {
-      historyDiv.style.display = "block";
-      btn.innerHTML = "Collapse History ▲";
-      btn.setAttribute("aria-expanded", "true");
-    } else {
-      historyDiv.style.display = "none";
-      btn.innerHTML = "View History News... ▼";
-      btn.setAttribute("aria-expanded", "false");
-      // 折叠时页面平滑滚动回 News 标题处
-      document.getElementById('news').scrollIntoView({behavior: "smooth"});
+  (function () {
+    'use strict';
+
+    var list = document.getElementById('news-by-year');
+    var controls = document.getElementById('news-year-tabs');
+    if (!list || !controls) return;
+
+    var items = Array.prototype.slice.call(list.querySelectorAll('li'));
+    var years = [];
+
+    items.forEach(function (item) {
+      var date = item.querySelector('em');
+      var match = date && date.textContent.trim().match(/^(\d{4})/);
+      if (!match) return;
+
+      item.setAttribute('data-news-year', match[1]);
+      if (years.indexOf(match[1]) === -1) years.push(match[1]);
+    });
+
+    years.sort(function (a, b) { return Number(b) - Number(a); });
+    if (!years.length) return;
+
+    function selectYear(year, selectedButton) {
+      items.forEach(function (item) {
+        item.hidden = item.getAttribute('data-news-year') !== year;
+      });
+
+      Array.prototype.forEach.call(controls.querySelectorAll('button'), function (button) {
+        var selected = button === selectedButton;
+        button.setAttribute('aria-pressed', selected ? 'true' : 'false');
+        button.classList.toggle('is-active', selected);
+      });
     }
-  });
+
+    years.forEach(function (year, index) {
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'news-year-tab';
+      button.textContent = year;
+      button.setAttribute('aria-pressed', index === 0 ? 'true' : 'false');
+      button.addEventListener('click', function () {
+        selectYear(year, button);
+      });
+      controls.appendChild(button);
+    });
+
+    var firstButton = controls.querySelector('button');
+    if (firstButton) {
+      firstButton.classList.add('is-active');
+      selectYear(years[0], firstButton);
+    }
+  })();
 </script>
 
 </div>
