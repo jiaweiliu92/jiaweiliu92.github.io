@@ -742,62 +742,70 @@ body {
   }
 }
 
-/* News heading and year filter: keep the year navigation light and place it
-   beside the section title on desktop. */
-.news-heading-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+/* News heading and year filter: a quiet text navigation under the title. */
+.news-heading-block {
   margin: 0 0 18px;
 }
 
-.section-news .news-heading-row h1 {
-  flex: 0 0 auto;
-  margin-bottom: 0;
+.section-news .news-heading-block h1 {
+  margin-bottom: 10px;
 }
 
 .news-year-tabs {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 4px;
-  margin: 0;
+  justify-content: flex-start;
+  gap: 18px;
+  margin: 0 0 0 32px;
   padding: 0;
 }
 
 .news-year-tab {
   appearance: none;
-  min-width: 58px;
+  position: relative;
+  min-width: 48px;
   height: 36px;
-  padding: 0 13px;
+  padding: 0 2px 3px;
   border: 0;
-  border-radius: 9px;
+  border-radius: 0;
   background: transparent;
-  color: #758196;
+  color: #7a8596;
   box-shadow: none;
   font: inherit;
   font-size: 14px;
   font-weight: 600;
-  line-height: 36px;
+  line-height: 33px;
   text-align: center;
   cursor: pointer;
-  transition: color .18s ease, background-color .18s ease,
-              box-shadow .18s ease;
+  transition: color .18s ease;
+}
+
+.news-year-tab::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: #4f7fbd;
+  content: "";
+  transform: translateX(-50%);
+  transition: width .18s ease;
 }
 
 .news-year-tab:hover {
   color: #3f70b1;
-  background: rgba(235, 242, 251, .72);
 }
 
 .news-year-tab.is-active,
 .news-year-tab[aria-pressed="true"] {
   color: #3568a8;
-  background: linear-gradient(135deg, #e8f1fc 0%, #eef5fd 100%);
-  box-shadow: inset 0 0 0 1px rgba(79, 120, 181, .10),
-              0 3px 9px rgba(55, 91, 141, .07);
+}
+
+.news-year-tab.is-active::after,
+.news-year-tab[aria-pressed="true"]::after {
+  width: 24px;
 }
 
 .news-year-tab:focus-visible {
@@ -853,19 +861,18 @@ body {
 }
 
 @media (max-width: 800px) {
-  .news-heading-row {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 12px;
+  .news-heading-block {
     margin-bottom: 16px;
   }
 
+  .section-news .news-heading-block h1 { margin-bottom: 9px; }
+
   .news-year-tabs {
-    justify-content: flex-start;
     flex-wrap: nowrap;
     width: 100%;
     overflow-x: auto;
-    gap: 4px;
+    gap: 16px;
+    margin-left: 28px;
     scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
   }
@@ -874,10 +881,10 @@ body {
 
   .news-year-tab {
     flex: 0 0 auto;
-    min-width: 58px;
+    min-width: 48px;
     height: 36px;
-    padding: 0 13px;
-    line-height: 36px;
+    padding: 0 2px 3px;
+    line-height: 33px;
   }
 
   .section-news #news-by-year li {
