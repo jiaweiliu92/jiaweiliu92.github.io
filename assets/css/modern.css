@@ -719,3 +719,24 @@ body {
     padding-left: 28px !important;
   }
 }
+
+/* Publication venue labels: adaptive inline layout on desktop.
+   Long labels such as "EMNLP Findings 2026" stay on one line,
+   while short labels no longer leave a large fixed-width gap. */
+@media (min-width: 801px) {
+  .section-publications .academic-group li {
+    padding-left: 12px;
+  }
+
+  .section-publications li > code:first-child {
+    position: static;
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    max-width: none;
+    margin: 0 8px 0 0;
+    padding: 4px 8px;
+    white-space: nowrap;
+    vertical-align: 1px;
+  }
+}
