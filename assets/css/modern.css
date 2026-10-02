@@ -695,6 +695,37 @@ body {
 @media (max-width: 800px) {
   .page__content .academic-card:not(.section-publications) .academic-group.dated-list li { padding-left: 28px; }
 }
+
+/* Patents: title first, then inventors and compact registration details. */
+.section-patents .patent-title,
+.section-patents .patent-inventors,
+.section-patents .patent-meta {
+  display: block;
+}
+.section-patents .patent-title {
+  color: var(--heading);
+  font-size: 15px;
+  font-weight: 650;
+  line-height: 1.55;
+}
+.section-patents .patent-inventors {
+  margin-top: 3px;
+  color: #526176;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.section-patents .patent-meta {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.section-patents .patent-meta-separator { padding: 0 3px; }
+.section-patents .patent-number {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 @media print {
   #main > .sidebar.sidebar--fits { position: static; }
 }
