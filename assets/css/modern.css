@@ -117,6 +117,14 @@ a:focus-visible, button:focus-visible {
   color: var(--heading);
 }
 .sidebar .author__bio { margin: 0 0 22px; }
+.sidebar .author__bio::first-line {
+  color: #3b5f8a;
+  font-weight: 600;
+}
+.sidebar .author__urls > li:first-child > div {
+  color: #526f94;
+  font-weight: 400;
+}
 .sidebar p, .sidebar li { font-family: inherit; font-size: 14px; line-height: 1.7; }
 .sidebar .author__urls-wrapper { display: block; margin: 0; cursor: auto; }
 .sidebar .author__urls {
