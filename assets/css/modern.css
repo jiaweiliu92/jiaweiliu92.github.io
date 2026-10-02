@@ -767,7 +767,7 @@ body {
 .section-experience .experience-institution {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 11px;
   color: var(--heading);
   font-size: 16px;
   font-weight: 650;
@@ -775,29 +775,41 @@ body {
 }
 .section-experience .experience-logo {
   display: inline-flex;
-  flex: 0 0 28px;
+  flex: 0 0 34px;
   align-items: center;
-  justify-content: flex-start;
-  width: 28px;
-  height: 28px;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
   overflow: hidden;
-  border: 1px solid #e6ecf4;
-  border-radius: 7px;
+  border: 1px solid #e3eaf3;
+  border-radius: 9px;
   background: #fff;
   box-sizing: border-box;
 }
 .page__content .section-experience .experience-logo img {
   display: block;
   flex: none;
-  width: auto;
-  max-width: none;
-  height: 26px;
+  width: 29px;
+  height: 29px;
   margin: 0;
+  object-fit: contain;
 }
-.page__content .section-experience .experience-logo--ustc img { height: 29px; }
-.page__content .section-experience .experience-logo--nus img { height: 30px; }
-.page__content .section-experience .experience-logo--microsoft img { height: 24px; margin-left: 1px; }
-.page__content .section-experience .experience-logo--jd img { width: 26px; height: 26px; }
+.page__content .section-experience .experience-logo--microsoft img {
+  width: 23px;
+  height: 23px;
+}
+.section-experience .experience-logo--nus {
+  color: #174878;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: -.045em;
+}
+.section-experience .experience-logo--jd {
+  color: #d61f27;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: -.065em;
+}
 .section-experience .experience-role {
   color: #394b63;
   font-size: 15px;
