@@ -765,11 +765,39 @@ body {
   gap: 2px;
 }
 .section-experience .experience-institution {
+  display: flex;
+  align-items: center;
+  gap: 9px;
   color: var(--heading);
   font-size: 16px;
   font-weight: 650;
   line-height: 1.45;
 }
+.section-experience .experience-logo {
+  display: inline-flex;
+  flex: 0 0 28px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  border: 1px solid #e6ecf4;
+  border-radius: 7px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.page__content .section-experience .experience-logo img {
+  display: block;
+  flex: none;
+  width: auto;
+  max-width: none;
+  height: 26px;
+  margin: 0;
+}
+.page__content .section-experience .experience-logo--ustc img { height: 29px; }
+.page__content .section-experience .experience-logo--nus img { height: 30px; }
+.page__content .section-experience .experience-logo--microsoft img { height: 24px; margin-left: 1px; }
+.page__content .section-experience .experience-logo--jd img { width: 26px; height: 26px; }
 .section-experience .experience-role {
   color: #394b63;
   font-size: 15px;
