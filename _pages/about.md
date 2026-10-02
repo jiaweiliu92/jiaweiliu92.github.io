@@ -325,7 +325,7 @@ I welcome applications from motivated graduate students interested in computer v
   <li>
     <span class="experience-date">2025.09 – 2026.08</span>
     <div class="experience-entry">
-      <strong class="experience-institution"><span class="experience-logo experience-logo--nus" aria-hidden="true">NUS</span><span>National University of Singapore</span></strong>
+      <strong class="experience-institution"><span class="experience-logo experience-logo--nus" aria-hidden="true"><img src="{{ '/images/nus.png' | relative_url }}" alt=""></span><span>National University of Singapore</span></strong>
       <span class="experience-role">Visiting Scholar</span>
       <span class="experience-detail">School of Computing · Department of Computer Science</span>
       <span class="experience-detail">Host: <a href="https://www.comp.nus.edu.sg/cs/people/yansc/">Prof. Shuicheng Yan</a></span>
@@ -352,7 +352,7 @@ I welcome applications from motivated graduate students interested in computer v
   <li>
     <span class="experience-date">2019.08 – 2019.10</span>
     <div class="experience-entry">
-      <strong class="experience-institution"><span class="experience-logo experience-logo--jd" aria-hidden="true">JD</span><span>JD AI Research Institute</span></strong>
+      <strong class="experience-institution"><span class="experience-logo experience-logo--jd" aria-hidden="true"><img src="{{ '/images/experience-jd.png' | relative_url }}" alt=""></span><span>JD AI Research Institute</span></strong>
       <span class="experience-role">Researcher</span>
       <span class="experience-detail">Working with <a href="https://taomei.me/">Prof. Tao Mei</a> and <a href="https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm">Prof. Wu Liu</a></span>
     </div>
