@@ -421,14 +421,20 @@ I welcome applications from motivated graduate students interested in computer v
 
 <h1 id="-teaching">Teaching</h1>
 
-<div class="academic-group" markdown="1">
-<h3>Graduate Courses</h3>
+<div class="teaching-course">
+  <h3>Graduate Courses</h3>
+  <div class="teaching-row">
+    <span class="teaching-course-name">Computer Vision <span>(计算机视觉)</span></span>
+    <span class="teaching-meta">60 teaching hours · Fall 2022–2026</span>
+  </div>
+</div>
 
-- **Computer Vision** (计算机视觉)<br><span class="teaching-meta">60 teaching hours · Fall 2022–2026</span>
-
-<h3>Undergraduate Courses</h3>
-
-- **Python and Deep Learning Fundamentals** (Python与深度学习基础)<br><span class="teaching-meta">40 teaching hours · Spring 2025</span>
+<div class="teaching-course">
+  <h3>Undergraduate Courses</h3>
+  <div class="teaching-row">
+    <span class="teaching-course-name">Python and Deep Learning Fundamentals <span>(Python与深度学习基础)</span></span>
+    <span class="teaching-meta">40 teaching hours · Spring 2025</span>
+  </div>
 </div>
 
 </div>
