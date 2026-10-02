@@ -669,7 +669,6 @@ body {
 
 /* Use a separate date column without adding borders or changing list markers. */
 .dated-list { --date-column: 9ch; }
-.section-experience .dated-list,
 .section-fundings .dated-list { --date-column: 19ch; }
 .page__content .academic-card:not(.section-publications) .academic-group.dated-list li {
   padding-left: calc(32px + var(--date-column));
@@ -727,6 +726,105 @@ body {
 @media (max-width: 800px) {
   .page__content .academic-card:not(.section-publications) .academic-group.dated-list li {
     padding-left: 28px !important;
+  }
+}
+
+/* Experience: date, timeline marker, and an institution-led entry. */
+.section-experience .experience-timeline {
+  --timeline-date-width: 162px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.page__content .academic-card.section-experience .experience-timeline > li {
+  display: grid;
+  grid-template-columns: var(--timeline-date-width) 18px minmax(0, 1fr);
+  column-gap: 16px;
+  position: relative;
+  margin: 0;
+  padding: 0 0 19px;
+}
+.page__content .academic-card.section-experience .experience-timeline > li:last-child {
+  padding-bottom: 0;
+}
+.section-experience .experience-date {
+  grid-column: 1;
+  padding-top: 2px;
+  color: var(--muted);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+  text-align: right;
+  white-space: nowrap;
+}
+.section-experience .experience-entry {
+  display: flex;
+  grid-column: 3;
+  flex-direction: column;
+  min-width: 0;
+  gap: 2px;
+}
+.section-experience .experience-institution {
+  color: var(--heading);
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.45;
+}
+.section-experience .experience-role {
+  color: #394b63;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.section-experience .experience-detail {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+.page__content .academic-card.section-experience .experience-timeline > li::before {
+  z-index: 1;
+  top: 7px;
+  left: calc(var(--timeline-date-width) + 20px);
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  border: 1.5px solid #6f95c5;
+  background: #fff;
+  box-shadow: 0 0 0 3px #f0f5fc;
+  transform: none;
+}
+.page__content .academic-card.section-experience .experience-timeline > li:not(:last-child)::after {
+  position: absolute;
+  top: 12px;
+  bottom: -12px;
+  left: calc(var(--timeline-date-width) + 24px);
+  width: 1px;
+  background: #d7e4f3;
+  content: "";
+}
+@media (max-width: 800px) {
+  .page__content .academic-card.section-experience .experience-timeline > li {
+    display: block;
+    padding: 0 0 23px 27px;
+  }
+  .section-experience .experience-date {
+    display: block;
+    padding: 0;
+    margin-bottom: 5px;
+    font-size: 13px;
+    text-align: left;
+  }
+  .section-experience .experience-institution { font-size: 15px; }
+  .section-experience .experience-role { font-size: 14px; }
+  .section-experience .experience-detail { font-size: 13px; }
+  .page__content .academic-card.section-experience .experience-timeline > li::before {
+    top: 4px;
+    left: 4px;
+  }
+  .page__content .academic-card.section-experience .experience-timeline > li:not(:last-child)::after {
+    top: 9px;
+    bottom: -9px;
+    left: 8px;
   }
 }
 
