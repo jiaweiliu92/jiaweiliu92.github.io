@@ -396,9 +396,10 @@ body {
 .section-news { background: linear-gradient(145deg, #ffffff 0%, #fbfdff 100%); }
 .section-publications { background: linear-gradient(145deg, #ffffff 0%, #fdfcff 100%); }
 .section-honors-and-awards { background: linear-gradient(145deg, #ffffff 0%, #fffdfc 100%); }
-.section-experiences,
+.section-experience,
 .section-fundings,
-.section-professional-activities { background: linear-gradient(145deg, #ffffff 0%, #fbfcff 100%); }
+.section-teaching,
+.section-academic-service { background: linear-gradient(145deg, #ffffff 0%, #fbfcff 100%); }
 
 .page__content h1,
 .page__content h2,
@@ -588,11 +589,12 @@ body {
 .section-about-me h1::before { content: "\f007"; }
 .section-news h1::before { content: "\f1ea"; }
 .section-publications h1::before { content: "\f02d"; }
-.section-chinese-patents h1::before { content: "\f15c"; }
+.section-patents h1::before { content: "\f15c"; }
 .section-honors-and-awards h1::before { content: "\f5a2"; }
-.section-experiences h1::before { content: "\f0b1"; }
+.section-experience h1::before { content: "\f0b1"; }
 .section-fundings h1::before { content: "\f51e"; }
-.section-professional-activities h1::before { content: "\f0c0"; }
+.section-teaching h1::before { content: "\f19d"; }
+.section-academic-service h1::before { content: "\f0c0"; }
 
 /* A small blue dot with a soft halo keeps long lists easy to scan. */
 .page__content .academic-card:not(.section-publications) .academic-group ul {
@@ -659,7 +661,7 @@ body {
 
 /* Use a separate date column without adding borders or changing list markers. */
 .dated-list { --date-column: 9ch; }
-.section-experiences .dated-list,
+.section-experience .dated-list,
 .section-fundings .dated-list { --date-column: 19ch; }
 .page__content .academic-card:not(.section-publications) .academic-group.dated-list li {
   padding-left: calc(32px + var(--date-column));
