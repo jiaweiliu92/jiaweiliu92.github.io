@@ -309,20 +309,86 @@ I welcome applications from motivated graduate students interested in computer v
 
 <h1 id="-experience">Experience</h1>
 
-<div class="academic-group dated-list" markdown="1">
+<div class="academic-group">
 <h3>Professional Experience</h3>
 
-- *2026.05 - Present* Associate Professor, USTC, Collaborating with Prof. Zheng-Jun Zha
-- *2021.12 - 2026.04* Associate Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha
-- *2025.09 - 2026.08* Visiting Scholar, <span style="color:#d35400; font-weight:500;">NUS</span>, Hosted by [Prof. Shuicheng Yan](https://www.lv-lab.org/)
-- *2019.10 - 2021.11* Postdoctoral Research Fellow, USTC, Collaborating with Prof. Zheng-Jun Zha and [Prof. Yongdong Zhang](https://imcc.ustc.edu.cn/main.htm)
-- *2019.08 - 2019.10* Researcher, <span style="color:#d35400; font-weight:500;">JD AI Lab</span>, Working with Prof. Tao Mei and [Prof. Wu Liu](https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm)
-- *2016.10 - 2017.01* Research Intern, <span style="color:#1a73e8; font-weight:500;">MSRA</span>, Under the supervision of Prof. Tao Mei
+<ol class="experience-timeline">
+  <li>
+    <span class="experience-date">2026.05 – Present</span>
+    <div class="experience-entry">
+      <strong class="experience-institution">University of Science and Technology of China</strong>
+      <span class="experience-role">Associate Professor</span>
+      <span class="experience-detail">Department of Automation</span>
+      <span class="experience-detail">Collaborating with Prof. Zheng-Jun Zha</span>
+    </div>
+  </li>
+  <li>
+    <span class="experience-date">2025.09 – 2026.08</span>
+    <div class="experience-entry">
+      <strong class="experience-institution">National University of Singapore</strong>
+      <span class="experience-role">Visiting Scholar</span>
+      <span class="experience-detail">School of Computing · Department of Computer Science</span>
+      <span class="experience-detail">Host: <a href="https://www.lv-lab.org/">Prof. Shuicheng Yan</a></span>
+    </div>
+  </li>
+  <li>
+    <span class="experience-date">2021.12 – 2026.04</span>
+    <div class="experience-entry">
+      <strong class="experience-institution">University of Science and Technology of China</strong>
+      <span class="experience-role">Associate Research Fellow</span>
+      <span class="experience-detail">Department of Automation</span>
+      <span class="experience-detail">Collaborating with Prof. Zheng-Jun Zha</span>
+    </div>
+  </li>
+  <li>
+    <span class="experience-date">2019.10 – 2021.11</span>
+    <div class="experience-entry">
+      <strong class="experience-institution">University of Science and Technology of China</strong>
+      <span class="experience-role">Postdoctoral Research Fellow</span>
+      <span class="experience-detail">Department of Automation</span>
+      <span class="experience-detail">Collaborating with Prof. Zheng-Jun Zha and <a href="https://imcc.ustc.edu.cn/main.htm">Prof. Yongdong Zhang</a></span>
+    </div>
+  </li>
+  <li>
+    <span class="experience-date">2019.08 – 2019.10</span>
+    <div class="experience-entry">
+      <strong class="experience-institution">JD AI Research Institute</strong>
+      <span class="experience-role">Researcher</span>
+      <span class="experience-detail">Working with Prof. Tao Mei and <a href="https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm">Prof. Wu Liu</a></span>
+    </div>
+  </li>
+  <li>
+    <span class="experience-date">2016.10 – 2017.01</span>
+    <div class="experience-entry">
+      <strong class="experience-institution">Microsoft Research Asia</strong>
+      <span class="experience-role">Research Intern</span>
+      <span class="experience-detail">Supervisor: Prof. Tao Mei</span>
+    </div>
+  </li>
+</ol>
 
 <h3>Education</h3>
 
-- *2014.09 - 2019.06* <span style="color:#1a73e8; font-weight:500;">Ph.D.</span> in the Department of Automation, University of Science and Technology of China
-- *2009.08 - 2013.07* <span style="color:#1a73e8; font-weight:500;">B.S.</span> in the Department of Automation, Hefei University of Technology
+<ol class="experience-timeline">
+  <li>
+    <span class="experience-date">2014.09 – 2019.06</span>
+    <div class="experience-entry">
+      <strong class="experience-institution">University of Science and Technology of China</strong>
+      <span class="experience-role">Ph.D.</span>
+      <span class="experience-detail">Control Science and Engineering · Department of Automation</span>
+      <span class="experience-detail">Advisor: <a href="https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm">Prof. Zheng-Jun Zha</a></span>
+    </div>
+  </li>
+  <li>
+    <span class="experience-date">2009.08 – 2013.07</span>
+    <div class="experience-entry">
+      <strong class="experience-institution">Hefei University of Technology</strong>
+      <span class="experience-role">B.S.</span>
+      <span class="experience-detail">Automation · Department of Automation</span>
+      <span class="experience-detail">Advisor: Prof. Chenghui Zhu</span>
+    </div>
+  </li>
+</ol>
 </div>
 
 </div>
