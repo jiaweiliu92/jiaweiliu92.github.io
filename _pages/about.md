@@ -259,23 +259,23 @@ I welcome applications from motivated graduate students interested in computer v
 <h1 id="-patents">Patents</h1>
 
 <div class="academic-group dated-list" markdown="1">
-- *2026.04* 查正军; **刘嘉威**; 徐永超; 王浚沣. 一种基于强化学习框架的开放词汇人物交互检测方法. 发明专利. (专利号：CN202610429538.7)
-- *2026.03* 查正军; **刘嘉威**; 展宏民; 张凡瑞. 基于检索与推理增强大语言模型的多模态事实核查方法. 发明专利. (专利号：CN202610248544.2)
-- *2025.11* 查正军; **刘嘉威**; 张强; 张凡瑞. 基于冲突感知检索和多级协同引导的多模态知识编辑方法. 发明专利. (专利号：CN202511709848.6)
-- *2025.10* 查正军; **刘嘉威**; 郑雨霏. 基于双重不确定性引导特征对齐的文本到图像行人检索方法. 发明专利. (专利号：CN202511451428.2)
-- *2025.03* 查正军; **刘嘉威**; 徐永超. 一种基于Mamba架构的人物交互检测方法. 发明专利. (专利号：CN202510261091.2)
-- *2024.10* 查正军; **刘嘉威**; 张凡瑞; 张强. 一种基于实体增强和立场检查的多模态事实核查方法. 发明专利. (专利号：CN202410403673.5)
-- *2024.10* **刘嘉威**; 赵国治; 吴勇; 贺强; 胡冰玉. 基于特征多样化和域自适应特征选择的鲁棒行人重识别方法. 发明专利. (专利号：CN202410070798.0)
-- *2024.10* **刘嘉威**; 赵国治; 吴勇; 贺强; 甘文君. 一种基于跨模态语义对齐的文本行人重识别方法. 发明专利. (专利号：CN202410072896.8)
-- *2024.10* 查正军; 傅雪阳; 李东; 朱佳莹; **刘嘉威**. 一种基于噪声辅助提示学习的图像伪造检测定位方法. 发明专利. (专利号：CN202411253779.8)
-- *2023.10* 查正军; 傅雪阳; 李东; 朱佳莹; **刘嘉威**. 基于边缘感知的区域消息传递控制的图像伪造定位方法. 发明专利. (专利号：CN202310346607.4)
-- *2023.11* 查正军; **刘嘉威**; 张强; 张凡瑞. 一种基于多层次语义增强的多模态假新闻检测方法. 发明专利. (专利号：CN202311298800.1)
-- *2022.10* 查正军; **刘嘉威**; 王堃宇. 一种基于特征对齐的退化环境下的行人重识别方法. 发明专利. (专利号：CN202210792619.5)
-- *2022.10* 查正军; **刘嘉威**; 吴蔚. 基于时序补偿引导的强化学习图像-视频行人重识别方法. 发明专利. (专利号：CN202210362412.4)
-- *2022.10* 查正军; **刘嘉威**; 黄志鹏. 基于高斯过程的去偏批量归一化的鲁棒行人重识别方法. 发明专利. (专利号：CN202210193826.9)
-- *2022.10* 查正军; **刘嘉威**; 黄志鹏. 基于模态自适应混合和不变性卷积分解的行人重识别方法. 发明专利. (专利号：CN202210155715.9)
-- *2020.10* 刘武; **刘嘉威**; 梅涛; 郑可成. 检索目标的方法和装置. 发明专利. (专利号：CN202010215923.4)
-- *2019.10* 查正军; **刘嘉威**. 行人再识别数据生成方法. 发明专利. (专利号：CN201910466234.8)
+- *2026.04* <span class="patent-title">一种基于强化学习框架的开放词汇人物交互检测方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 徐永超; 王浚沣</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202610429538.7</span></span>
+- *2026.03* <span class="patent-title">基于检索与推理增强大语言模型的多模态事实核查方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 展宏民; 张凡瑞</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202610248544.2</span></span>
+- *2025.11* <span class="patent-title">基于冲突感知检索和多级协同引导的多模态知识编辑方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 张强; 张凡瑞</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202511709848.6</span></span>
+- *2025.10* <span class="patent-title">基于双重不确定性引导特征对齐的文本到图像行人检索方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 郑雨霏</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202511451428.2</span></span>
+- *2025.03* <span class="patent-title">一种基于Mamba架构的人物交互检测方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 徐永超</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202510261091.2</span></span>
+- *2024.10* <span class="patent-title">一种基于实体增强和立场检查的多模态事实核查方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 张凡瑞; 张强</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202410403673.5</span></span>
+- *2024.10* <span class="patent-title">基于特征多样化和域自适应特征选择的鲁棒行人重识别方法</span><span class="patent-inventors"><strong>刘嘉威</strong>; 赵国治; 吴勇; 贺强; 胡冰玉</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202410070798.0</span></span>
+- *2024.10* <span class="patent-title">一种基于跨模态语义对齐的文本行人重识别方法</span><span class="patent-inventors"><strong>刘嘉威</strong>; 赵国治; 吴勇; 贺强; 甘文君</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202410072896.8</span></span>
+- *2024.10* <span class="patent-title">一种基于噪声辅助提示学习的图像伪造检测定位方法</span><span class="patent-inventors">查正军; 傅雪阳; 李东; 朱佳莹; <strong>刘嘉威</strong></span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202411253779.8</span></span>
+- *2023.10* <span class="patent-title">基于边缘感知的区域消息传递控制的图像伪造定位方法</span><span class="patent-inventors">查正军; 傅雪阳; 李东; 朱佳莹; <strong>刘嘉威</strong></span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202310346607.4</span></span>
+- *2023.11* <span class="patent-title">一种基于多层次语义增强的多模态假新闻检测方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 张强; 张凡瑞</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202311298800.1</span></span>
+- *2022.10* <span class="patent-title">一种基于特征对齐的退化环境下的行人重识别方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 王堃宇</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202210792619.5</span></span>
+- *2022.10* <span class="patent-title">基于时序补偿引导的强化学习图像-视频行人重识别方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 吴蔚</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202210362412.4</span></span>
+- *2022.10* <span class="patent-title">基于高斯过程的去偏批量归一化的鲁棒行人重识别方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 黄志鹏</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202210193826.9</span></span>
+- *2022.10* <span class="patent-title">基于模态自适应混合和不变性卷积分解的行人重识别方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 黄志鹏</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202210155715.9</span></span>
+- *2020.10* <span class="patent-title">检索目标的方法和装置</span><span class="patent-inventors">刘武; <strong>刘嘉威</strong>; 梅涛; 郑可成</span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN202010215923.4</span></span>
+- *2019.10* <span class="patent-title">行人再识别数据生成方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong></span><span class="patent-meta">发明专利 <span class="patent-meta-separator" aria-hidden="true">·</span> <span class="patent-number">专利号：CN201910466234.8</span></span>
 </div>
 
 </div>
