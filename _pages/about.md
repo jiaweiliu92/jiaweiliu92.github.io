@@ -356,12 +356,13 @@ I welcome applications from motivated graduate students interested in computer v
 <h1 id="-teaching">Teaching</h1>
 
 <div class="academic-group" markdown="1">
-- *2022 Fall*, Graduate Course - Computer Vision (计算机视觉)
-- *2023 Fall*, Graduate Course - Computer Vision (计算机视觉)
-- *2024 Fall*, Graduate Course - Computer Vision (计算机视觉)
-- *2025 Spring*, Undergraduate Course - Python and Deep Learning Basics (Python与深度学习基础) <!-- <span style="color:#000000;background-color:#DCFFB7"> *2025 Spring*, Undergraduate Course - Python and Deep Learning Basics (Python与深度学习基础) \[coming soon\] </span> -->
-- *2025 Fall*, Graduate Course - Computer Vision (计算机视觉)
-- *2026 Fall*, Graduate Course - Computer Vision (计算机视觉)
+<h3>Graduate Courses</h3>
+
+- **Computer Vision** (计算机视觉)<br><span class="teaching-meta">60 teaching hours · Fall 2022–2026 (annually)</span>
+
+<h3>Undergraduate Courses</h3>
+
+- **Python and Deep Learning Fundamentals** (Python与深度学习基础)<br><span class="teaching-meta">40 teaching hours · Spring 2025</span>
 </div>
 
 </div>
