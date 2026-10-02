@@ -316,7 +316,7 @@ I welcome applications from motivated graduate students interested in computer v
   <li>
     <span class="experience-date">2026.05 – Present</span>
     <div class="experience-entry">
-      <strong class="experience-institution"><span class="experience-logo experience-logo--ustc" aria-hidden="true"><img src="{{ '/images/ustc-seal.jpg' | relative_url }}" alt=""></span><span>University of Science and Technology of China</span></strong>
+      <strong class="experience-institution"><span class="experience-logo experience-logo--ustc" aria-hidden="true"><img src="{{ '/images/experience-ustc.jpg' | relative_url }}" alt=""></span><span>University of Science and Technology of China</span></strong>
       <span class="experience-role">Associate Professor</span>
       <span class="experience-detail">Department of Automation</span>
       <span class="experience-detail">Collaborating with <a href="https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm">Prof. Zheng-Jun Zha</a></span>
@@ -325,7 +325,7 @@ I welcome applications from motivated graduate students interested in computer v
   <li>
     <span class="experience-date">2025.09 – 2026.08</span>
     <div class="experience-entry">
-      <strong class="experience-institution"><span class="experience-logo experience-logo--nus" aria-hidden="true"><img src="{{ '/images/nus.png' | relative_url }}" alt=""></span><span>National University of Singapore</span></strong>
+      <strong class="experience-institution"><span class="experience-logo experience-logo--nus" aria-hidden="true">NUS</span><span>National University of Singapore</span></strong>
       <span class="experience-role">Visiting Scholar</span>
       <span class="experience-detail">School of Computing · Department of Computer Science</span>
       <span class="experience-detail">Host: <a href="https://www.comp.nus.edu.sg/cs/people/yansc/">Prof. Shuicheng Yan</a></span>
@@ -334,7 +334,7 @@ I welcome applications from motivated graduate students interested in computer v
   <li>
     <span class="experience-date">2021.12 – 2026.04</span>
     <div class="experience-entry">
-      <strong class="experience-institution"><span class="experience-logo experience-logo--ustc" aria-hidden="true"><img src="{{ '/images/ustc-seal.jpg' | relative_url }}" alt=""></span><span>University of Science and Technology of China</span></strong>
+      <strong class="experience-institution"><span class="experience-logo experience-logo--ustc" aria-hidden="true"><img src="{{ '/images/experience-ustc.jpg' | relative_url }}" alt=""></span><span>University of Science and Technology of China</span></strong>
       <span class="experience-role">Associate Research Fellow</span>
       <span class="experience-detail">Department of Automation</span>
       <span class="experience-detail">Collaborating with <a href="https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm">Prof. Zheng-Jun Zha</a></span>
@@ -343,7 +343,7 @@ I welcome applications from motivated graduate students interested in computer v
   <li>
     <span class="experience-date">2019.10 – 2021.11</span>
     <div class="experience-entry">
-      <strong class="experience-institution"><span class="experience-logo experience-logo--ustc" aria-hidden="true"><img src="{{ '/images/ustc-seal.jpg' | relative_url }}" alt=""></span><span>University of Science and Technology of China</span></strong>
+      <strong class="experience-institution"><span class="experience-logo experience-logo--ustc" aria-hidden="true"><img src="{{ '/images/experience-ustc.jpg' | relative_url }}" alt=""></span><span>University of Science and Technology of China</span></strong>
       <span class="experience-role">Postdoctoral Research Fellow</span>
       <span class="experience-detail">Department of Automation</span>
       <span class="experience-detail">Collaborating with <a href="https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm">Prof. Zheng-Jun Zha</a> and <a href="https://faculty.ustc.edu.cn/zhangyongdong/en/index.htm">Prof. Yongdong Zhang</a></span>
@@ -352,7 +352,7 @@ I welcome applications from motivated graduate students interested in computer v
   <li>
     <span class="experience-date">2019.08 – 2019.10</span>
     <div class="experience-entry">
-      <strong class="experience-institution"><span class="experience-logo experience-logo--jd" aria-hidden="true"><img src="{{ '/images/jd-icon.ico' | relative_url }}" alt=""></span><span>JD AI Research Institute</span></strong>
+      <strong class="experience-institution"><span class="experience-logo experience-logo--jd" aria-hidden="true">JD</span><span>JD AI Research Institute</span></strong>
       <span class="experience-role">Researcher</span>
       <span class="experience-detail">Working with <a href="https://taomei.me/">Prof. Tao Mei</a> and <a href="https://faculty.ustc.edu.cn/liuwu/zh_CN/index.htm">Prof. Wu Liu</a></span>
     </div>
@@ -360,7 +360,7 @@ I welcome applications from motivated graduate students interested in computer v
   <li>
     <span class="experience-date">2016.10 – 2017.01</span>
     <div class="experience-entry">
-      <strong class="experience-institution"><span class="experience-logo experience-logo--microsoft" aria-hidden="true"><img src="{{ '/images/microsoft.png' | relative_url }}" alt=""></span><span>Microsoft Research Asia</span></strong>
+      <strong class="experience-institution"><span class="experience-logo experience-logo--microsoft" aria-hidden="true"><img src="{{ '/images/experience-microsoft.svg' | relative_url }}" alt=""></span><span>Microsoft Research Asia</span></strong>
       <span class="experience-role">Research Intern</span>
       <span class="experience-detail">Supervisor: <a href="https://taomei.me/">Prof. Tao Mei</a></span>
     </div>
@@ -373,7 +373,7 @@ I welcome applications from motivated graduate students interested in computer v
   <li>
     <span class="experience-date">2014.09 – 2019.06</span>
     <div class="experience-entry">
-      <strong class="experience-institution"><span class="experience-logo experience-logo--ustc" aria-hidden="true"><img src="{{ '/images/ustc-seal.jpg' | relative_url }}" alt=""></span><span>University of Science and Technology of China</span></strong>
+      <strong class="experience-institution"><span class="experience-logo experience-logo--ustc" aria-hidden="true"><img src="{{ '/images/experience-ustc.jpg' | relative_url }}" alt=""></span><span>University of Science and Technology of China</span></strong>
       <span class="experience-role">Ph.D.</span>
       <span class="experience-detail">Control Science and Engineering · Department of Automation</span>
       <span class="experience-detail">Advisor: <a href="https://auto.ustc.edu.cn/2021/0510/c25976a484878/page.htm">Prof. Zheng-Jun Zha</a></span>
@@ -382,7 +382,7 @@ I welcome applications from motivated graduate students interested in computer v
   <li>
     <span class="experience-date">2009.08 – 2013.07</span>
     <div class="experience-entry">
-      <strong class="experience-institution"><span class="experience-logo experience-logo--hfut" aria-hidden="true"><img src="{{ '/images/hfut-seal.jpeg' | relative_url }}" alt=""></span><span>Hefei University of Technology</span></strong>
+      <strong class="experience-institution"><span class="experience-logo experience-logo--hfut" aria-hidden="true"><img src="{{ '/images/experience-hfut.svg' | relative_url }}" alt=""></span><span>Hefei University of Technology</span></strong>
       <span class="experience-role">B.S.</span>
       <span class="experience-detail">Automation · Department of Automation</span>
       <span class="experience-detail">Advisor: Prof. Chenghui Zhu</span>
