@@ -252,10 +252,11 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <span class='anchor' id='chinese-patents'></span>
+<span class='anchor' id='-chinese-patents'></span>
 
-<div class="academic-card section-chinese-patents" markdown="1">
+<div class="academic-card section-patents" markdown="1">
 
-<h1 id="-chinese-patents">Chinese Patents</h1>
+<h1 id="-patents">Patents</h1>
 
 <div class="academic-group dated-list" markdown="1">
 - *2026.04* 查正军; **刘嘉威**; 徐永超; 王浚沣. 一种基于强化学习框架的开放词汇人物交互检测方法. 发明专利. (专利号：CN202610429538.7)
@@ -283,7 +284,7 @@ I welcome applications from motivated graduate students interested in computer v
 
 <div class="academic-card section-honors-and-awards" markdown="1">
 
-<h1 id="-honors-and-awards">Honors and Awards</h1>
+<h1 id="-honors-and-awards">Honors &amp; Awards</h1>
 
 <div class="academic-group dated-list" markdown="1">
 - *2026.06* CVPR2026 Workshop: MultiModal Deception Detection Challenge ([1st Place Award](https://www.codabench.org/competitions/12678/#/results-tab)) 
@@ -302,10 +303,11 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <span class='anchor' id='experiences'></span>
+<span class='anchor' id='-experiences'></span>
 
-<div class="academic-card section-experiences" markdown="1">
+<div class="academic-card section-experience" markdown="1">
 
-<h1 id="-experiences">Experiences</h1>
+<h1 id="-experience">Experience</h1>
 
 <div class="academic-group dated-list" markdown="1">
 <h3>Professional Experience</h3>
@@ -349,23 +351,30 @@ I welcome applications from motivated graduate students interested in computer v
 
 </div>
 
-<span class='anchor' id='professional-activities'></span>
+<div class="academic-card section-teaching" markdown="1">
 
-<div class="academic-card section-professional-activities" markdown="1">
-
-<h1 id="-professional-activities">Professional Activities</h1>
+<h1 id="-teaching">Teaching</h1>
 
 <div class="academic-group" markdown="1">
-<h3>Teaching</h3>
-
 - *2022 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2023 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2024 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2025 Spring*, Undergraduate Course - Python and Deep Learning Basics (Python与深度学习基础) <!-- <span style="color:#000000;background-color:#DCFFB7"> *2025 Spring*, Undergraduate Course - Python and Deep Learning Basics (Python与深度学习基础) \[coming soon\] </span> -->
 - *2025 Fall*, Graduate Course - Computer Vision (计算机视觉)
 - *2026 Fall*, Graduate Course - Computer Vision (计算机视觉)
+</div>
 
-<h3>Academic Service</h3>
+</div>
+
+<span class='anchor' id='professional-activities'></span>
+<span class='anchor' id='-professional-activities'></span>
+
+<div class="academic-card section-academic-service" markdown="1">
+
+<h1 id="-academic-service">Academic Service</h1>
+
+<div class="academic-group" markdown="1">
+<h3>Committees &amp; Evaluation</h3>
 
 - Expert in the National Graduate Education Evaluation and Monitoring Expert Database
 - Expert in the National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database
