@@ -441,7 +441,7 @@ I welcome applications from motivated graduate students interested in computer v
 <h1 id="-academic-service">Academic Service</h1>
 
 <div class="academic-group" markdown="1">
-<h3>Committees &amp; Evaluation</h3>
+<h3>Expert Service</h3>
 
 - Expert in the National Graduate Education Evaluation and Monitoring Expert Database
 - Expert in the National Undergraduate Thesis (Design) Random Inspection and Evaluation Expert Database
