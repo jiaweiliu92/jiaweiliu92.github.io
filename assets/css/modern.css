@@ -659,6 +659,14 @@ body {
 }
 .page__content .academic-group > h3:first-child { margin-top: 0; }
 
+.section-teaching .teaching-meta {
+  display: inline-block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 /* Use a separate date column without adding borders or changing list markers. */
 .dated-list { --date-column: 9ch; }
 .section-experience .dated-list,
