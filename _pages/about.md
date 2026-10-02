@@ -358,7 +358,7 @@ I welcome applications from motivated graduate students interested in computer v
 <div class="academic-group" markdown="1">
 <h3>Graduate Courses</h3>
 
-- **Computer Vision** (计算机视觉)<br><span class="teaching-meta">60 teaching hours · Fall 2022–2026 (annually)</span>
+- **Computer Vision** (计算机视觉)<br><span class="teaching-meta">60 teaching hours · Fall 2022–2026</span>
 
 <h3>Undergraduate Courses</h3>
 
