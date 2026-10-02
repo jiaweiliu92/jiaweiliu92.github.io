@@ -659,12 +659,44 @@ body {
 }
 .page__content .academic-group > h3:first-child { margin-top: 0; }
 
-.section-teaching .teaching-meta {
-  display: inline-block;
-  margin-top: 2px;
-  color: var(--muted);
+.section-teaching .teaching-course + .teaching-course { margin-top: 26px; }
+.page__content .section-teaching .teaching-course h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 1.45;
+}
+.section-teaching .teaching-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background: #f4f7fb;
+}
+.section-teaching .teaching-course-name {
+  flex: 1 1 300px;
+  min-width: 0;
+  color: #334e70;
+  font-size: 15px;
+  font-weight: 650;
+  line-height: 1.5;
+}
+.section-teaching .teaching-course-name span {
+  color: #66788f;
   font-size: 14px;
-  line-height: 1.6;
+  font-weight: 400;
+}
+.section-teaching .teaching-meta {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+@media (max-width: 800px) {
+  .section-teaching .teaching-row { padding: 12px 14px; }
+  .section-teaching .teaching-course-name { flex-basis: 100%; }
 }
 
 /* Use a separate date column without adding borders or changing list markers. */
@@ -717,15 +749,18 @@ body {
 .section-patents .patent-meta {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-  margin-top: 5px;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin-top: 4px;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.5;
 }
 .section-patents .patent-kind {
-  color: #5a7fa9;
+  padding: 1px 7px;
+  border-radius: 5px;
+  background: #edf3fa;
+  color: #5479a4;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -734,14 +769,25 @@ body {
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
-@media (max-width: 800px) {
+@media (min-width: 1001px) {
+  .section-patents .dated-list li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 18px;
+    align-items: baseline;
+  }
+  .section-patents .patent-title { grid-column: 1; grid-row: 1; }
   .section-patents .patent-meta {
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    column-gap: 16px;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 0;
+    justify-self: end;
+  }
+  .section-patents .patent-inventors {
+    grid-column: 1 / -1;
+    grid-row: 2;
   }
 }
-
 /* Funding: give the project title, role, and local description separate weight. */
 .section-fundings .funding-main {
   display: flex;
