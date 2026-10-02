@@ -9,17 +9,20 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Chinese Patents"
-    url: "/#-chinese-patents"
+  - title: "Patents"
+    url: "/#-patents"
 
-  - title: "Honors and Awards"
+  - title: "Honors & Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Experiences"
-    url: "/#-experiences"
+  - title: "Experience"
+    url: "/#-experience"
 
   - title: "Funding"
     url: "/#-fundings"
 
-  - title: "Professional Activities"
-    url: "/#-professional-activities"
+  - title: "Teaching"
+    url: "/#-teaching"
+
+  - title: "Academic Service"
+    url: "/#-academic-service"
