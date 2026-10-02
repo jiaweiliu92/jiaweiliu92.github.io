@@ -488,7 +488,7 @@ I welcome applications from motivated graduate students interested in computer v
 - AAAI Conference on Artificial Intelligence
 - Chinese Control Conference
 
-<h3>Conference Reviewer or Program Committee</h3>
+<h3>Conference Reviewer</h3>
 
 - NeurIPS, CVPR, ICCV, ECCV, ICML, ICLR, ACM MM, IJCAI, AAAI, ICME, PRCV, ACCV
 </div>
