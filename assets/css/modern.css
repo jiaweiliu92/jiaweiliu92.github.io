@@ -682,6 +682,10 @@ body {
   padding: 12px 16px;
   border-radius: 10px;
   background: #f4f7fb;
+  transition: background-color .18s ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .section-teaching .teaching-row:hover { background: #edf3fa; }
 }
 .section-teaching .teaching-course-name {
   flex: 1 1 300px;
