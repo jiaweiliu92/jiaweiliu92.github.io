@@ -50,6 +50,7 @@ I welcome applications from motivated graduate students interested in computer v
 <div class="academic-group" markdown="1">
 
 <div id="news-by-year" class="news-by-year" aria-live="polite" markdown="1">
+- \[*2026.10*\]: &nbsp;🎉🎉 One paper on the landscape of medical agents is accepted by <span style="color:#1a73e8; font-weight:500;">TMLR</span> 2026.
 - \[*2026.09*\]: &nbsp;🎉🎉 One paper on tool-augmented scientific reasoning is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.  
 - \[*2026.09*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.
 - \[*2026.09*\]: &nbsp;🎉🎉 One paper on point cloud segmentation is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.
@@ -234,6 +235,7 @@ I welcome applications from motivated graduate students interested in computer v
 
 <div class="academic-group" markdown="1">
 <h2 id="-multimodal-large-language-models">Multimodal Large Language Models</h2>
+- `TMLR 2026` [The Landscape of Medical Agents: A Survey](https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176581395.56964766/v4?redirectToLatest=false) <br> Xiaobin Hu, Yunhang Qian, Jiaquan Yu, jingjing liu, Xiaozhong Ji, Peng TANG, Chengming Xu, **Jiawei Liu**, Xinlei Yu, Guibin Zhang, Xiaomin Yu, Yue Liao, Jiazhen Pan, Zhe Xu, Bailiang Jian, Kai WU, Jiangning Zhang, Shanghua Gao, Yueming Jin, Zuxuan Wu, Yanwei Fu, Hongwei Bran Li, Bjoern Menze, Yu-Gang Jiang, Daniel Rueckert, Shuicheng YAN
 - `IEEE TIP 2026` [ForgeryGPT: A Multimodal LLM for Interpretable Image Forgery Detection and Localization](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11709464) <br> Fanrui Zhang, **Jiawei Liu**, Jiaying Zhu, Esther Sun, Qiang Zhang, Zheng-Jun Zha
 - `EMNLP Findings 2026` [ArenaFlow: From Trajectory Ranking to Hierarchical Credit Propagation for Open-Ended Agent RL](https://arxiv.org/pdf/2609.21378) <br> Qiang Zhang, Ruixue Ding, Fanrui Zhang, Xi Chen, Boli Chen, Shihang Wang, Yinfeng Huang, Yi Zheng, Pengjun Xie, Kaipeng Zhang, **Jiawei Liu**, Zheng-Jun Zha
 - `ECCV 2026` [Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection](https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/13341.pdf) <br> Fanrui Zhang, Qiang Zhang, Sizhuo Zhou, Jianwen Sun, Chuanhao Li, Jiaxin Ai, Yukang Feng, Yujie Zhang, Wenjie Li, Zizhen Li, Yifan Chang, **Jiawei Liu**, Kaipeng Zhang [![](https://img.shields.io/github/stars/zfr00/ForenAgent?style=social&label=Code+Stars)](https://github.com/zfr00/ForenAgent)
