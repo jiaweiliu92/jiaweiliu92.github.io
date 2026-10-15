@@ -261,6 +261,7 @@ I welcome applications from motivated graduate students interested in computer v
 <h1 id="-patents">Patents</h1>
 
 <div class="academic-group dated-list" markdown="1">
+- *2026.10* <span class="patent-title">一种类比先例引导的自适应科学推理方法及系统</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 展宏民; 张凡瑞</span><span class="patent-meta"><span class="patent-kind">发明专利</span><span class="patent-number">专利号：CN202611591166.4</span></span>
 - *2026.04* <span class="patent-title">一种基于强化学习框架的开放词汇人物交互检测方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 徐永超; 王浚沣</span><span class="patent-meta"><span class="patent-kind">发明专利</span><span class="patent-number">专利号：CN202610429538.7</span></span>
 - *2026.03* <span class="patent-title">基于检索与推理增强大语言模型的多模态事实核查方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 展宏民; 张凡瑞</span><span class="patent-meta"><span class="patent-kind">发明专利</span><span class="patent-number">专利号：CN202610248544.2</span></span>
 - *2025.11* <span class="patent-title">基于冲突感知检索和多级协同引导的多模态知识编辑方法</span><span class="patent-inventors">查正军; <strong>刘嘉威</strong>; 张强; 张凡瑞</span><span class="patent-meta"><span class="patent-kind">发明专利</span><span class="patent-number">专利号：CN202511709848.6</span></span>
