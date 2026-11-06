@@ -302,6 +302,9 @@ I welcome applications from motivated graduate students interested in computer v
       group.hidden = year !== 'ALL' && groupYear !== year;
     });
 
+    // Add subtle year separators only when all publication years are visible.
+    section.classList.toggle('show-all-years', year === 'ALL');
+
     Array.prototype.forEach.call(controls.querySelectorAll('button'), function (button) {
       var selected = button === selectedButton;
       button.classList.toggle('is-active', selected);
@@ -567,7 +570,7 @@ I welcome applications from motivated graduate students interested in computer v
 
 - Journal of Intelligent Computing and Networking
 
-<h3>Journal Reviewer</h3>
+<h3 class="journal-reviewer-heading">Journal Reviewer</h3>
 
 - IEEE Transactions on Pattern Analysis and Machine Intelligence
 - International Journal of Computer Vision
