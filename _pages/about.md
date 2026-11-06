@@ -174,7 +174,6 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2026" markdown="1">
-<h2 id="publications-2026">2026</h2>
 - ``IEEE TIFS 2026`` [Frequency-Guided Multi-Perspective Prompt Learning for Visible-Infrared Person Re-identification](https://ieeexplore.ieee.org/document/11560981) <br> **Jiawei Liu**, Yong Wu, Yufei Zheng, Hao Tong, Guozhi Zhao, Zheng-Jun Zha
 - ``CVPR 2026`` [Learning to Diversify and Focus: A Reinforcement Framework for Open-Vocabulary HOI Detection](https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Learning_to_Diversify_and_Focus_A_Reinforcement_Framework_for_Open-Vocabulary_CVPR_2026_paper.pdf) <br> Yongchao Xu, **Jiawei Liu**, Junfeng Wang, Sen Tao, Na Jiang, Zheng-Jun Zha
 - ``ICIC 2026`` [AnySkel: Automatic Rigging for any Skeletal Template](https://link.springer.com/chapter/10.1007/978-981-92-3397-7_49) <br> Changrong Hu, Na Jiang, **Jiawei Liu**
@@ -191,7 +190,6 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2025" markdown="1">
-<h2 id="publications-2025">2025</h2>
 - ``IJCV 2025`` [Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection](https://link.springer.com/article/10.1007/s11263-025-02616-y) <br> **Jiawei Liu**, Yongchao Xu, Sen Tao, Yuexuan Qi, Zheng-Jun Zha
 - ``ACM MM 2025`` [Dual Uncertainty-Guided Feature Alignment Learning for Text-Based Person Retrieval](https://dl.acm.org/doi/abs/10.1145/3746027.3755063) <br> Yufei Zheng, **Jiawei Liu**, Bingyu Hu, Zikun Wei, Yong Wu, Zheng-Jun Zha
 - ``JICN 2025`` [Occlusion-Guided Feature Purification Learning via Reinforced Knowledge Distillation for Occluded Person Re-Identification](https://www.ffspub.com/index.php/jicn/article/view/31) <br> Yufei Zheng, Yong Wu, **Jiawei Liu**, Wenjun Wang, Wenjun Gan
@@ -208,7 +206,6 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2024" markdown="1">
-<h2 id="publications-2024">2024</h2>
 - ``ACM TOMM 2024`` [Noise-Resistance Learning via Multi-Granularity Consistency for Unsupervised Domain Adaptive Person Re-Identification](https://dl.acm.org/doi/10.1145/3702328) <br> Yangchun Zhu, Yufei Zheng, **Jiawei Liu**, Yao Li, Zheng-Jun Zha
 - ``ICME 2024`` [Joint Visual-Textual Reasoning and Visible-Infrared Modality Alignment for Person Re-Identification](https://ieeexplore.ieee.org/document/10688362) <br> Na Jiang, Yuxuan Qiu, Wei Song, **Jiawei Liu**, Zhiping Shi, Liyang Wang
 - ``IJCV 2024`` [Exert Diversity and Mitigate Bias: Domain Generalizable Person Re-identification with a Comprehensive Benchmark](https://link.springer.com/article/10.1007/s11263-024-02124-5) <br> Bingyu Hu, **Jiawei Liu**, Yufei Zheng, Kecheng Zheng, Zheng-Jun Zha
@@ -220,7 +217,6 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2023" markdown="1">
-<h2 id="publications-2023">2023</h2>
 - ``IEEE TMM 2023`` [Unleashing Knowledge Potential of Source Hypothesis for Source-Free Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/10319072) <br> Bingyu Hu, **Jiawei Liu**, Kecheng Zheng, Zheng-Jun Zha
 - ``PAIN 2023`` [Deep Learning–guided Postoperative Pain Assessment in Children](https://journals.lww.com/pain/fulltext/2023/09000/deep_learning_guided_postoperative_pain_assessment.16.aspx) <br> Jihong Fang, Wei Wu, **Jiawei Liu**, Sicheng Zhang
 - ``IEEE TIFS 2023`` [Adaptive Texture and Spectrum Clue Mining for Generalizable Face Forgery Detection](https://ieeexplore.ieee.org/abstract/document/10364845) <br> **Jiawei Liu**, Jingyi Xie, Yang Wang, Zheng-Jun Zha
@@ -233,7 +229,6 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2022" markdown="1">
-<h2 id="publications-2022">2022</h2>
 - ``AAAI 2022`` [Debiased Batch Normalization via Gaussian Process for Generalizable Person Re-identification](https://ojs.aaai.org/index.php/AAAI/article/view/20065) <br> **Jiawei Liu**, Zhipeng Huang, Liang Li, Kecheng Zheng, Zheng-Jun Zha
 - ``AAAI 2022`` [Modality-Adaptive Mixup and Invariant Decomposition for RGB-Infrared Person Re-identification](https://ojs.aaai.org/index.php/AAAI/article/view/19987) <br> Zhipeng Huang, **Jiawei Liu**, Liang Li, Kecheng Zheng, Zheng-Jun Zha
 - ``CVPR 2022`` [Temporal Complementarity-Guided Reinforcement Learning for Image-to-Video Person Re-Identification](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_Temporal_Complementarity-Guided_Reinforcement_Learning_for_Image-to-Video_Person_Re-Identification_CVPR_2022_paper.pdf) <br> Wei Wu, **Jiawei Liu**, Kecheng Zheng, Qibin Sun, Zheng-Jun Zha
@@ -242,7 +237,6 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2021" markdown="1">
-<h2 id="publications-2021">2021</h2>
 - ``ARXIV 2021`` [Calibrated Feature Decomposition for Generalizable Person Re-Identification](https://arxiv.org/pdf/2111.13945) <br> Kecheng Zheng, **Jiawei Liu**, Wei Wu, Liang Li, Zheng-Jun Zha [![](https://img.shields.io/github/stars/zkcys001/CFD?style=social&label=Code+Stars)](https://github.com//zkcys001/CFD)
 - `ACM MM 2021` [Cluster and Scatter: A Multi-grained Active Semi-supervised Learning Framework for Scalable Person Re-identification](https://dl.acm.org/doi/abs/10.1145/3474085.3475435) <br> Bingyu Hu, Zheng-Jun Zha, **Jiawei Liu**, Xierong Zhu, Hongtao Xie
 - ``ACM MM 2021`` [Pose-Guided Feature Learning with Knowledge Distillation for Occluded Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/3474085.3475610) <br> Kecheng Zheng, Cuiling Lan, Wenjun Zeng, **Jiawei Liu**, Zhizheng Zhang, Zheng-Jun Zha
@@ -252,7 +246,6 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2020" markdown="1">
-<h2 id="publications-2020">2020</h2>
 - ``ACM MM 2020`` [Dual Context-Aware Refinement Network for Person Search](https://dl.acm.org/doi/10.1145/3394171.3413878) <br> **Jiawei Liu**, Zheng-Jun Zha, Richang Hong, Meng Wang, Yongdong Zhang
 - `ACM MM 2020` [ASTA-Net: Adaptive Spatio-Temporal Attention Network for Person Re-Identification in Videos](https://dl.acm.org/doi/abs/10.1145/3394171.3413843) <br> Xierong Zhu, **Jiawei Liu**, Haoze Wu, Meng Wang, Zheng-Jun Zha
 - ``ACM MM 2020`` [A Structured Graph Attention Network for Vehicle Re-Identification](https://dl.acm.org/doi/abs/10.1145/3394171.3413607) <br> Yangchun Zhu, Zheng-Jun Zha, Tianzhu Zhang, **Jiawei Liu**, Jiebo Luo
@@ -263,7 +256,6 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2019" markdown="1">
-<h2 id="publications-2019">2019</h2>
 - ``ACM MM 2019`` [Deep Adversarial Graph Attention Convolution Network for Text-Based Person Search](https://dl.acm.org/doi/abs/10.1145/3343031.3350991) <br> **Jiawei Liu**, Zheng-Jun Zha, Richang Hong, Meng Wang, Yongdong Zhang
 - ``IJCAI 2019`` [Mutually Reinforced Spatio-Temporal Convolutional Tube for Human Action Recognition](https://www.ijcai.org/proceedings/2019/136) <br> Haoze Wu, **Jiawei Liu**, Zheng-Jun Zha, Zhenzhong Chen, Xiaoyan Sun
 - ``ACM TOMM 2019`` [Dense 3D-Convolutional Neural Network for Person Re-Identification in Videos](https://dl.acm.org/doi/abs/10.1145/3231741) <br> **Jiawei Liu**, Zheng-Jun Zha, Xuejin Chen, Zilei Wang, Yongdong Zhang
@@ -273,13 +265,11 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2018" markdown="1">
-<h2 id="publications-2018">2018</h2>
 - ``ACM MM 2018`` [CA3Net: Contextual-Attentional Attribute-Appearance Network for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/3240508.3240585) <br> **Jiawei Liu**, Zheng-Jun Zha, Hongtao Xie, Zhiwei Xiong, Yongdong Zhang
 - ``PCM 2018`` [Temporal-Contextual Attention Network for Video-Based Person Re-identification](https://link.springer.com/chapter/10.1007/978-3-030-00776-8_14) <br> Di Chen, Zheng-Jun Zha, **Jiawei Liu**, Hongtao Xie, Yongdong Zhang
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2016" markdown="1">
-<h2 id="publications-2016">2016</h2>
 - ``ACM MM 2016`` [Multi-Scale Triplet CNN for Person Re-Identification](https://dl.acm.org/doi/abs/10.1145/2964284.2967209) <br> **Jiawei Liu**, Zheng-Jun Zha, QI Tian, Dong Liu, Ting Yao, Qiang Ling, Tao Mei
 </div>
 
