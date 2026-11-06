@@ -1210,3 +1210,34 @@ body {
 
   .section-news #news-by-year li:hover { transform: none; }
 }
+
+/* Publications year filter: reuse the News navigation styles. */
+.section-publications .publications-heading-block {
+  margin-bottom: 15px;
+}
+
+.section-publications .publications-heading-block h1 {
+  margin-bottom: 7px;
+}
+
+.section-publications .publication-year-group[hidden] {
+  display: none !important;
+}
+
+.section-publications .publication-year-group h2 {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: 21px;
+}
+
+@media (max-width: 800px) {
+  .section-publications .publications-heading-block {
+    margin-bottom: 13px;
+  }
+
+  .section-publications .publication-year-group h2 {
+    margin-top: 12px;
+    font-size: 19px;
+  }
+}
+
