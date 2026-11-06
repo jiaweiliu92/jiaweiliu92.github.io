@@ -1241,3 +1241,51 @@ body {
   }
 }
 
+
+
+/* -------------------------------------------------------------------------
+   Final refinements: Publications and Academic Service
+   ------------------------------------------------------------------------- */
+
+/* Publications: subtle separators are shown only in the ALL view. */
+.section-publications.show-all-years .publication-year-group + .publication-year-group {
+  margin-top: 17px;
+  padding-top: 17px;
+  border-top: 1px solid #e7edf5;
+}
+
+/* Improve paper-list rhythm without turning individual papers into cards. */
+.section-publications .academic-group li {
+  margin-bottom: 13px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+/* Slightly larger venue badges improve readability while keeping them secondary. */
+.section-publications li > code:first-child {
+  padding: 5px 9px;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.section-publications li > a:first-of-type {
+  line-height: 1.55;
+}
+
+/* Journal Reviewer: two balanced columns on wider desktop screens only. */
+@media (min-width: 1001px) {
+  .section-academic-service .journal-reviewer-heading {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .section-academic-service .journal-reviewer-heading + ul {
+    columns: 2;
+    column-gap: 38px;
+  }
+
+  .section-academic-service .journal-reviewer-heading + ul > li {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+  }
+}
