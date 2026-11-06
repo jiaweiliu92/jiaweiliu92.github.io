@@ -50,6 +50,7 @@ I welcome applications from motivated graduate students interested in computer v
 <div class="academic-group" markdown="1">
 
 <div id="news-by-year" class="news-by-year" aria-live="polite" markdown="1">
+- \[*2026.11*\]: &nbsp;🎉🎉 One paper on the AI-generated video detection is accepted by <span style="color:#1a73e8; font-weight:500;">JICN</span> 2026.
 - \[*2026.10*\]: &nbsp;🎉🎉 One paper on the landscape of medical agents is accepted by <span style="color:#1a73e8; font-weight:500;">TMLR</span> 2026.
 - \[*2026.09*\]: &nbsp;🎉🎉 One paper on tool-augmented scientific reasoning is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.  
 - \[*2026.09*\]: &nbsp;🎉🎉 One paper on open-vocabulary HOI detection is accepted by <span style="color:#1a73e8; font-weight:500;">NeurIPS</span> 2026.
