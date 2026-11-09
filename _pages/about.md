@@ -174,6 +174,7 @@ I welcome applications from motivated graduate students interested in computer v
 </div>
 
 <div class="academic-group publication-year-group" data-publication-year="2026" markdown="1">
+- ``NeurIPS 2026`` [Learning Where to Look: Observation Policy Optimization for Thinking with Images](https://arxiv.org/pdf/2611.04943) <br> Junfeng Wang, **Jiawei Liu**, Yongchao Xu, Tao Jiang, Jiangbo Ai, Jin Zhang, Chong Wang, Qixing Zhang [![](https://img.shields.io/github/stars/Yann0122/Observation-Policy-Optimization?style=social&label=Code+Stars)](https://github.com/Yann0122/Observation-Policy-Optimization)
 - ``IEEE TIFS 2026`` [Frequency-Guided Multi-Perspective Prompt Learning for Visible-Infrared Person Re-identification](https://ieeexplore.ieee.org/document/11560981) <br> **Jiawei Liu**, Yong Wu, Yufei Zheng, Hao Tong, Guozhi Zhao, Zheng-Jun Zha
 - ``CVPR 2026`` [Learning to Diversify and Focus: A Reinforcement Framework for Open-Vocabulary HOI Detection](https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Learning_to_Diversify_and_Focus_A_Reinforcement_Framework_for_Open-Vocabulary_CVPR_2026_paper.pdf) <br> Yongchao Xu, **Jiawei Liu**, Junfeng Wang, Sen Tao, Na Jiang, Zheng-Jun Zha
 - ``ICIC 2026`` [AnySkel: Automatic Rigging for any Skeletal Template](https://link.springer.com/chapter/10.1007/978-981-92-3397-7_49) <br> Changrong Hu, Na Jiang, **Jiawei Liu**
