@@ -1,29 +1,53 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+on:
+  # Keep the original behavior: run after a GitHub Pages build.
+  page_build:
+  # Keep the daily scheduled update at 08:00 UTC.
+  schedule:
+    - cron: '0 8 * * *'
+  # Allow a manual run from the Actions tab when needed.
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    # Full publication retrieval is retained, but the job must not run for hours.
+    timeout-minutes: 35
+
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Install requirements
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-setuptools
+          python3 -m pip install -r google_scholar_crawler/requirements.txt
+
+      - name: Retrieve full Google Scholar profile
+        working-directory: google_scholar_crawler
+        timeout-minutes: 30
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        run: python3 -u main.py
+
+      - name: Publish citation data
+        working-directory: google_scholar_crawler/results
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          test -s gs_data.json
+          test -s gs_data_shieldsio.json
+
+          git init
+          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add *.json
+          git commit -m "Updated Citation Data"
+
+          remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push "${remote_repo}" HEAD:google-scholar-stats --force
