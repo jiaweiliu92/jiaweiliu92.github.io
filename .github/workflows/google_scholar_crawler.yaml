@@ -41,6 +41,7 @@ jobs:
         timeout-minutes: 25
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          SCRAPERAPI_API_KEY: ${{ secrets.SCRAPERAPI_API_KEY }}
         run: |
           timeout --signal=TERM --kill-after=30s 20m python -u main.py
 
