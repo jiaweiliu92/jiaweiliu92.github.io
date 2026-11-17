@@ -11,7 +11,7 @@ from scholarly import scholarly, ProxyGenerator
 # Configuration
 # -----------------------------
 
-MAX_ATTEMPTS = 3
+MAX_ATTEMPTS = 2
 WAIT_SECONDS = 60
 
 # ScraperAPI may retry internally for up to approximately 60 seconds.
