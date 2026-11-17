@@ -1,12 +1,13 @@
 """Fetch the full Google Scholar author profile and citation statistics.
 
-Preserves the original crawler's data collection and JSON output:
-- author basics, indices, yearly citation counts, and all publications;
-- publication entries keyed by author_pub_id;
-- gs_data.json and gs_data_shieldsio.json in the results directory.
+The crawler keeps the original data collection and JSON output. Network access
+uses the following fallback order on each attempt:
+    1. ScraperAPI (when SCRAPERAPI_KEY is configured)
+    2. scholarly's built-in FreeProxies provider
+    3. direct access
 
-Reliability changes are limited to bounded free-proxy discovery, explicit
-primary/secondary proxy configuration, request timeouts, and finite retries.
+All three routes are configured explicitly for both scholarly request paths so
+that scholarly does not silently create another free-proxy generator.
 """
 
 from scholarly import scholarly, ProxyGenerator
@@ -20,52 +21,122 @@ from datetime import datetime
 MAX_ATTEMPTS = 5
 WAIT_SECONDS = 60
 
+# Free-proxy discovery limits.
 FREE_PROXY_TIMEOUT = 1
 FREE_PROXY_WAIT_TIME = 30
 FREE_PROXY_SETUP_TIMEOUT = 45
 
+# ScraperAPI's own proxy mode recommends allowing up to 60 seconds per request
+# so that its internal proxy rotation/retries can finish.
+SCRAPERAPI_SETUP_TIMEOUT = 20
+SCRAPERAPI_REQUEST_TIMEOUT = 60
+
+# Shorter timeout for the free-proxy and direct-access routes.
 SCHOLARLY_TIMEOUT = 20
 SCHOLARLY_RETRIES = 2
 
 
 def configure_scholarly():
-    """Configure finite request-level timeout and retry limits."""
+    """Set the normal timeout and retry limits used by the crawler."""
     scholarly.set_timeout(SCHOLARLY_TIMEOUT)
     scholarly.set_retries(SCHOLARLY_RETRIES)
 
 
-def _set_direct_access():
-    """Use fresh, unconfigured sessions for both routes (no proxy lookup)."""
-    direct_generator = ProxyGenerator()
-    # Pass both slots explicitly. scholarly.use_proxy(pg) alone creates a
-    # second FreeProxies generator internally when the secondary is omitted.
-    scholarly.use_proxy(direct_generator, direct_generator)
+def _run_with_alarm(timeout_seconds, operation, description):
+    """Run a blocking proxy initialization step with a hard time limit.
+
+    GitHub Actions runs this workflow on Linux, where SIGALRM is available.
+    The previous signal handler/timer is restored after the operation.
+    """
+    if not hasattr(signal, "SIGALRM"):
+        return operation()
+
+    def timeout_handler(_signum, _frame):
+        raise TimeoutError(
+            "{} exceeded {} seconds.".format(description, timeout_seconds)
+        )
+
+    previous_handler = signal.getsignal(signal.SIGALRM)
+    previous_timer = signal.getitimer(signal.ITIMER_REAL)
+    signal.signal(signal.SIGALRM, timeout_handler)
+    signal.setitimer(signal.ITIMER_REAL, timeout_seconds)
+
+    try:
+        return operation()
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, 0)
+        signal.signal(signal.SIGALRM, previous_handler)
+        if previous_timer[0] > 0:
+            signal.setitimer(
+                signal.ITIMER_REAL,
+                previous_timer[0],
+                previous_timer[1],
+            )
 
 
-def configure_free_proxy(attempt):
-    """Try the original free rotating proxy method with a hard time bound."""
+def configure_scraperapi():
+    """Configure ScraperAPI as the preferred route when an API key exists."""
+    api_key = (
+        os.environ.get("SCRAPERAPI_KEY", "").strip()
+        or os.environ.get("SCRAPER_API_KEY", "").strip()
+    )
+    if not api_key:
+        print(
+            "SCRAPERAPI_KEY is not configured; skipping ScraperAPI.",
+            flush=True,
+        )
+        return False
+
     proxy_generator = ProxyGenerator()
+    print("Initializing ScraperAPI proxy.", flush=True)
 
+    try:
+        proxy_ready = _run_with_alarm(
+            SCRAPERAPI_SETUP_TIMEOUT,
+            lambda: proxy_generator.ScraperAPI(api_key),
+            "ScraperAPI initialization",
+        )
+    except Exception as exc:
+        print(
+            "ScraperAPI initialization failed: {}: {}".format(
+                type(exc).__name__, exc
+            ),
+            file=sys.stderr,
+            flush=True,
+        )
+        proxy_ready = False
+
+    if not proxy_ready:
+        scholarly.set_timeout(SCHOLARLY_TIMEOUT)
+        print("ScraperAPI is unavailable; falling back to free proxies.", flush=True)
+        return False
+
+    # Route both primary and secondary scholarly requests through ScraperAPI.
+    scholarly.use_proxy(proxy_generator, proxy_generator)
+    scholarly.set_timeout(SCRAPERAPI_REQUEST_TIMEOUT)
+    print("ScraperAPI configured for both scholarly request routes.", flush=True)
+    return True
+
+
+def configure_free_proxy():
+    """Try scholarly's built-in rotating free-proxy pool with a hard time bound."""
+    scholarly.set_timeout(SCHOLARLY_TIMEOUT)
+    proxy_generator = ProxyGenerator()
     print(
-        "Attempt {}: searching for a working free proxy (max {} seconds).".format(
-            attempt, FREE_PROXY_SETUP_TIMEOUT
+        "Searching for a working free proxy (max {} seconds).".format(
+            FREE_PROXY_SETUP_TIMEOUT
         ),
         flush=True,
     )
 
-    def proxy_setup_timeout(_signum, _frame):
-        raise TimeoutError(
-            "Free-proxy setup exceeded {} seconds.".format(
-                FREE_PROXY_SETUP_TIMEOUT
-            )
-        )
-
-    previous_handler = signal.signal(signal.SIGALRM, proxy_setup_timeout)
     try:
-        signal.setitimer(signal.ITIMER_REAL, FREE_PROXY_SETUP_TIMEOUT)
-        proxy_ready = proxy_generator.FreeProxies(
-            timeout=FREE_PROXY_TIMEOUT,
-            wait_time=FREE_PROXY_WAIT_TIME,
+        proxy_ready = _run_with_alarm(
+            FREE_PROXY_SETUP_TIMEOUT,
+            lambda: proxy_generator.FreeProxies(
+                timeout=FREE_PROXY_TIMEOUT,
+                wait_time=FREE_PROXY_WAIT_TIME,
+            ),
+            "Free-proxy setup",
         )
     except Exception as exc:
         print(
@@ -74,21 +145,25 @@ def configure_free_proxy(attempt):
             flush=True,
         )
         proxy_ready = False
-    finally:
-        signal.setitimer(signal.ITIMER_REAL, 0)
-        signal.signal(signal.SIGALRM, previous_handler)
 
-    if proxy_ready:
-        # Important: explicitly pass the same generator as primary and
-        # secondary, preventing scholarly from silently creating another
-        # default FreeProxies instance with its own unbounded setup loop.
-        scholarly.use_proxy(proxy_generator, proxy_generator)
-        print("Free rotating proxy configured for both request routes.", flush=True)
-        return True
+    if not proxy_ready:
+        print("No working free proxy was configured.", flush=True)
+        return False
 
-    print("No working free proxy was configured; switching to direct access.", flush=True)
-    _set_direct_access()
-    return False
+    # Pass the same generator twice to prevent scholarly from constructing
+    # another implicit FreeProxies instance for its secondary request route.
+    scholarly.use_proxy(proxy_generator, proxy_generator)
+    print("Free proxy configured for both scholarly request routes.", flush=True)
+    return True
+
+
+def configure_direct_access():
+    """Use fresh, unconfigured sessions for both routes (no proxy lookup)."""
+    scholarly.set_timeout(SCHOLARLY_TIMEOUT)
+    direct_generator = ProxyGenerator()
+    scholarly.use_proxy(direct_generator, direct_generator)
+    print("Using direct access (without a proxy).", flush=True)
+    return True
 
 
 def fetch_full_author():
@@ -122,54 +197,71 @@ def fetch_full_author():
 
 
 def retrieve_author():
-    """Retry the full crawl; fall back from proxy to direct access per attempt."""
+    """Try ScraperAPI, free proxies, and direct access in that order."""
     last_error = None
+    routes = [
+        ("ScraperAPI", configure_scraperapi),
+        ("free proxy", configure_free_proxy),
+        ("direct", configure_direct_access),
+    ]
 
     for attempt in range(1, MAX_ATTEMPTS + 1):
         print("\nAttempt {}/{}:".format(attempt, MAX_ATTEMPTS), flush=True)
-        proxy_ready = configure_free_proxy(attempt)
 
-        try:
-            author = fetch_full_author()
-            access_mode = "free proxy" if proxy_ready else "direct"
-            print("Attempt {} succeeded using {} access.".format(attempt, access_mode), flush=True)
-            return author
-        except Exception as request_error:
-            last_error = request_error
-            print(
-                "Attempt {} failed: {}: {}".format(
-                    attempt, type(request_error).__name__, request_error
-                ),
-                file=sys.stderr,
-                flush=True,
-            )
-
-        # A proxy may pass its connectivity test but still be blocked by
-        # Google Scholar. Retry this attempt once using explicitly direct
-        # sessions; this does not invoke FreeProxies again.
-        if proxy_ready:
+        for route_name, configure_route in routes:
             try:
-                print("Retrying this attempt using direct access.", flush=True)
-                _set_direct_access()
-                author = fetch_full_author()
-                print("Direct-access fallback succeeded.", flush=True)
-                return author
-            except Exception as direct_error:
-                last_error = direct_error
+                route_ready = configure_route()
+            except Exception as setup_error:
+                last_error = setup_error
                 print(
-                    "Direct-access fallback failed: {}: {}".format(
-                        type(direct_error).__name__, direct_error
+                    "{} setup failed: {}: {}".format(
+                        route_name,
+                        type(setup_error).__name__,
+                        setup_error,
                     ),
                     file=sys.stderr,
                     flush=True,
                 )
+                continue
+
+            if not route_ready:
+                continue
+
+            try:
+                author = fetch_full_author()
+                print(
+                    "Attempt {} succeeded using {} access.".format(
+                        attempt, route_name
+                    ),
+                    flush=True,
+                )
+                return author
+            except Exception as request_error:
+                last_error = request_error
+                print(
+                    "{} retrieval failed: {}: {}".format(
+                        route_name,
+                        type(request_error).__name__,
+                        request_error,
+                    ),
+                    file=sys.stderr,
+                    flush=True,
+                )
+                print(
+                    "Falling back to the next access method.",
+                    flush=True,
+                )
 
         if attempt < MAX_ATTEMPTS:
-            print("Waiting {} seconds before the next attempt.".format(WAIT_SECONDS), flush=True)
+            print(
+                "All access methods failed in this attempt. Waiting {} seconds "
+                "before retrying the fallback sequence.".format(WAIT_SECONDS),
+                flush=True,
+            )
             time.sleep(WAIT_SECONDS)
 
     raise RuntimeError(
-        "All {} attempts to retrieve the full Google Scholar profile failed.".format(
+        "All {} attempts failed using ScraperAPI, free proxies, and direct access.".format(
             MAX_ATTEMPTS
         )
     ) from last_error
