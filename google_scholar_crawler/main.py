@@ -14,8 +14,7 @@ from scholarly import scholarly, ProxyGenerator
 MAX_ATTEMPTS = 2
 WAIT_SECONDS = 60
 
-# ScraperAPI can retry internally for up to about 60 seconds. Keep the
-# scholarly timeout longer so it does not cut that process short.
+# ScraperAPI may retry internally for up to approximately 60 seconds.
 SCHOLARLY_TIMEOUT = 70
 SCHOLARLY_RETRIES = 1
 
@@ -27,15 +26,80 @@ PUBLICATION_SECTIONS = ["basics", "indices", "counts", "publications"]
 
 
 # -----------------------------
-# Fetch Google Scholar data
+# Connection helpers
 # -----------------------------
 
-def fetch_and_fill_author(scholar_id):
-    """Fetch an author profile and its publication details."""
+def install_connection(proxy_generator):
+    """Use the selected connection for both scholarly request paths.
+
+    scholarly 1.7.11 has primary and secondary proxy generators. Some
+    citation requests use the secondary generator. Passing the same
+    configured generator twice prevents an unintended FreeProxies fallback.
+    """
+    scholarly.use_proxy(proxy_generator, proxy_generator)
+
+
+def fetch_and_fill_author(scholar_id, connection_name):
+    print(f"[{connection_name}] Fetching author profile...", flush=True)
     author = scholarly.search_author_id(scholar_id)
+
+    print(
+        f"[{connection_name}] Fetching publication and citation details...",
+        flush=True,
+    )
     scholarly.fill(author, sections=PUBLICATION_SECTIONS)
     return author
 
+
+def try_scraperapi(scholar_id, api_key):
+    print("Trying ScraperAPI...", flush=True)
+    proxy_generator = ProxyGenerator()
+
+    # scholarly's ScraperAPI helper checks account access and proxy connectivity.
+    # Never print or log api_key.
+    proxy_ready = proxy_generator.ScraperAPI(api_key)
+    if not proxy_ready:
+        raise RuntimeError(
+            "ScraperAPI initialization returned False. Check the API key, "
+            "account status, usage limit, and proxy access in ScraperAPI."
+        )
+
+    install_connection(proxy_generator)
+    print("ScraperAPI configured for both scholarly request paths.", flush=True)
+    return fetch_and_fill_author(scholar_id, "ScraperAPI")
+
+
+def try_direct(scholar_id):
+    print("Trying direct Google Scholar connection...", flush=True)
+
+    # Do not pass a null generator to use_proxy: in scholarly 1.7.11, that does not
+    # reset the existing primary proxy. A fresh, unconfigured generator creates
+    # direct HTTP sessions; assign it to both request paths explicitly.
+    direct_generator = ProxyGenerator()
+    install_connection(direct_generator)
+
+    return fetch_and_fill_author(scholar_id, "Direct")
+
+
+def try_freeproxies(scholar_id):
+    print("Trying scholarly FreeProxies fallback...", flush=True)
+    proxy_generator = ProxyGenerator()
+
+    proxy_ready = proxy_generator.FreeProxies(
+        timeout=FREE_PROXY_TIMEOUT,
+        wait_time=FREE_PROXY_WAIT_TIME,
+    )
+    if not proxy_ready:
+        raise RuntimeError("FreeProxies initialization returned False.")
+
+    install_connection(proxy_generator)
+    print("FreeProxies configured for both scholarly request paths.", flush=True)
+    return fetch_and_fill_author(scholar_id, "FreeProxies")
+
+
+# -----------------------------
+# Fetch Google Scholar data
+# -----------------------------
 
 def fetch_author_data():
     scholar_id = os.environ.get("GOOGLE_SCHOLAR_ID")
@@ -48,76 +112,48 @@ def fetch_author_data():
     scholarly.set_retries(SCHOLARLY_RETRIES)
 
     if scraperapi_key:
-        print("SCRAPERAPI_API_KEY is configured.", flush=True)
+        print("SCRAPERAPI_API_KEY is present.", flush=True)
     else:
-        print(
-            "SCRAPERAPI_API_KEY is not configured; ScraperAPI will be skipped.",
-            flush=True,
-        )
+        print("SCRAPERAPI_API_KEY is missing; ScraperAPI will be skipped.", flush=True)
 
     for attempt in range(1, MAX_ATTEMPTS + 1):
         print(f"========== Attempt {attempt}/{MAX_ATTEMPTS} ==========", flush=True)
 
-        # 1. ScraperAPI (only when its GitHub Secret is configured).
+        # 1. ScraperAPI
         if scraperapi_key:
             try:
-                print("Trying ScraperAPI...", flush=True)
-                proxy_generator = ProxyGenerator()
-                proxy_ready = proxy_generator.ScraperAPI(scraperapi_key)
-                if not proxy_ready:
-                    raise RuntimeError("ScraperAPI proxy setup returned False.")
-
-                scholarly.use_proxy(proxy_generator)
-                author = fetch_and_fill_author(scholar_id)
-                print("ScraperAPI connection succeeded.", flush=True)
-                return author
-            except Exception as scraperapi_error:
+                return try_scraperapi(scholar_id, scraperapi_key)
+            except Exception as error:
                 print(
-                    "ScraperAPI failed: "
-                    f"{type(scraperapi_error).__name__}: {scraperapi_error}",
+                    "ScraperAPI stage failed: "
+                    f"{type(error).__name__}: {error}",
                     flush=True,
                 )
 
-        # 2. Direct connection. Explicitly clear any previously configured proxy.
+        # 2. Direct Google Scholar
         try:
-            print("Trying direct Google Scholar connection...", flush=True)
-            scholarly.use_proxy(None)
-            author = fetch_and_fill_author(scholar_id)
-            print("Direct connection succeeded.", flush=True)
-            return author
-        except Exception as direct_error:
+            return try_direct(scholar_id)
+        except Exception as error:
             print(
-                "Direct connection failed: "
-                f"{type(direct_error).__name__}: {direct_error}",
+                "Direct connection stage failed: "
+                f"{type(error).__name__}: {error}",
                 flush=True,
             )
 
-        # 3. scholarly's free proxy pool.
+        # 3. scholarly FreeProxies
         try:
-            print("Trying scholarly FreeProxies fallback...", flush=True)
-            proxy_generator = ProxyGenerator()
-            proxy_ready = proxy_generator.FreeProxies(
-                timeout=FREE_PROXY_TIMEOUT,
-                wait_time=FREE_PROXY_WAIT_TIME,
-            )
-            if not proxy_ready:
-                raise RuntimeError("FreeProxies setup returned False.")
-
-            scholarly.use_proxy(proxy_generator)
-            author = fetch_and_fill_author(scholar_id)
-            print("FreeProxies connection succeeded.", flush=True)
-            return author
-        except Exception as proxy_error:
+            return try_freeproxies(scholar_id)
+        except Exception as error:
             print(
-                "FreeProxies failed: "
-                f"{type(proxy_error).__name__}: {proxy_error}",
+                "FreeProxies stage failed: "
+                f"{type(error).__name__}: {error}",
                 flush=True,
             )
 
         if attempt < MAX_ATTEMPTS:
             print(
-                f"All connection methods failed. Waiting {WAIT_SECONDS} seconds "
-                "before retry.",
+                f"All connection methods failed. Waiting {WAIT_SECONDS} "
+                "seconds before retrying the sequence.",
                 flush=True,
             )
             time.sleep(WAIT_SECONDS)
@@ -158,11 +194,12 @@ def prepare_author_data(author):
     for publication in raw_publications:
         if not isinstance(publication, dict):
             continue
+
         publication_id = publication.get("author_pub_id")
         if publication_id:
             publications[publication_id] = publication
 
-    # A truly empty list is allowed; a non-empty list without usable IDs is not.
+    # An empty list can be valid; a non-empty list without usable IDs is suspicious.
     if raw_publications and not publications:
         raise ValueError(
             "Publication records were returned, but none had author_pub_id."
@@ -199,6 +236,7 @@ def write_json_temp(data, filepath):
 
 def save_author_data(author):
     author_data = prepare_author_data(author)
+
     shieldio_data = {
         "schemaVersion": 1,
         "label": "citations",
@@ -206,27 +244,32 @@ def save_author_data(author):
     }
 
     os.makedirs(RESULTS_DIR, exist_ok=True)
+
     author_path = os.path.join(RESULTS_DIR, "gs_data.json")
     shield_path = os.path.join(RESULTS_DIR, "gs_data_shieldsio.json")
+
     temporary_files = []
 
     try:
         # Serialize both outputs before replacing either destination.
         author_temp = write_json_temp(author_data, author_path)
         temporary_files.append(author_temp)
+
         shield_temp = write_json_temp(shieldio_data, shield_path)
         temporary_files.append(shield_temp)
 
         os.replace(author_temp, author_path)
         temporary_files.remove(author_temp)
+
         os.replace(shield_temp, shield_path)
         temporary_files.remove(shield_temp)
+
     finally:
         for temporary_file in temporary_files:
             if os.path.exists(temporary_file):
                 os.remove(temporary_file)
 
-    print("========== Update completed ==========", flush=True)
+    print("========== Update completed ==========" , flush=True)
     print(f"Author: {author_data['name']}", flush=True)
     print(f"Citations: {author_data['citedby']}", flush=True)
     print(f"Publications: {len(author_data['publications'])}", flush=True)
