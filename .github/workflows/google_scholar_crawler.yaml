@@ -1,12 +1,12 @@
 name: Get Citation Data
 
 on:
-  # Keep the original behavior: run after a GitHub Pages build.
+  # Run after a GitHub Pages build, including homepage/content updates.
   page_build:
-  # Keep the daily scheduled update at 08:00 UTC.
+  # Daily update at 08:00 UTC.
   schedule:
     - cron: '0 8 * * *'
-  # Allow a manual run from the Actions tab when needed.
+  # Allow manual runs from the Actions tab.
   workflow_dispatch:
 
 permissions:
@@ -15,25 +15,31 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-24.04
-    # Full publication retrieval is retained, but the job must not run for hours.
+    # Keep the full-publication crawl bounded while leaving time to publish JSON.
     timeout-minutes: 35
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: google_scholar_crawler/requirements.txt
+
       - name: Install requirements
         run: |
-          sudo apt-get update
-          sudo apt-get install -y python3-setuptools
-          python3 -m pip install -r google_scholar_crawler/requirements.txt
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -r google_scholar_crawler/requirements.txt
 
       - name: Retrieve full Google Scholar profile
         working-directory: google_scholar_crawler
         timeout-minutes: 30
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-        run: python3 -u main.py
+        run: python -u main.py
 
       - name: Publish citation data
         working-directory: google_scholar_crawler/results
